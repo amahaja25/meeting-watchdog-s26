@@ -182,5 +182,4 @@ cython_debug/
 /cache
 transcripts/
 extraction/
-sean_assets/
 .DS_Store

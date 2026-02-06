@@ -181,5 +181,4 @@ cython_debug/
 .cursorindexingignore
 /cache
 transcripts/audio_cache/
-sean_assets/
 .DS_Store

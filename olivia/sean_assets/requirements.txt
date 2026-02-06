@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-dotenv
+httpx
+pydantic
+pytest
+youtube-transcript-api>=0.6.2
