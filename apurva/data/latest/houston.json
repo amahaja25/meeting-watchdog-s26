@@ -1,0 +1,95 @@
+{
+  "subdomain": "houston",
+  "run_id": "20251217_224001",
+  "status": "complete",
+  "last_updated": "2025-12-17T22:40:03.114274",
+  "total_videos": 10,
+  "with_captions": 0,
+  "empty_captions": 10,
+  "video_id_range": {
+    "min": 1,
+    "max": 10
+  },
+  "videos": [
+    {
+      "video_id": 1,
+      "video_url": "https://houston.granicus.com/videos/1",
+      "player_url": "https://houston.granicus.com/videos/1/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 2,
+      "video_url": "https://houston.granicus.com/videos/2",
+      "player_url": "https://houston.granicus.com/videos/2/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 3,
+      "video_url": "https://houston.granicus.com/videos/3",
+      "player_url": "https://houston.granicus.com/videos/3/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 4,
+      "video_url": "https://houston.granicus.com/videos/4",
+      "player_url": "https://houston.granicus.com/videos/4/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 5,
+      "video_url": "https://houston.granicus.com/videos/5",
+      "player_url": "https://houston.granicus.com/videos/5/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 6,
+      "video_url": "https://houston.granicus.com/videos/6",
+      "player_url": "https://houston.granicus.com/videos/6/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 7,
+      "video_url": "https://houston.granicus.com/videos/7",
+      "player_url": "https://houston.granicus.com/videos/7/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 8,
+      "video_url": "https://houston.granicus.com/videos/8",
+      "player_url": "https://houston.granicus.com/videos/8/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 9,
+      "video_url": "https://houston.granicus.com/videos/9",
+      "player_url": "https://houston.granicus.com/videos/9/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 10,
+      "video_url": "https://houston.granicus.com/videos/10",
+      "player_url": "https://houston.granicus.com/videos/10/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    }
+  ]
+}

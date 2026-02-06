@@ -1,0 +1,39 @@
+{
+  "subdomain": "baltimore",
+  "run_id": "20251217_224001",
+  "status": "complete",
+  "last_updated": "2025-12-18T00:05:59.660299",
+  "total_videos": 3,
+  "with_captions": 0,
+  "empty_captions": 3,
+  "video_id_range": {
+    "min": 1,
+    "max": 3
+  },
+  "videos": [
+    {
+      "video_id": 1,
+      "video_url": "https://baltimore.granicus.com/videos/1",
+      "player_url": "https://baltimore.granicus.com/videos/1/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 2,
+      "video_url": "https://baltimore.granicus.com/videos/2",
+      "player_url": "https://baltimore.granicus.com/videos/2/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 3,
+      "video_url": "https://baltimore.granicus.com/videos/3",
+      "player_url": "https://baltimore.granicus.com/videos/3/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    }
+  ]
+}

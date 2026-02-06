@@ -1,0 +1,703 @@
+{
+  "subdomain": "charlotte",
+  "run_id": "20251217_224001",
+  "status": "complete",
+  "last_updated": "2025-12-17T23:13:18.141858",
+  "total_videos": 86,
+  "with_captions": 0,
+  "empty_captions": 86,
+  "video_id_range": {
+    "min": 24,
+    "max": 272
+  },
+  "videos": [
+    {
+      "video_id": 24,
+      "video_url": "https://charlotte.granicus.com/videos/24",
+      "player_url": "https://charlotte.granicus.com/videos/24/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 29,
+      "video_url": "https://charlotte.granicus.com/videos/29",
+      "player_url": "https://charlotte.granicus.com/videos/29/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 30,
+      "video_url": "https://charlotte.granicus.com/videos/30",
+      "player_url": "https://charlotte.granicus.com/videos/30/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 31,
+      "video_url": "https://charlotte.granicus.com/videos/31",
+      "player_url": "https://charlotte.granicus.com/videos/31/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 32,
+      "video_url": "https://charlotte.granicus.com/videos/32",
+      "player_url": "https://charlotte.granicus.com/videos/32/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 33,
+      "video_url": "https://charlotte.granicus.com/videos/33",
+      "player_url": "https://charlotte.granicus.com/videos/33/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 34,
+      "video_url": "https://charlotte.granicus.com/videos/34",
+      "player_url": "https://charlotte.granicus.com/videos/34/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 35,
+      "video_url": "https://charlotte.granicus.com/videos/35",
+      "player_url": "https://charlotte.granicus.com/videos/35/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 36,
+      "video_url": "https://charlotte.granicus.com/videos/36",
+      "player_url": "https://charlotte.granicus.com/videos/36/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 37,
+      "video_url": "https://charlotte.granicus.com/videos/37",
+      "player_url": "https://charlotte.granicus.com/videos/37/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 38,
+      "video_url": "https://charlotte.granicus.com/videos/38",
+      "player_url": "https://charlotte.granicus.com/videos/38/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 39,
+      "video_url": "https://charlotte.granicus.com/videos/39",
+      "player_url": "https://charlotte.granicus.com/videos/39/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 40,
+      "video_url": "https://charlotte.granicus.com/videos/40",
+      "player_url": "https://charlotte.granicus.com/videos/40/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 41,
+      "video_url": "https://charlotte.granicus.com/videos/41",
+      "player_url": "https://charlotte.granicus.com/videos/41/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 42,
+      "video_url": "https://charlotte.granicus.com/videos/42",
+      "player_url": "https://charlotte.granicus.com/videos/42/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 43,
+      "video_url": "https://charlotte.granicus.com/videos/43",
+      "player_url": "https://charlotte.granicus.com/videos/43/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 44,
+      "video_url": "https://charlotte.granicus.com/videos/44",
+      "player_url": "https://charlotte.granicus.com/videos/44/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 45,
+      "video_url": "https://charlotte.granicus.com/videos/45",
+      "player_url": "https://charlotte.granicus.com/videos/45/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 46,
+      "video_url": "https://charlotte.granicus.com/videos/46",
+      "player_url": "https://charlotte.granicus.com/videos/46/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 47,
+      "video_url": "https://charlotte.granicus.com/videos/47",
+      "player_url": "https://charlotte.granicus.com/videos/47/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 48,
+      "video_url": "https://charlotte.granicus.com/videos/48",
+      "player_url": "https://charlotte.granicus.com/videos/48/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 49,
+      "video_url": "https://charlotte.granicus.com/videos/49",
+      "player_url": "https://charlotte.granicus.com/videos/49/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 50,
+      "video_url": "https://charlotte.granicus.com/videos/50",
+      "player_url": "https://charlotte.granicus.com/videos/50/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 51,
+      "video_url": "https://charlotte.granicus.com/videos/51",
+      "player_url": "https://charlotte.granicus.com/videos/51/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 52,
+      "video_url": "https://charlotte.granicus.com/videos/52",
+      "player_url": "https://charlotte.granicus.com/videos/52/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 53,
+      "video_url": "https://charlotte.granicus.com/videos/53",
+      "player_url": "https://charlotte.granicus.com/videos/53/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 54,
+      "video_url": "https://charlotte.granicus.com/videos/54",
+      "player_url": "https://charlotte.granicus.com/videos/54/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 55,
+      "video_url": "https://charlotte.granicus.com/videos/55",
+      "player_url": "https://charlotte.granicus.com/videos/55/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 56,
+      "video_url": "https://charlotte.granicus.com/videos/56",
+      "player_url": "https://charlotte.granicus.com/videos/56/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 57,
+      "video_url": "https://charlotte.granicus.com/videos/57",
+      "player_url": "https://charlotte.granicus.com/videos/57/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 58,
+      "video_url": "https://charlotte.granicus.com/videos/58",
+      "player_url": "https://charlotte.granicus.com/videos/58/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 59,
+      "video_url": "https://charlotte.granicus.com/videos/59",
+      "player_url": "https://charlotte.granicus.com/videos/59/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 60,
+      "video_url": "https://charlotte.granicus.com/videos/60",
+      "player_url": "https://charlotte.granicus.com/videos/60/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 61,
+      "video_url": "https://charlotte.granicus.com/videos/61",
+      "player_url": "https://charlotte.granicus.com/videos/61/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 62,
+      "video_url": "https://charlotte.granicus.com/videos/62",
+      "player_url": "https://charlotte.granicus.com/videos/62/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 63,
+      "video_url": "https://charlotte.granicus.com/videos/63",
+      "player_url": "https://charlotte.granicus.com/videos/63/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 64,
+      "video_url": "https://charlotte.granicus.com/videos/64",
+      "player_url": "https://charlotte.granicus.com/videos/64/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 65,
+      "video_url": "https://charlotte.granicus.com/videos/65",
+      "player_url": "https://charlotte.granicus.com/videos/65/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 66,
+      "video_url": "https://charlotte.granicus.com/videos/66",
+      "player_url": "https://charlotte.granicus.com/videos/66/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 67,
+      "video_url": "https://charlotte.granicus.com/videos/67",
+      "player_url": "https://charlotte.granicus.com/videos/67/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 68,
+      "video_url": "https://charlotte.granicus.com/videos/68",
+      "player_url": "https://charlotte.granicus.com/videos/68/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 69,
+      "video_url": "https://charlotte.granicus.com/videos/69",
+      "player_url": "https://charlotte.granicus.com/videos/69/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 70,
+      "video_url": "https://charlotte.granicus.com/videos/70",
+      "player_url": "https://charlotte.granicus.com/videos/70/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 71,
+      "video_url": "https://charlotte.granicus.com/videos/71",
+      "player_url": "https://charlotte.granicus.com/videos/71/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 72,
+      "video_url": "https://charlotte.granicus.com/videos/72",
+      "player_url": "https://charlotte.granicus.com/videos/72/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 73,
+      "video_url": "https://charlotte.granicus.com/videos/73",
+      "player_url": "https://charlotte.granicus.com/videos/73/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 75,
+      "video_url": "https://charlotte.granicus.com/videos/75",
+      "player_url": "https://charlotte.granicus.com/videos/75/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 76,
+      "video_url": "https://charlotte.granicus.com/videos/76",
+      "player_url": "https://charlotte.granicus.com/videos/76/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 77,
+      "video_url": "https://charlotte.granicus.com/videos/77",
+      "player_url": "https://charlotte.granicus.com/videos/77/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 78,
+      "video_url": "https://charlotte.granicus.com/videos/78",
+      "player_url": "https://charlotte.granicus.com/videos/78/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 79,
+      "video_url": "https://charlotte.granicus.com/videos/79",
+      "player_url": "https://charlotte.granicus.com/videos/79/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 80,
+      "video_url": "https://charlotte.granicus.com/videos/80",
+      "player_url": "https://charlotte.granicus.com/videos/80/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 81,
+      "video_url": "https://charlotte.granicus.com/videos/81",
+      "player_url": "https://charlotte.granicus.com/videos/81/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 82,
+      "video_url": "https://charlotte.granicus.com/videos/82",
+      "player_url": "https://charlotte.granicus.com/videos/82/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 83,
+      "video_url": "https://charlotte.granicus.com/videos/83",
+      "player_url": "https://charlotte.granicus.com/videos/83/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 84,
+      "video_url": "https://charlotte.granicus.com/videos/84",
+      "player_url": "https://charlotte.granicus.com/videos/84/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 85,
+      "video_url": "https://charlotte.granicus.com/videos/85",
+      "player_url": "https://charlotte.granicus.com/videos/85/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 86,
+      "video_url": "https://charlotte.granicus.com/videos/86",
+      "player_url": "https://charlotte.granicus.com/videos/86/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 87,
+      "video_url": "https://charlotte.granicus.com/videos/87",
+      "player_url": "https://charlotte.granicus.com/videos/87/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 88,
+      "video_url": "https://charlotte.granicus.com/videos/88",
+      "player_url": "https://charlotte.granicus.com/videos/88/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 89,
+      "video_url": "https://charlotte.granicus.com/videos/89",
+      "player_url": "https://charlotte.granicus.com/videos/89/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 90,
+      "video_url": "https://charlotte.granicus.com/videos/90",
+      "player_url": "https://charlotte.granicus.com/videos/90/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 91,
+      "video_url": "https://charlotte.granicus.com/videos/91",
+      "player_url": "https://charlotte.granicus.com/videos/91/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 92,
+      "video_url": "https://charlotte.granicus.com/videos/92",
+      "player_url": "https://charlotte.granicus.com/videos/92/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 93,
+      "video_url": "https://charlotte.granicus.com/videos/93",
+      "player_url": "https://charlotte.granicus.com/videos/93/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 94,
+      "video_url": "https://charlotte.granicus.com/videos/94",
+      "player_url": "https://charlotte.granicus.com/videos/94/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 95,
+      "video_url": "https://charlotte.granicus.com/videos/95",
+      "player_url": "https://charlotte.granicus.com/videos/95/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 96,
+      "video_url": "https://charlotte.granicus.com/videos/96",
+      "player_url": "https://charlotte.granicus.com/videos/96/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 97,
+      "video_url": "https://charlotte.granicus.com/videos/97",
+      "player_url": "https://charlotte.granicus.com/videos/97/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 98,
+      "video_url": "https://charlotte.granicus.com/videos/98",
+      "player_url": "https://charlotte.granicus.com/videos/98/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 100,
+      "video_url": "https://charlotte.granicus.com/videos/100",
+      "player_url": "https://charlotte.granicus.com/videos/100/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 106,
+      "video_url": "https://charlotte.granicus.com/videos/106",
+      "player_url": "https://charlotte.granicus.com/videos/106/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 108,
+      "video_url": "https://charlotte.granicus.com/videos/108",
+      "player_url": "https://charlotte.granicus.com/videos/108/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 123,
+      "video_url": "https://charlotte.granicus.com/videos/123",
+      "player_url": "https://charlotte.granicus.com/videos/123/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 125,
+      "video_url": "https://charlotte.granicus.com/videos/125",
+      "player_url": "https://charlotte.granicus.com/videos/125/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 129,
+      "video_url": "https://charlotte.granicus.com/videos/129",
+      "player_url": "https://charlotte.granicus.com/videos/129/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 131,
+      "video_url": "https://charlotte.granicus.com/videos/131",
+      "player_url": "https://charlotte.granicus.com/videos/131/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 133,
+      "video_url": "https://charlotte.granicus.com/videos/133",
+      "player_url": "https://charlotte.granicus.com/videos/133/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 158,
+      "video_url": "https://charlotte.granicus.com/videos/158",
+      "player_url": "https://charlotte.granicus.com/videos/158/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 167,
+      "video_url": "https://charlotte.granicus.com/videos/167",
+      "player_url": "https://charlotte.granicus.com/videos/167/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 180,
+      "video_url": "https://charlotte.granicus.com/videos/180",
+      "player_url": "https://charlotte.granicus.com/videos/180/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 207,
+      "video_url": "https://charlotte.granicus.com/videos/207",
+      "player_url": "https://charlotte.granicus.com/videos/207/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 234,
+      "video_url": "https://charlotte.granicus.com/videos/234",
+      "player_url": "https://charlotte.granicus.com/videos/234/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 241,
+      "video_url": "https://charlotte.granicus.com/videos/241",
+      "player_url": "https://charlotte.granicus.com/videos/241/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 243,
+      "video_url": "https://charlotte.granicus.com/videos/243",
+      "player_url": "https://charlotte.granicus.com/videos/243/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 272,
+      "video_url": "https://charlotte.granicus.com/videos/272",
+      "player_url": "https://charlotte.granicus.com/videos/272/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    }
+  ]
+}

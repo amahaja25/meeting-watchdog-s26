@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Civic Meeting Watchdog</title>
+  <style>
+    :root {
+      --bg:#f8fafc; --panel:#ffffff; --border:#dce3ea; --accent:#1d4ed8; --accent-soft:#eff6ff; --text:#1e293b;
+    }
+    * { box-sizing:border-box; }
+    body { font-family: system-ui, Arial, sans-serif; margin:0; background:var(--bg); color:var(--text); }
+  header { background:#000; color:#f1f5f9; padding:10px 20px; display:flex; align-items:center; gap:24px; }
+  .logo { height:46px; width:auto; display:block; }
+    header h1 { font-size:18px; margin:0; letter-spacing:.5px; }
+    header span.sub { font-size:12px; opacity:.7; }
+    main { padding:18px 22px; max-width:1500px; margin:0 auto; }
+    .layout { display:grid; grid-template-columns:1fr 330px; gap:20px; align-items:start; }
+    @media (max-width: 1100px){ .layout { grid-template-columns:1fr; } }
+    .panel { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+    .controls { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+    input, select { padding:6px 8px; border:1px solid var(--border); border-radius:6px; font-size:14px; }
+    button { padding:7px 14px; border:1px solid var(--accent); background:var(--accent); color:#fff; border-radius:6px; font-size:14px; cursor:pointer; }
+    button.secondary { background:#ffffff; color:var(--accent); }
+    button:hover { filter:brightness(.95); }
+    #status { font-size:12px; margin-left:4px; }
+    .video-shell { position:relative; width:100%; background:#000; border-radius:10px; overflow:hidden; aspect-ratio:16/9; }
+    .video-shell iframe { position:absolute; inset:0; width:100%; height:100%; }
+    details { background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:8px 10px; }
+    details summary { cursor:pointer; font-weight:600; }
+    #out, #extractOut { white-space:pre-wrap; font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size:12px; max-height:50vh; overflow:auto; }
+    .playlist { position:sticky; top:80px; max-height:calc(100vh - 120px); overflow:auto; }
+    .playlist-header { margin:0 0 10px; font-size:16px; }
+    .playlist-meta { font-size:11px; color:#475569; margin:4px 0 10px; line-height:1.3; }
+    .playlist-controls { display:flex; gap:6px; margin-bottom:8px; }
+    #playlistList, #grVideoList { list-style:none; padding:0; margin:0; display:flex; flex-direction:column; gap:6px; }
+    .p-item { display:flex; gap:10px; align-items:flex-start; padding:6px 8px; border:1px solid var(--border); background:#fff; border-radius:8px; text-align:left; cursor:pointer; position:relative; }
+    .p-item.active { border-color:var(--accent); background:var(--accent-soft); }
+    .p-thumb { width:96px; height:54px; object-fit:cover; border-radius:6px; background:#000; flex-shrink:0; }
+    .p-text { flex:1; min-width:0; display:flex; flex-direction:column; gap:4px; }
+    .p-title { font-size:13px; font-weight:600; line-height:1.2; }
+    .p-headline { font-size:11px; color:#065f46; display:none; line-height:1.25; }
+    .p-headline.visible { display:block; }
+    .extraction { margin-top:18px; }
+    .extraction-panel { background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:14px 16px; }
+  .extraction-header { margin:0 0 8px; font-size:20px; font-weight:600; }
+  .extraction-state { font-size:13px; margin:0 0 14px; color:#475569; display:flex; align-items:center; gap:8px; }
+  .spinner { width:16px; height:16px; border:2px solid var(--accent-soft); border-top-color: var(--accent); border-radius:50%; animation: spin 0.9s linear infinite; }
+  @keyframes spin { to { transform: rotate(360deg); } }
+  .main-headline { margin:0 0 4px; font-size:15px; font-weight:600; }
+    .main-summary { margin:0 0 10px; font-size:14px; }
+    .main-explanation { margin:0 0 12px; font-size:13px; color:#334155; }
+    .other-items h4 { margin:4px 0 6px; font-size:14px; }
+    .other-items ul { margin:0; padding-left:18px; font-size:13px; }
+    a.timecode-link { font-size:12px; margin-left:6px; }
+    .faded { opacity:.6; }
+
+    /* Mode toggle */
+    .mode-toggle { display:flex; gap:0; margin-left:auto; }
+    .mode-toggle button { border-radius:0; border:1px solid #475569; background:transparent; color:#94a3b8; font-size:13px; padding:5px 14px; cursor:pointer; }
+    .mode-toggle button:first-child { border-radius:6px 0 0 6px; }
+    .mode-toggle button:last-child { border-radius:0 6px 6px 0; }
+    .mode-toggle button.active { background:#1d4ed8; color:#fff; border-color:#1d4ed8; }
+    .mode-toggle button:hover:not(.active) { background:rgba(255,255,255,.1); }
+
+    /* Granicus progress */
+    .gr-progress { margin-top:14px; }
+    .gr-progress .gr-warning { background:#fef3c7; border:1px solid #f59e0b; border-radius:8px; padding:10px 14px; font-size:13px; color:#92400e; margin-bottom:12px; }
+    .gr-step { display:flex; align-items:center; gap:8px; font-size:13px; padding:4px 0; }
+    .gr-step .gr-icon { width:18px; text-align:center; font-size:14px; }
+    .gr-step .gr-bar { flex:1; height:6px; background:#e2e8f0; border-radius:3px; overflow:hidden; }
+    .gr-step .gr-bar-fill { height:100%; background:var(--accent); border-radius:3px; transition:width 0.3s; }
+    .gr-step.done .gr-icon { color:#16a34a; }
+    .gr-step.active .gr-icon { color:var(--accent); }
+    .gr-step.pending { opacity:.5; }
+
+    /* Granicus sidebar */
+    .gr-sidebar select { width:100%; margin-bottom:8px; }
+    .gr-sidebar .gr-vid-item { padding:8px 10px; border:1px solid var(--border); background:#fff; border-radius:8px; cursor:pointer; font-size:13px; line-height:1.3; }
+    .gr-sidebar .gr-vid-item:hover { border-color:var(--accent); }
+    .gr-sidebar .gr-vid-item.active { border-color:var(--accent); background:var(--accent-soft); }
+    .hidden { display:none !important; }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display:flex; flex-direction:column; gap:2px;">
+      <h1 style="margin:0; font-size:18px; letter-spacing:.5px;">Civic Meeting Watchdog</h1>
+      <span class="sub">Prototype</span>
+    </div>
+    <img src="/static/howard_center_logo.svg" alt="Howard Center for Investigative Journalism" class="logo" />
+    <div class="mode-toggle">
+      <button id="modeYT" class="active" onclick="switchMode('youtube')">YouTube</button>
+      <button id="modeGR" onclick="switchMode('granicus')">Granicus</button>
+    </div>
+  </header>
+  <main>
+    <div class="layout">
+      <div id="mainCol">
+        <!-- Video player area -->
+        <div class="video-shell">
+          <iframe id="player" src="https://www.youtube.com/embed/bRgnmYwcOGQ?enablejsapi=1" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+        <!-- Extract button -->
+        <button id="oneAction" style="margin-top:14px; width:100%; padding:14px 18px; font-size:16px; font-weight:600; border:1px solid var(--accent); background:var(--accent); color:#fff; border-radius:10px; cursor:pointer;">Extract newsworthy info from meeting</button>
+
+        <!-- Granicus transcription progress (hidden by default) -->
+        <div id="grProgress" class="gr-progress hidden">
+          <div class="gr-warning">Granicus videos require local transcription via WhisperX which may take several minutes depending on video length and your hardware.</div>
+          <div id="grSteps">
+            <div class="gr-step pending" data-step="download">
+              <span class="gr-icon">&#9679;</span>
+              <span class="gr-label">Downloading audio</span>
+              <div class="gr-bar"><div class="gr-bar-fill" style="width:0%"></div></div>
+            </div>
+            <div class="gr-step pending" data-step="transcribe">
+              <span class="gr-icon">&#9679;</span>
+              <span class="gr-label">Transcribing</span>
+              <div class="gr-bar"><div class="gr-bar-fill" style="width:0%"></div></div>
+            </div>
+            <div class="gr-step pending" data-step="align">
+              <span class="gr-icon">&#9679;</span>
+              <span class="gr-label">Aligning</span>
+              <div class="gr-bar"><div class="gr-bar-fill" style="width:0%"></div></div>
+            </div>
+            <div class="gr-step pending" data-step="saving">
+              <span class="gr-icon">&#9679;</span>
+              <span class="gr-label">Saving</span>
+              <div class="gr-bar"><div class="gr-bar-fill" style="width:0%"></div></div>
+            </div>
+            <div class="gr-step pending" data-step="extract">
+              <span class="gr-icon">&#9679;</span>
+              <span class="gr-label">Extracting newsworthy items</span>
+              <div class="gr-bar"><div class="gr-bar-fill" style="width:0%"></div></div>
+            </div>
+          </div>
+          <div id="grStatusMsg" style="font-size:12px; color:#475569; margin-top:8px;"></div>
+        </div>
+
+        <!-- Extraction results -->
+        <section id="extractionSection" class="extraction">
+          <div class="extraction-panel" id="formatted">
+            <h3 class="extraction-header" id="extractionHeader">Potentially newsworthy events for follow-up reporting</h3>
+            <p class="extraction-state" id="extractionState"><em>Information not yet extracted.</em></p>
+            <h2 class="main-headline" id="f_headline"></h2>
+            <div id="f_timecode" style="font-size:12px; margin-bottom:6px;"></div>
+            <p class="main-summary" id="f_summary"></p>
+            <p class="main-explanation" id="f_explanation"></p>
+            <div class="other-items" id="f_other_block" style="display:none;">
+              <h4>Other Items</h4>
+              <ul id="f_other"></ul>
+            </div>
+            <div id="cacheNote" style="display:none; font-size:12px; margin-top:10px; color:#475569;"></div>
+          </div>
+        </section>
+
+        <!-- Debug section -->
+        <details style="margin-top:18px;" open>
+          <summary>(debug)</summary>
+          <div style="margin:8px 0 0 0; display:flex; flex-direction:column; gap:12px;">
+            <div style="font-size:12px; color:#334155;">Status: <span id="status"></span></div>
+            <details>
+              <summary>Change Video</summary>
+              <div style="margin-top:6px; display:flex; flex-direction:column; gap:8px;">
+                <div style="font-size:12px; color:#475569;">Current Video: <span id="currentVideoLabel">bRgnmYwcOGQ</span></div>
+                <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                  <input id="vid" value="bRgnmYwcOGQ" placeholder="Video ID" />
+                  <button id="changeVideo" class="secondary">Change Video</button>
+                </div>
+              </div>
+            </details>
+            <details>
+              <summary>Raw Gemini Extraction</summary>
+              <div id="extractOut" style="margin-top:6px;"></div>
+            </details>
+            <details>
+              <summary>Prompt</summary>
+              <pre id="promptOut" style="white-space:pre-wrap; font-size:12px; max-height:300px; overflow:auto; background:#f1f5f9; padding:8px; border:1px solid var(--border); border-radius:6px; margin-top:6px;"></pre>
+            </details>
+            <details open>
+              <summary>Transcript JSON</summary>
+              <div id="out" style="margin-top:6px;"></div>
+            </details>
+          </div>
+        </details>
+      </div>
+
+      <!-- YouTube sidebar -->
+      <aside id="ytSidebar" class="panel playlist">
+        <h2 class="playlist-header">Meeting playlist</h2>
+        <div style="font-size:15px; font-weight:600; margin:4px 0 2px;" id="plDisplayTitle"></div>
+        <div style="font-size:13px; font-weight:500; color:#334155; margin:0 0 10px;" id="plDisplayChannel"></div>
+        <div class="playlist-controls">
+          <input id="playlistId" placeholder="Playlist ID or URL" style="flex:1;" />
+          <button id="loadPlaylist" class="secondary">Change Local Government</button>
+        </div>
+        <div style="font-size:11px; line-height:1.3; margin:0 0 10px; color:#475569;">
+          Examples:
+          <a href="#" class="pl-example" data-pl="PL2CEDFFD6700D0BEA" data-name="Carroll County, Maryland">Carroll County, Maryland</a> ·
+          <a href="#" class="pl-example" data-pl="PLcNuebgSUruCwFtpPWE30YEYLgJHjGcoI" data-name="Minneapolis, Minn.">Minneapolis, Minn.</a> ·
+          <a href="#" class="pl-example" data-pl="PLGvF42PY8CVAUL4yjkQsP-pXwWSfmX2xF" data-name="St. Mary's County, Maryland">St. Mary's County, Maryland</a>
+        </div>
+        <div id="playlistStatus" class="playlist-meta"></div>
+        <ul id="playlistList"></ul>
+      </aside>
+
+      <!-- Granicus sidebar -->
+      <aside id="grSidebar" class="panel playlist gr-sidebar hidden">
+        <h2 class="playlist-header">Granicus jurisdictions</h2>
+        <select id="grJurisdiction">
+          <option value="">Select a jurisdiction...</option>
+        </select>
+        <div id="grVideoStatus" class="playlist-meta"></div>
+        <ul id="grVideoList"></ul>
+      </aside>
+    </div>
+  </main>
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script>
+    // ========================= State =========================
+    let currentMode = 'youtube'; // 'youtube' | 'granicus'
+    let ytPlayer = null;
+    let currentVideoTitle = '';
+    let currentChannelTitle = '';
+    let cachedModelName = null;
+
+    function onYouTubeIframeAPIReady(){
+      ytPlayer = new YT.Player('player');
+    }
+
+    // ========================= Mode switching =========================
+    function switchMode(mode){
+      currentMode = mode;
+      document.getElementById('modeYT').classList.toggle('active', mode==='youtube');
+      document.getElementById('modeGR').classList.toggle('active', mode==='granicus');
+
+      // Toggle sidebars
+      document.getElementById('ytSidebar').classList.toggle('hidden', mode!=='youtube');
+      document.getElementById('grSidebar').classList.toggle('hidden', mode!=='granicus');
+
+      // Toggle progress panel
+      document.getElementById('grProgress').classList.add('hidden');
+
+      if(mode==='granicus'){
+        // Load jurisdictions if dropdown is empty (only first option)
+        const sel = document.getElementById('grJurisdiction');
+        if(sel.options.length <= 1){
+          loadJurisdictions();
+        }
+      }
+
+      resetExtractionDisplay();
+    }
+
+    // ========================= Persistence helpers =========================
+    function saveLS(k,v){ try{ localStorage.setItem(k, v); }catch(e){} }
+    function readLS(k){ try{ return localStorage.getItem(k); }catch(e){ return null; } }
+    function escapeHtml(str){ return (str||'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c])); }
+
+    // ========================= YouTube transcript =========================
+    async function fetchTranscript(){
+      const vid = document.getElementById('vid').value.trim();
+      if(!vid){ return; }
+      const status = document.getElementById('status');
+      status.textContent = 'Loading...';
+      const out = document.getElementById('out');
+      out.textContent='';
+      try {
+        const resp = await fetch(`/api/transcript?video_id=${encodeURIComponent(vid)}`);
+        if(!resp.ok){
+          const txt = await resp.text();
+            status.textContent = 'Error: ' + resp.status;
+            out.textContent = txt;
+            return;
+        }
+        const data = await resp.json();
+        status.textContent = 'Success';
+        out.textContent = JSON.stringify(data, null, 2);
+      } catch(e){
+        status.textContent = 'Exception';
+        out.textContent = e.message;
+      }
+    }
+
+    // ========================= Gemini parsing =========================
+    function tryParseGeminiPayload(txt){
+      let clean = txt.trim();
+      if(clean.startsWith('```')){
+        clean = clean.replace(/^```[a-zA-Z]*\n?/, '').replace(/```\s*$/, '').trim();
+      }
+      try { return JSON.parse(clean); } catch(e) {}
+      const first = clean.indexOf('{');
+      const last = clean.lastIndexOf('}');
+      if(first !== -1 && last !== -1 && last > first){
+        try { return JSON.parse(clean.slice(first, last+1)); } catch(e) {}
+      }
+      return null;
+    }
+
+    // ========================= Timecode formatting =========================
+    function formatTimecode(secs){
+      if(currentMode === 'granicus'){
+        const h = Math.floor(secs / 3600);
+        const m = Math.floor((secs % 3600) / 60);
+        const s = Math.floor(secs % 60);
+        return `${String(h).padStart(2,'0')}:${String(m).padStart(2,'0')}:${String(s).padStart(2,'0')}`;
+      }
+      return `[${secs}]`;
+    }
+
+    // ========================= Render extraction =========================
+    function renderExtraction(obj){
+      const container = document.getElementById('formatted');
+      container.style.display = 'block';
+      let headline = '';
+      let summary = '';
+      let explanation = '';
+      let others = [];
+      let mainStart = null;
+      if (obj.most_newsworthy_item) {
+        const main = obj.most_newsworthy_item;
+        headline = main.headline || '';
+        summary = main.summary || '';
+        explanation = main.explanation || '';
+        if (typeof main.start_seconds === 'number') {
+          mainStart = main.start_seconds;
+        }
+        others = Array.isArray(obj.other_potentially_newsworthy_items) ? obj.other_potentially_newsworthy_items : [];
+      } else {
+        headline = obj.most_newsworthy_item_brief_headline || '';
+        summary = obj.most_newsworthy_item_summary || '';
+        explanation = obj.most_newsworthy_item_explanation || '';
+        others = obj.other_potentially_newsworthy_items || [];
+        if (!Array.isArray(others)) others = [];
+      }
+      document.getElementById('f_headline').textContent = headline;
+      document.getElementById('f_summary').textContent = summary;
+      document.getElementById('f_explanation').textContent = explanation;
+      const timecodeDiv = document.getElementById('f_timecode');
+      timecodeDiv.innerHTML = '';
+      if (mainStart !== null) {
+        const a = document.createElement('a');
+        a.href = `#t=${mainStart}`;
+        a.dataset.seconds = String(mainStart);
+        a.className = 'timecode-link';
+        if(currentMode === 'granicus'){
+          a.textContent = `${formatTimecode(mainStart)} (seek manually in player)`;
+          a.title = 'Granicus player does not support programmatic seeking. Navigate to this time manually.';
+          a.style.cursor = 'default';
+          a.addEventListener('click', e => e.preventDefault());
+        } else {
+          a.textContent = `[${mainStart}] Jump to moment`;
+        }
+        timecodeDiv.appendChild(a);
+      }
+      const other = document.getElementById('f_other');
+      other.innerHTML='';
+      others.forEach((it, idx) => {
+        let li = document.createElement('li');
+        if (typeof it === 'string') {
+            li.textContent = it;
+        } else {
+            const start = typeof it.start_seconds === 'number' ? it.start_seconds : null;
+            const h = it.headline || '(no headline)';
+            const sum = it.summary ? ' \u2013 ' + it.summary : '';
+            if (start !== null) {
+              if(currentMode === 'granicus'){
+                li.textContent = `${formatTimecode(start)} ${h}${sum}`;
+              } else {
+                const a = document.createElement('a');
+                a.href = `#t=${start}`;
+                a.textContent = `[${start}] ${h}`;
+                a.dataset.seconds = String(start);
+                a.className = 'timecode-link';
+                li.appendChild(a);
+                if (sum) li.appendChild(document.createTextNode(sum));
+              }
+            } else {
+              li.textContent = h + sum;
+            }
+        }
+        other.appendChild(li);
+      });
+      document.getElementById('f_other_block').style.display = others.length ? 'block':'none';
+      const currentVid = document.getElementById('vid').value.trim();
+      if (headline && currentVid){ saveLS('headline_'+currentVid, headline); injectHeadlineIntoPlaylistItem(currentVid, headline); }
+      const stateEl = document.getElementById('extractionState');
+      if(stateEl) stateEl.style.display='none';
+    }
+
+    // ========================= YouTube extraction =========================
+    async function runExtraction(options={}){
+      const suppressStatus = options.suppressStatus || false;
+      const vid = document.getElementById('vid').value.trim();
+      if(!vid){ return; }
+      const status = document.getElementById('status');
+      if(!suppressStatus) status.textContent = 'Extracting (Gemini)...';
+      const extractOut = document.getElementById('extractOut');
+      extractOut.textContent='';
+      const stateEl = document.getElementById('extractionState');
+      if(stateEl){
+        stateEl.innerHTML = '<span class="spinner"></span> Information extraction in process...';
+        stateEl.style.display='flex';
+      }
+      const cacheKey = 'extraction_'+vid;
+      const cacheNote = document.getElementById('cacheNote');
+      cacheNote.style.display='none';
+      const cachedRaw = readLS(cacheKey);
+      if(cachedRaw){
+        try {
+          const obj = JSON.parse(cachedRaw);
+          extractOut.textContent = JSON.stringify(obj.data || obj, null, 2);
+          if(obj.status === 'ok'){
+            renderExtraction(obj.data);
+          } else if(obj.status === 'raw') {
+            const parsed = tryParseGeminiPayload(obj.data);
+            if(parsed){ renderExtraction(parsed); }
+          }
+          if(!suppressStatus) status.textContent = 'Extraction (cached)';
+          cacheNote.innerHTML = 'Using cached extraction. <a href="#" id="forceRefreshLink">Re-run now</a>';
+          cacheNote.style.display='block';
+            if(stateEl) stateEl.style.display='none';
+          setTimeout(()=>{
+            const fr = document.getElementById('forceRefreshLink');
+            if(fr){ fr.addEventListener('click', (e)=>{ e.preventDefault(); runExtractionForce(); }); }
+          },0);
+          return;
+        } catch(e) { /* fall through */ }
+      }
+      try {
+        const resp = await fetch(`/api/extract?video_id=${encodeURIComponent(vid)}`);
+        if(!resp.ok){
+          const txt = await resp.text();
+          status.textContent = 'Extraction error ' + resp.status;
+          extractOut.textContent = txt;
+          return;
+        }
+        const data = await resp.json();
+        if(!suppressStatus) status.textContent = 'Extraction done ('+data.status+')';
+        if(data.status === 'ok'){
+          extractOut.textContent = JSON.stringify(data.data, null, 2);
+          renderExtraction(data.data);
+        } else {
+          extractOut.textContent = data.data;
+          const parsed = tryParseGeminiPayload(data.data);
+          if(parsed){
+            renderExtraction(parsed);
+          }
+        }
+        saveLS(cacheKey, JSON.stringify(data));
+        if(data.cached){
+          cacheNote.innerHTML = 'Using cached extraction.';
+          cacheNote.style.display='block';
+        } else {
+          cacheNote.innerHTML = 'Fresh extraction cached. <a href="#" id="forceRefreshLink">Re-run</a>';
+          cacheNote.style.display='block';
+          setTimeout(()=>{
+            const fr = document.getElementById('forceRefreshLink');
+            if(fr){ fr.addEventListener('click', (e)=>{ e.preventDefault(); runExtractionForce(); }); }
+          },0);
+        }
+      } catch(e){
+        if(!suppressStatus) status.textContent = 'Extraction exception';
+        extractOut.textContent = e.message;
+      }
+    }
+
+    async function runExtractionForce(){
+      const vid = document.getElementById('vid').value.trim();
+      if(!vid) return;
+      const cacheKey = 'extraction_'+vid;
+      saveLS(cacheKey, '');
+      const status = document.getElementById('status');
+      status.textContent = 'Re-running extraction...';
+      const extractOut = document.getElementById('extractOut');
+      extractOut.textContent='';
+      const stateEl2 = document.getElementById('extractionState');
+      if(stateEl2){
+        stateEl2.innerHTML = '<span class="spinner"></span> Information extraction in process...';
+        stateEl2.style.display='flex';
+      }
+      try {
+        const resp = await fetch(`/api/extract?video_id=${encodeURIComponent(vid)}&force=true`);
+        if(!resp.ok){
+          const txt = await resp.text();
+            status.textContent = 'Extraction error ' + resp.status;
+            extractOut.textContent = txt;
+            return;
+        }
+        const data = await resp.json();
+        status.textContent = 'Extraction done ('+data.status+', fresh)';
+        if(data.status === 'ok'){
+          extractOut.textContent = JSON.stringify(data.data, null, 2);
+          renderExtraction(data.data);
+        } else {
+          extractOut.textContent = data.data;
+          const parsed = tryParseGeminiPayload(data.data);
+          if(parsed){ renderExtraction(parsed); }
+        }
+        saveLS(cacheKey, JSON.stringify(data));
+        const cacheNote = document.getElementById('cacheNote');
+        cacheNote.innerHTML = 'Fresh extraction cached. <a href="#" id="forceRefreshLink">Re-run</a>';
+        cacheNote.style.display='block';
+        setTimeout(()=>{
+          const fr = document.getElementById('forceRefreshLink');
+          if(fr){ fr.addEventListener('click', (e)=>{ e.preventDefault(); runExtractionForce(); }); }
+        },0);
+        if(stateEl2) stateEl2.style.display='none';
+      } catch(e){
+        status.textContent = 'Extraction exception';
+        extractOut.textContent = e.message;
+      }
+    }
+
+    // ========================= Full extract flow =========================
+    async function getModelName(){
+      if(cachedModelName) return cachedModelName;
+      try {
+        const r = await fetch('/api/model');
+        if(r.ok){ const d = await r.json(); cachedModelName = d.model || 'model'; return cachedModelName; }
+      } catch(e){}
+      cachedModelName = 'model';
+      return cachedModelName;
+    }
+
+    async function fullExtractFlow(){
+      if(currentMode === 'granicus'){
+        return fullGranicusExtractFlow();
+      }
+      const status = document.getElementById('status');
+      const model = await getModelName();
+      status.textContent = 'Extracting transcript and other information from video...';
+      await fetchTranscript();
+      await new Promise(r=>setTimeout(r, 2000));
+      status.textContent = `Sending video information with prompt to '${model}'...`;
+      await new Promise(r=>setTimeout(r, 3000));
+      status.textContent = `Awaiting response from '${model}'...`;
+      await runExtraction({suppressStatus:true});
+      setTimeout(()=>{
+        if(status.textContent.includes("Awaiting response")){
+          status.textContent = 'Extraction complete.';
+        }
+      }, 800);
+    }
+
+    // ========================= Granicus full flow =========================
+    async function fullGranicusExtractFlow(){
+      const vid = document.getElementById('vid').value.trim();
+      if(!vid || !vid.startsWith('g_')){
+        document.getElementById('status').textContent = 'Select a Granicus video first';
+        return;
+      }
+      // Parse g_subdomain_videoid
+      const parts = vid.split('_');
+      if(parts.length < 3){
+        document.getElementById('status').textContent = 'Invalid Granicus video key';
+        return;
+      }
+      const subdomain = parts[1];
+      const videoId = parts.slice(2).join('_');
+
+      const progressPanel = document.getElementById('grProgress');
+      progressPanel.classList.remove('hidden');
+      resetGrSteps();
+
+      const status = document.getElementById('status');
+      const statusMsg = document.getElementById('grStatusMsg');
+      status.textContent = 'Starting Granicus transcription...';
+
+      // Step 1: Transcribe via SSE
+      try {
+        const url = `/api/granicus/transcribe?subdomain=${encodeURIComponent(subdomain)}&video_id=${encodeURIComponent(videoId)}`;
+        const videoKey = await new Promise((resolve, reject) => {
+          const es = new EventSource(url);
+          es.addEventListener('progress', (e) => {
+            const d = JSON.parse(e.data);
+            updateGrStep(d.step, d.percent, d.message);
+            statusMsg.textContent = d.message || '';
+          });
+          es.addEventListener('complete', (e) => {
+            const d = JSON.parse(e.data);
+            es.close();
+            resolve(d.video_key);
+          });
+          es.addEventListener('error', (e) => {
+            let msg = 'Transcription failed';
+            try { msg = JSON.parse(e.data).message; } catch(ex){}
+            es.close();
+            reject(new Error(msg));
+          });
+          es.onerror = () => {
+            es.close();
+            reject(new Error('SSE connection lost'));
+          };
+        });
+
+        // Mark transcription steps done
+        markGrStepDone('download');
+        markGrStepDone('transcribe');
+        markGrStepDone('align');
+        markGrStepDone('saving');
+
+        // Step 2: Run extraction via existing /api/extract
+        updateGrStep('extract', 0, 'Sending to Gemini for extraction...');
+        status.textContent = 'Transcription complete, running Gemini extraction...';
+
+        const stateEl = document.getElementById('extractionState');
+        if(stateEl){
+          stateEl.innerHTML = '<span class="spinner"></span> Information extraction in process...';
+          stateEl.style.display='flex';
+        }
+
+        const resp = await fetch(`/api/extract?video_id=${encodeURIComponent(videoKey)}`);
+        if(!resp.ok){
+          const txt = await resp.text();
+          status.textContent = 'Extraction error ' + resp.status;
+          document.getElementById('extractOut').textContent = txt;
+          updateGrStep('extract', 100, 'Extraction failed');
+          return;
+        }
+        const data = await resp.json();
+        markGrStepDone('extract');
+        status.textContent = 'Extraction complete.';
+        statusMsg.textContent = 'All steps complete.';
+
+        const extractOut = document.getElementById('extractOut');
+        if(data.status === 'ok'){
+          extractOut.textContent = JSON.stringify(data.data, null, 2);
+          renderExtraction(data.data);
+        } else {
+          extractOut.textContent = data.data;
+          const parsed = tryParseGeminiPayload(data.data);
+          if(parsed){ renderExtraction(parsed); }
+        }
+        saveLS('extraction_'+videoKey, JSON.stringify(data));
+
+      } catch(err) {
+        status.textContent = 'Error: ' + err.message;
+        statusMsg.textContent = err.message;
+      }
+    }
+
+    // ========================= Granicus progress UI helpers =========================
+    function resetGrSteps(){
+      document.querySelectorAll('#grSteps .gr-step').forEach(el => {
+        el.className = 'gr-step pending';
+        el.querySelector('.gr-icon').innerHTML = '&#9679;';
+        el.querySelector('.gr-bar-fill').style.width = '0%';
+      });
+    }
+
+    function updateGrStep(step, percent, message){
+      // Map pipeline steps to UI steps
+      const stepMap = {download:'download', transcribe:'transcribe', align:'align', saving:'saving', extract:'extract', complete:'saving'};
+      const uiStep = stepMap[step] || step;
+      const el = document.querySelector(`#grSteps .gr-step[data-step="${uiStep}"]`);
+      if(!el) return;
+
+      // Mark all prior steps as done
+      const allSteps = Array.from(document.querySelectorAll('#grSteps .gr-step'));
+      const idx = allSteps.indexOf(el);
+      allSteps.forEach((s, i) => {
+        if(i < idx && !s.classList.contains('done')){
+          markGrStepDone(s.dataset.step);
+        }
+      });
+
+      el.classList.remove('pending');
+      el.classList.add('active');
+      el.querySelector('.gr-icon').innerHTML = '<span class="spinner" style="width:14px;height:14px;border-width:2px;"></span>';
+      if(typeof percent === 'number' && percent >= 0){
+        el.querySelector('.gr-bar-fill').style.width = Math.min(percent, 100) + '%';
+      }
+    }
+
+    function markGrStepDone(step){
+      const el = document.querySelector(`#grSteps .gr-step[data-step="${step}"]`);
+      if(!el) return;
+      el.classList.remove('pending','active');
+      el.classList.add('done');
+      el.querySelector('.gr-icon').innerHTML = '&#10003;';
+      el.querySelector('.gr-bar-fill').style.width = '100%';
+    }
+
+    // ========================= Video & extraction state =========================
+    function updateExtractionHeader(){
+      const header = document.getElementById('extractionHeader');
+      const channel = currentChannelTitle || 'channel';
+      const titlePart = currentVideoTitle ? `, ${currentVideoTitle}` : '';
+      if(header){ header.textContent = `Potentially newsworthy events for follow-up reporting from ${channel}${titlePart}`; }
+    }
+
+    function resetExtractionDisplay(){
+      document.getElementById('f_headline').textContent='';
+      document.getElementById('f_summary').textContent='';
+      document.getElementById('f_explanation').textContent='';
+      document.getElementById('f_timecode').innerHTML='';
+      document.getElementById('f_other').innerHTML='';
+      document.getElementById('f_other_block').style.display='none';
+      const cacheNote = document.getElementById('cacheNote');
+      if(cacheNote){ cacheNote.style.display='none'; cacheNote.textContent=''; }
+      const stateEl = document.getElementById('extractionState');
+      if(stateEl){ stateEl.innerHTML = '<em>Information not yet extracted.</em>'; stateEl.style.display='flex'; }
+      const extractOut = document.getElementById('extractOut');
+      if(extractOut){ extractOut.textContent=''; }
+      document.getElementById('grProgress').classList.add('hidden');
+    }
+
+    document.getElementById('oneAction').addEventListener('click', fullExtractFlow);
+
+    // ========================= YouTube video change =========================
+    function changeVideo(){
+      const vid = document.getElementById('vid').value.trim();
+      if(!vid){return;}
+      if(currentMode === 'youtube'){
+        if(!/^[A-Za-z0-9_-]{11}$/.test(vid)){
+          alert('Not a plausible 11-char YouTube video id');
+          return;
+        }
+        if (ytPlayer && ytPlayer.loadVideoById) {
+          ytPlayer.loadVideoById(vid);
+        } else {
+          const iframe = document.getElementById('player');
+          iframe.src = `https://www.youtube.com/embed/${vid}?enablejsapi=1`;
+        }
+      }
+      const label = document.getElementById('currentVideoLabel');
+      if(label) label.textContent = vid;
+      resetExtractionDisplay();
+    }
+    document.getElementById('changeVideo').addEventListener('click', changeVideo);
+
+    // ========================= YouTube playlist =========================
+    function parsePlaylistId(raw){
+      if(!raw) return '';
+      raw = raw.trim();
+      if(raw.startsWith('http')){
+        const u = new URL(raw);
+        if(u.searchParams.get('list')) return u.searchParams.get('list');
+      }
+      return raw;
+    }
+
+    function injectHeadlineIntoPlaylistItem(videoId, headline){
+      const el = document.querySelector(`.p-item[data-video-id="${videoId}"] .p-headline`);
+      if(el){ el.textContent = headline; el.classList.add('visible'); }
+    }
+
+    async function loadPlaylist(){
+      const inp = document.getElementById('playlistId');
+      const pid = parsePlaylistId(inp.value);
+      const stat = document.getElementById('playlistStatus');
+      const list = document.getElementById('playlistList');
+      list.innerHTML='';
+      if(!pid){ stat.textContent='No playlist id'; return; }
+      stat.textContent='Loading...';
+      try {
+        const resp = await fetch(`/api/playlist?playlist_id=${encodeURIComponent(pid)}&max_items=100`);
+        if(!resp.ok){ stat.textContent='Error '+resp.status; return; }
+        const data = await resp.json();
+        const pl = data.playlist || {};
+        currentChannelTitle = pl.channel_title || '';
+        const titleEl = document.getElementById('plDisplayTitle');
+        const channelEl = document.getElementById('plDisplayChannel');
+        if(titleEl){ titleEl.textContent = pl.title || ''; }
+        if(channelEl){ channelEl.textContent = pl.channel_title || ''; }
+        stat.textContent = `(${(data.items||[]).length} videos)`;
+        (data.items||[]).forEach(item => {
+          const li = document.createElement('li');
+          const btn = document.createElement('div');
+          btn.className='p-item';
+          btn.dataset.videoId = item.video_id;
+          btn.innerHTML = `
+            <img class="p-thumb" src="${item.thumbnail_url || ''}" alt="">
+            <div class="p-text">
+              <div class="p-title">${escapeHtml(item.title || item.video_id)}</div>
+              <div class="p-headline" data-headline-for="${item.video_id}"></div>
+            </div>`;
+          li.appendChild(btn);
+          list.appendChild(li);
+          const cached = readLS('headline_'+item.video_id);
+          if(cached){ injectHeadlineIntoPlaylistItem(item.video_id, cached); }
+          btn.addEventListener('click', () => {
+            document.getElementById('vid').value = item.video_id;
+            currentVideoTitle = item.title || '';
+            changeVideo();
+            fetchTranscript();
+            highlightActive(item.video_id);
+            saveLS('lastVideo', item.video_id);
+            updateExtractionHeader();
+          });
+        });
+        saveLS('lastPlaylist', pid);
+        highlightActive(document.getElementById('vid').value.trim());
+        updateExtractionHeader();
+      } catch(e){ stat.textContent='Exception: '+e.message; }
+    }
+    document.getElementById('loadPlaylist').addEventListener('click', loadPlaylist);
+
+    document.addEventListener('click', (e)=>{
+      const a = e.target.closest && e.target.closest('.pl-example');
+      if(a){
+        e.preventDefault();
+        const id = a.getAttribute('data-pl');
+        const inp = document.getElementById('playlistId');
+        if(inp){ inp.value = id; }
+        loadPlaylist();
+      }
+    });
+
+    function highlightActive(videoId){
+      document.querySelectorAll('.p-item').forEach(x=>{
+        x.classList.toggle('active', x.dataset.videoId === videoId);
+      });
+    }
+
+    // ========================= Granicus jurisdiction browser =========================
+    async function loadJurisdictions(){
+      const sel = document.getElementById('grJurisdiction');
+      try {
+        const resp = await fetch('/api/granicus/jurisdictions');
+        if(!resp.ok) return;
+        const data = await resp.json();
+        (data.jurisdictions || []).forEach(j => {
+          const opt = document.createElement('option');
+          opt.value = j.subdomain;
+          opt.textContent = j.subdomain;
+          sel.appendChild(opt);
+        });
+      } catch(e){
+        console.error('Failed to load jurisdictions:', e);
+      }
+    }
+
+    document.getElementById('grJurisdiction').addEventListener('change', async function(){
+      const subdomain = this.value;
+      const list = document.getElementById('grVideoList');
+      const stat = document.getElementById('grVideoStatus');
+      list.innerHTML = '';
+      if(!subdomain){ stat.textContent = ''; return; }
+      stat.textContent = 'Loading videos...';
+      try {
+        const resp = await fetch(`/api/granicus/videos?subdomain=${encodeURIComponent(subdomain)}`);
+        if(!resp.ok){ stat.textContent = 'Error ' + resp.status; return; }
+        const data = await resp.json();
+        const videos = data.videos || [];
+        stat.textContent = `(${videos.length} videos)`;
+        videos.forEach(v => {
+          const li = document.createElement('li');
+          const div = document.createElement('div');
+          div.className = 'gr-vid-item';
+          div.dataset.videoId = v.video_id;
+          div.dataset.subdomain = subdomain;
+          const caption = v.has_captions ? ' [captions]' : '';
+          div.textContent = `Video #${v.video_id}${caption}`;
+          li.appendChild(div);
+          list.appendChild(li);
+          div.addEventListener('click', () => {
+            const key = `g_${subdomain}_${v.video_id}`;
+            document.getElementById('vid').value = key;
+            currentVideoTitle = `Video #${v.video_id}`;
+            currentChannelTitle = subdomain;
+
+            // Load Granicus player iframe
+            const iframe = document.getElementById('player');
+            iframe.src = `https://${subdomain}.granicus.com/videos/${v.video_id}/player`;
+
+            const label = document.getElementById('currentVideoLabel');
+            if(label) label.textContent = key;
+
+            // Highlight active
+            document.querySelectorAll('.gr-vid-item').forEach(x => x.classList.remove('active'));
+            div.classList.add('active');
+
+            resetExtractionDisplay();
+            updateExtractionHeader();
+          });
+        });
+      } catch(e){ stat.textContent = 'Exception: ' + e.message; }
+    });
+
+    // ========================= Timecode click delegation =========================
+    document.addEventListener('click', function(e){
+      const target = e.target;
+      if (target && target.classList && target.classList.contains('timecode-link')) {
+        if(currentMode === 'granicus'){
+          e.preventDefault();
+          return; // No programmatic seeking for Granicus
+        }
+        const secs = parseInt(target.dataset.seconds || '0', 10);
+        if (!isNaN(secs)) {
+          e.preventDefault();
+          if (ytPlayer && ytPlayer.seekTo) {
+            ytPlayer.seekTo(secs, true);
+          } else {
+            const vid = document.getElementById('vid').value.trim();
+            const iframe = document.getElementById('player');
+            iframe.src = `https://www.youtube.com/embed/${vid}?start=${secs}&enablejsapi=1`;
+          }
+        }
+      }
+    }, false);
+
+    // ========================= Auto-restore on load =========================
+    async function fetchPrompt(){
+      try {
+        const resp = await fetch('/api/prompt');
+        if(!resp.ok) return;
+        const data = await resp.json();
+        const pre = document.getElementById('promptOut');
+        if(pre) pre.textContent = data.prompt || '';
+      } catch(e){}
+    }
+
+    window.addEventListener('DOMContentLoaded', () => {
+      const lastPl = readLS('lastPlaylist');
+      if(lastPl){ document.getElementById('playlistId').value = lastPl; loadPlaylist(); }
+      const lastVid = readLS('lastVideo');
+      if(lastVid){ document.getElementById('vid').value = lastVid; changeVideo(); }
+      fetchPrompt();
+      updateExtractionHeader();
+    });
+  </script>
+</body>
+</html>

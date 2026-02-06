@@ -1,0 +1,3458 @@
+{
+  "subdomain": "newark",
+  "run_id": "20251217_223056",
+  "status": "complete",
+  "last_updated": "2025-12-17T22:33:00.783538",
+  "total_videos": 492,
+  "with_captions": 492,
+  "video_id_range": {
+    "min": 109,
+    "max": 764
+  },
+  "videos": [
+    {
+      "video_id": 109,
+      "video_url": "https://newark.granicus.com/videos/109",
+      "player_url": "https://newark.granicus.com/videos/109/player",
+      "captions_url": "https://newark.granicus.com/videos/109/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 112,
+      "video_url": "https://newark.granicus.com/videos/112",
+      "player_url": "https://newark.granicus.com/videos/112/player",
+      "captions_url": "https://newark.granicus.com/videos/112/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 113,
+      "video_url": "https://newark.granicus.com/videos/113",
+      "player_url": "https://newark.granicus.com/videos/113/player",
+      "captions_url": "https://newark.granicus.com/videos/113/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 114,
+      "video_url": "https://newark.granicus.com/videos/114",
+      "player_url": "https://newark.granicus.com/videos/114/player",
+      "captions_url": "https://newark.granicus.com/videos/114/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 115,
+      "video_url": "https://newark.granicus.com/videos/115",
+      "player_url": "https://newark.granicus.com/videos/115/player",
+      "captions_url": "https://newark.granicus.com/videos/115/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 116,
+      "video_url": "https://newark.granicus.com/videos/116",
+      "player_url": "https://newark.granicus.com/videos/116/player",
+      "captions_url": "https://newark.granicus.com/videos/116/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 117,
+      "video_url": "https://newark.granicus.com/videos/117",
+      "player_url": "https://newark.granicus.com/videos/117/player",
+      "captions_url": "https://newark.granicus.com/videos/117/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 118,
+      "video_url": "https://newark.granicus.com/videos/118",
+      "player_url": "https://newark.granicus.com/videos/118/player",
+      "captions_url": "https://newark.granicus.com/videos/118/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 119,
+      "video_url": "https://newark.granicus.com/videos/119",
+      "player_url": "https://newark.granicus.com/videos/119/player",
+      "captions_url": "https://newark.granicus.com/videos/119/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 120,
+      "video_url": "https://newark.granicus.com/videos/120",
+      "player_url": "https://newark.granicus.com/videos/120/player",
+      "captions_url": "https://newark.granicus.com/videos/120/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 121,
+      "video_url": "https://newark.granicus.com/videos/121",
+      "player_url": "https://newark.granicus.com/videos/121/player",
+      "captions_url": "https://newark.granicus.com/videos/121/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 122,
+      "video_url": "https://newark.granicus.com/videos/122",
+      "player_url": "https://newark.granicus.com/videos/122/player",
+      "captions_url": "https://newark.granicus.com/videos/122/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 123,
+      "video_url": "https://newark.granicus.com/videos/123",
+      "player_url": "https://newark.granicus.com/videos/123/player",
+      "captions_url": "https://newark.granicus.com/videos/123/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 124,
+      "video_url": "https://newark.granicus.com/videos/124",
+      "player_url": "https://newark.granicus.com/videos/124/player",
+      "captions_url": "https://newark.granicus.com/videos/124/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 125,
+      "video_url": "https://newark.granicus.com/videos/125",
+      "player_url": "https://newark.granicus.com/videos/125/player",
+      "captions_url": "https://newark.granicus.com/videos/125/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 126,
+      "video_url": "https://newark.granicus.com/videos/126",
+      "player_url": "https://newark.granicus.com/videos/126/player",
+      "captions_url": "https://newark.granicus.com/videos/126/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 129,
+      "video_url": "https://newark.granicus.com/videos/129",
+      "player_url": "https://newark.granicus.com/videos/129/player",
+      "captions_url": "https://newark.granicus.com/videos/129/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 130,
+      "video_url": "https://newark.granicus.com/videos/130",
+      "player_url": "https://newark.granicus.com/videos/130/player",
+      "captions_url": "https://newark.granicus.com/videos/130/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 132,
+      "video_url": "https://newark.granicus.com/videos/132",
+      "player_url": "https://newark.granicus.com/videos/132/player",
+      "captions_url": "https://newark.granicus.com/videos/132/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 133,
+      "video_url": "https://newark.granicus.com/videos/133",
+      "player_url": "https://newark.granicus.com/videos/133/player",
+      "captions_url": "https://newark.granicus.com/videos/133/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 134,
+      "video_url": "https://newark.granicus.com/videos/134",
+      "player_url": "https://newark.granicus.com/videos/134/player",
+      "captions_url": "https://newark.granicus.com/videos/134/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 135,
+      "video_url": "https://newark.granicus.com/videos/135",
+      "player_url": "https://newark.granicus.com/videos/135/player",
+      "captions_url": "https://newark.granicus.com/videos/135/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 136,
+      "video_url": "https://newark.granicus.com/videos/136",
+      "player_url": "https://newark.granicus.com/videos/136/player",
+      "captions_url": "https://newark.granicus.com/videos/136/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 137,
+      "video_url": "https://newark.granicus.com/videos/137",
+      "player_url": "https://newark.granicus.com/videos/137/player",
+      "captions_url": "https://newark.granicus.com/videos/137/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 138,
+      "video_url": "https://newark.granicus.com/videos/138",
+      "player_url": "https://newark.granicus.com/videos/138/player",
+      "captions_url": "https://newark.granicus.com/videos/138/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 139,
+      "video_url": "https://newark.granicus.com/videos/139",
+      "player_url": "https://newark.granicus.com/videos/139/player",
+      "captions_url": "https://newark.granicus.com/videos/139/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 140,
+      "video_url": "https://newark.granicus.com/videos/140",
+      "player_url": "https://newark.granicus.com/videos/140/player",
+      "captions_url": "https://newark.granicus.com/videos/140/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 141,
+      "video_url": "https://newark.granicus.com/videos/141",
+      "player_url": "https://newark.granicus.com/videos/141/player",
+      "captions_url": "https://newark.granicus.com/videos/141/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 142,
+      "video_url": "https://newark.granicus.com/videos/142",
+      "player_url": "https://newark.granicus.com/videos/142/player",
+      "captions_url": "https://newark.granicus.com/videos/142/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 143,
+      "video_url": "https://newark.granicus.com/videos/143",
+      "player_url": "https://newark.granicus.com/videos/143/player",
+      "captions_url": "https://newark.granicus.com/videos/143/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 144,
+      "video_url": "https://newark.granicus.com/videos/144",
+      "player_url": "https://newark.granicus.com/videos/144/player",
+      "captions_url": "https://newark.granicus.com/videos/144/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 145,
+      "video_url": "https://newark.granicus.com/videos/145",
+      "player_url": "https://newark.granicus.com/videos/145/player",
+      "captions_url": "https://newark.granicus.com/videos/145/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 146,
+      "video_url": "https://newark.granicus.com/videos/146",
+      "player_url": "https://newark.granicus.com/videos/146/player",
+      "captions_url": "https://newark.granicus.com/videos/146/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 147,
+      "video_url": "https://newark.granicus.com/videos/147",
+      "player_url": "https://newark.granicus.com/videos/147/player",
+      "captions_url": "https://newark.granicus.com/videos/147/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 148,
+      "video_url": "https://newark.granicus.com/videos/148",
+      "player_url": "https://newark.granicus.com/videos/148/player",
+      "captions_url": "https://newark.granicus.com/videos/148/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 149,
+      "video_url": "https://newark.granicus.com/videos/149",
+      "player_url": "https://newark.granicus.com/videos/149/player",
+      "captions_url": "https://newark.granicus.com/videos/149/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 159,
+      "video_url": "https://newark.granicus.com/videos/159",
+      "player_url": "https://newark.granicus.com/videos/159/player",
+      "captions_url": "https://newark.granicus.com/videos/159/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 162,
+      "video_url": "https://newark.granicus.com/videos/162",
+      "player_url": "https://newark.granicus.com/videos/162/player",
+      "captions_url": "https://newark.granicus.com/videos/162/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 163,
+      "video_url": "https://newark.granicus.com/videos/163",
+      "player_url": "https://newark.granicus.com/videos/163/player",
+      "captions_url": "https://newark.granicus.com/videos/163/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 164,
+      "video_url": "https://newark.granicus.com/videos/164",
+      "player_url": "https://newark.granicus.com/videos/164/player",
+      "captions_url": "https://newark.granicus.com/videos/164/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 165,
+      "video_url": "https://newark.granicus.com/videos/165",
+      "player_url": "https://newark.granicus.com/videos/165/player",
+      "captions_url": "https://newark.granicus.com/videos/165/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 166,
+      "video_url": "https://newark.granicus.com/videos/166",
+      "player_url": "https://newark.granicus.com/videos/166/player",
+      "captions_url": "https://newark.granicus.com/videos/166/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 167,
+      "video_url": "https://newark.granicus.com/videos/167",
+      "player_url": "https://newark.granicus.com/videos/167/player",
+      "captions_url": "https://newark.granicus.com/videos/167/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 168,
+      "video_url": "https://newark.granicus.com/videos/168",
+      "player_url": "https://newark.granicus.com/videos/168/player",
+      "captions_url": "https://newark.granicus.com/videos/168/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 169,
+      "video_url": "https://newark.granicus.com/videos/169",
+      "player_url": "https://newark.granicus.com/videos/169/player",
+      "captions_url": "https://newark.granicus.com/videos/169/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 171,
+      "video_url": "https://newark.granicus.com/videos/171",
+      "player_url": "https://newark.granicus.com/videos/171/player",
+      "captions_url": "https://newark.granicus.com/videos/171/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 172,
+      "video_url": "https://newark.granicus.com/videos/172",
+      "player_url": "https://newark.granicus.com/videos/172/player",
+      "captions_url": "https://newark.granicus.com/videos/172/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 173,
+      "video_url": "https://newark.granicus.com/videos/173",
+      "player_url": "https://newark.granicus.com/videos/173/player",
+      "captions_url": "https://newark.granicus.com/videos/173/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 174,
+      "video_url": "https://newark.granicus.com/videos/174",
+      "player_url": "https://newark.granicus.com/videos/174/player",
+      "captions_url": "https://newark.granicus.com/videos/174/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 175,
+      "video_url": "https://newark.granicus.com/videos/175",
+      "player_url": "https://newark.granicus.com/videos/175/player",
+      "captions_url": "https://newark.granicus.com/videos/175/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 176,
+      "video_url": "https://newark.granicus.com/videos/176",
+      "player_url": "https://newark.granicus.com/videos/176/player",
+      "captions_url": "https://newark.granicus.com/videos/176/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 177,
+      "video_url": "https://newark.granicus.com/videos/177",
+      "player_url": "https://newark.granicus.com/videos/177/player",
+      "captions_url": "https://newark.granicus.com/videos/177/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 178,
+      "video_url": "https://newark.granicus.com/videos/178",
+      "player_url": "https://newark.granicus.com/videos/178/player",
+      "captions_url": "https://newark.granicus.com/videos/178/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 179,
+      "video_url": "https://newark.granicus.com/videos/179",
+      "player_url": "https://newark.granicus.com/videos/179/player",
+      "captions_url": "https://newark.granicus.com/videos/179/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 180,
+      "video_url": "https://newark.granicus.com/videos/180",
+      "player_url": "https://newark.granicus.com/videos/180/player",
+      "captions_url": "https://newark.granicus.com/videos/180/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 181,
+      "video_url": "https://newark.granicus.com/videos/181",
+      "player_url": "https://newark.granicus.com/videos/181/player",
+      "captions_url": "https://newark.granicus.com/videos/181/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 182,
+      "video_url": "https://newark.granicus.com/videos/182",
+      "player_url": "https://newark.granicus.com/videos/182/player",
+      "captions_url": "https://newark.granicus.com/videos/182/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 189,
+      "video_url": "https://newark.granicus.com/videos/189",
+      "player_url": "https://newark.granicus.com/videos/189/player",
+      "captions_url": "https://newark.granicus.com/videos/189/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 190,
+      "video_url": "https://newark.granicus.com/videos/190",
+      "player_url": "https://newark.granicus.com/videos/190/player",
+      "captions_url": "https://newark.granicus.com/videos/190/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 191,
+      "video_url": "https://newark.granicus.com/videos/191",
+      "player_url": "https://newark.granicus.com/videos/191/player",
+      "captions_url": "https://newark.granicus.com/videos/191/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 192,
+      "video_url": "https://newark.granicus.com/videos/192",
+      "player_url": "https://newark.granicus.com/videos/192/player",
+      "captions_url": "https://newark.granicus.com/videos/192/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 193,
+      "video_url": "https://newark.granicus.com/videos/193",
+      "player_url": "https://newark.granicus.com/videos/193/player",
+      "captions_url": "https://newark.granicus.com/videos/193/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 194,
+      "video_url": "https://newark.granicus.com/videos/194",
+      "player_url": "https://newark.granicus.com/videos/194/player",
+      "captions_url": "https://newark.granicus.com/videos/194/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 195,
+      "video_url": "https://newark.granicus.com/videos/195",
+      "player_url": "https://newark.granicus.com/videos/195/player",
+      "captions_url": "https://newark.granicus.com/videos/195/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 196,
+      "video_url": "https://newark.granicus.com/videos/196",
+      "player_url": "https://newark.granicus.com/videos/196/player",
+      "captions_url": "https://newark.granicus.com/videos/196/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 197,
+      "video_url": "https://newark.granicus.com/videos/197",
+      "player_url": "https://newark.granicus.com/videos/197/player",
+      "captions_url": "https://newark.granicus.com/videos/197/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 198,
+      "video_url": "https://newark.granicus.com/videos/198",
+      "player_url": "https://newark.granicus.com/videos/198/player",
+      "captions_url": "https://newark.granicus.com/videos/198/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 199,
+      "video_url": "https://newark.granicus.com/videos/199",
+      "player_url": "https://newark.granicus.com/videos/199/player",
+      "captions_url": "https://newark.granicus.com/videos/199/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 200,
+      "video_url": "https://newark.granicus.com/videos/200",
+      "player_url": "https://newark.granicus.com/videos/200/player",
+      "captions_url": "https://newark.granicus.com/videos/200/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 201,
+      "video_url": "https://newark.granicus.com/videos/201",
+      "player_url": "https://newark.granicus.com/videos/201/player",
+      "captions_url": "https://newark.granicus.com/videos/201/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 202,
+      "video_url": "https://newark.granicus.com/videos/202",
+      "player_url": "https://newark.granicus.com/videos/202/player",
+      "captions_url": "https://newark.granicus.com/videos/202/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 203,
+      "video_url": "https://newark.granicus.com/videos/203",
+      "player_url": "https://newark.granicus.com/videos/203/player",
+      "captions_url": "https://newark.granicus.com/videos/203/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 204,
+      "video_url": "https://newark.granicus.com/videos/204",
+      "player_url": "https://newark.granicus.com/videos/204/player",
+      "captions_url": "https://newark.granicus.com/videos/204/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 205,
+      "video_url": "https://newark.granicus.com/videos/205",
+      "player_url": "https://newark.granicus.com/videos/205/player",
+      "captions_url": "https://newark.granicus.com/videos/205/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 206,
+      "video_url": "https://newark.granicus.com/videos/206",
+      "player_url": "https://newark.granicus.com/videos/206/player",
+      "captions_url": "https://newark.granicus.com/videos/206/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 207,
+      "video_url": "https://newark.granicus.com/videos/207",
+      "player_url": "https://newark.granicus.com/videos/207/player",
+      "captions_url": "https://newark.granicus.com/videos/207/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 208,
+      "video_url": "https://newark.granicus.com/videos/208",
+      "player_url": "https://newark.granicus.com/videos/208/player",
+      "captions_url": "https://newark.granicus.com/videos/208/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 209,
+      "video_url": "https://newark.granicus.com/videos/209",
+      "player_url": "https://newark.granicus.com/videos/209/player",
+      "captions_url": "https://newark.granicus.com/videos/209/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 210,
+      "video_url": "https://newark.granicus.com/videos/210",
+      "player_url": "https://newark.granicus.com/videos/210/player",
+      "captions_url": "https://newark.granicus.com/videos/210/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 211,
+      "video_url": "https://newark.granicus.com/videos/211",
+      "player_url": "https://newark.granicus.com/videos/211/player",
+      "captions_url": "https://newark.granicus.com/videos/211/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 212,
+      "video_url": "https://newark.granicus.com/videos/212",
+      "player_url": "https://newark.granicus.com/videos/212/player",
+      "captions_url": "https://newark.granicus.com/videos/212/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 213,
+      "video_url": "https://newark.granicus.com/videos/213",
+      "player_url": "https://newark.granicus.com/videos/213/player",
+      "captions_url": "https://newark.granicus.com/videos/213/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 214,
+      "video_url": "https://newark.granicus.com/videos/214",
+      "player_url": "https://newark.granicus.com/videos/214/player",
+      "captions_url": "https://newark.granicus.com/videos/214/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 215,
+      "video_url": "https://newark.granicus.com/videos/215",
+      "player_url": "https://newark.granicus.com/videos/215/player",
+      "captions_url": "https://newark.granicus.com/videos/215/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 216,
+      "video_url": "https://newark.granicus.com/videos/216",
+      "player_url": "https://newark.granicus.com/videos/216/player",
+      "captions_url": "https://newark.granicus.com/videos/216/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 217,
+      "video_url": "https://newark.granicus.com/videos/217",
+      "player_url": "https://newark.granicus.com/videos/217/player",
+      "captions_url": "https://newark.granicus.com/videos/217/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 218,
+      "video_url": "https://newark.granicus.com/videos/218",
+      "player_url": "https://newark.granicus.com/videos/218/player",
+      "captions_url": "https://newark.granicus.com/videos/218/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 219,
+      "video_url": "https://newark.granicus.com/videos/219",
+      "player_url": "https://newark.granicus.com/videos/219/player",
+      "captions_url": "https://newark.granicus.com/videos/219/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 220,
+      "video_url": "https://newark.granicus.com/videos/220",
+      "player_url": "https://newark.granicus.com/videos/220/player",
+      "captions_url": "https://newark.granicus.com/videos/220/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 221,
+      "video_url": "https://newark.granicus.com/videos/221",
+      "player_url": "https://newark.granicus.com/videos/221/player",
+      "captions_url": "https://newark.granicus.com/videos/221/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 222,
+      "video_url": "https://newark.granicus.com/videos/222",
+      "player_url": "https://newark.granicus.com/videos/222/player",
+      "captions_url": "https://newark.granicus.com/videos/222/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 223,
+      "video_url": "https://newark.granicus.com/videos/223",
+      "player_url": "https://newark.granicus.com/videos/223/player",
+      "captions_url": "https://newark.granicus.com/videos/223/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 224,
+      "video_url": "https://newark.granicus.com/videos/224",
+      "player_url": "https://newark.granicus.com/videos/224/player",
+      "captions_url": "https://newark.granicus.com/videos/224/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 225,
+      "video_url": "https://newark.granicus.com/videos/225",
+      "player_url": "https://newark.granicus.com/videos/225/player",
+      "captions_url": "https://newark.granicus.com/videos/225/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 226,
+      "video_url": "https://newark.granicus.com/videos/226",
+      "player_url": "https://newark.granicus.com/videos/226/player",
+      "captions_url": "https://newark.granicus.com/videos/226/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 227,
+      "video_url": "https://newark.granicus.com/videos/227",
+      "player_url": "https://newark.granicus.com/videos/227/player",
+      "captions_url": "https://newark.granicus.com/videos/227/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 228,
+      "video_url": "https://newark.granicus.com/videos/228",
+      "player_url": "https://newark.granicus.com/videos/228/player",
+      "captions_url": "https://newark.granicus.com/videos/228/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 229,
+      "video_url": "https://newark.granicus.com/videos/229",
+      "player_url": "https://newark.granicus.com/videos/229/player",
+      "captions_url": "https://newark.granicus.com/videos/229/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 230,
+      "video_url": "https://newark.granicus.com/videos/230",
+      "player_url": "https://newark.granicus.com/videos/230/player",
+      "captions_url": "https://newark.granicus.com/videos/230/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 231,
+      "video_url": "https://newark.granicus.com/videos/231",
+      "player_url": "https://newark.granicus.com/videos/231/player",
+      "captions_url": "https://newark.granicus.com/videos/231/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 232,
+      "video_url": "https://newark.granicus.com/videos/232",
+      "player_url": "https://newark.granicus.com/videos/232/player",
+      "captions_url": "https://newark.granicus.com/videos/232/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 233,
+      "video_url": "https://newark.granicus.com/videos/233",
+      "player_url": "https://newark.granicus.com/videos/233/player",
+      "captions_url": "https://newark.granicus.com/videos/233/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 234,
+      "video_url": "https://newark.granicus.com/videos/234",
+      "player_url": "https://newark.granicus.com/videos/234/player",
+      "captions_url": "https://newark.granicus.com/videos/234/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 235,
+      "video_url": "https://newark.granicus.com/videos/235",
+      "player_url": "https://newark.granicus.com/videos/235/player",
+      "captions_url": "https://newark.granicus.com/videos/235/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 236,
+      "video_url": "https://newark.granicus.com/videos/236",
+      "player_url": "https://newark.granicus.com/videos/236/player",
+      "captions_url": "https://newark.granicus.com/videos/236/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 237,
+      "video_url": "https://newark.granicus.com/videos/237",
+      "player_url": "https://newark.granicus.com/videos/237/player",
+      "captions_url": "https://newark.granicus.com/videos/237/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 239,
+      "video_url": "https://newark.granicus.com/videos/239",
+      "player_url": "https://newark.granicus.com/videos/239/player",
+      "captions_url": "https://newark.granicus.com/videos/239/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 240,
+      "video_url": "https://newark.granicus.com/videos/240",
+      "player_url": "https://newark.granicus.com/videos/240/player",
+      "captions_url": "https://newark.granicus.com/videos/240/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 241,
+      "video_url": "https://newark.granicus.com/videos/241",
+      "player_url": "https://newark.granicus.com/videos/241/player",
+      "captions_url": "https://newark.granicus.com/videos/241/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 242,
+      "video_url": "https://newark.granicus.com/videos/242",
+      "player_url": "https://newark.granicus.com/videos/242/player",
+      "captions_url": "https://newark.granicus.com/videos/242/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 243,
+      "video_url": "https://newark.granicus.com/videos/243",
+      "player_url": "https://newark.granicus.com/videos/243/player",
+      "captions_url": "https://newark.granicus.com/videos/243/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 244,
+      "video_url": "https://newark.granicus.com/videos/244",
+      "player_url": "https://newark.granicus.com/videos/244/player",
+      "captions_url": "https://newark.granicus.com/videos/244/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 245,
+      "video_url": "https://newark.granicus.com/videos/245",
+      "player_url": "https://newark.granicus.com/videos/245/player",
+      "captions_url": "https://newark.granicus.com/videos/245/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 246,
+      "video_url": "https://newark.granicus.com/videos/246",
+      "player_url": "https://newark.granicus.com/videos/246/player",
+      "captions_url": "https://newark.granicus.com/videos/246/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 247,
+      "video_url": "https://newark.granicus.com/videos/247",
+      "player_url": "https://newark.granicus.com/videos/247/player",
+      "captions_url": "https://newark.granicus.com/videos/247/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 248,
+      "video_url": "https://newark.granicus.com/videos/248",
+      "player_url": "https://newark.granicus.com/videos/248/player",
+      "captions_url": "https://newark.granicus.com/videos/248/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 249,
+      "video_url": "https://newark.granicus.com/videos/249",
+      "player_url": "https://newark.granicus.com/videos/249/player",
+      "captions_url": "https://newark.granicus.com/videos/249/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 250,
+      "video_url": "https://newark.granicus.com/videos/250",
+      "player_url": "https://newark.granicus.com/videos/250/player",
+      "captions_url": "https://newark.granicus.com/videos/250/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 251,
+      "video_url": "https://newark.granicus.com/videos/251",
+      "player_url": "https://newark.granicus.com/videos/251/player",
+      "captions_url": "https://newark.granicus.com/videos/251/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 252,
+      "video_url": "https://newark.granicus.com/videos/252",
+      "player_url": "https://newark.granicus.com/videos/252/player",
+      "captions_url": "https://newark.granicus.com/videos/252/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 253,
+      "video_url": "https://newark.granicus.com/videos/253",
+      "player_url": "https://newark.granicus.com/videos/253/player",
+      "captions_url": "https://newark.granicus.com/videos/253/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 254,
+      "video_url": "https://newark.granicus.com/videos/254",
+      "player_url": "https://newark.granicus.com/videos/254/player",
+      "captions_url": "https://newark.granicus.com/videos/254/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 255,
+      "video_url": "https://newark.granicus.com/videos/255",
+      "player_url": "https://newark.granicus.com/videos/255/player",
+      "captions_url": "https://newark.granicus.com/videos/255/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 256,
+      "video_url": "https://newark.granicus.com/videos/256",
+      "player_url": "https://newark.granicus.com/videos/256/player",
+      "captions_url": "https://newark.granicus.com/videos/256/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 257,
+      "video_url": "https://newark.granicus.com/videos/257",
+      "player_url": "https://newark.granicus.com/videos/257/player",
+      "captions_url": "https://newark.granicus.com/videos/257/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 258,
+      "video_url": "https://newark.granicus.com/videos/258",
+      "player_url": "https://newark.granicus.com/videos/258/player",
+      "captions_url": "https://newark.granicus.com/videos/258/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 259,
+      "video_url": "https://newark.granicus.com/videos/259",
+      "player_url": "https://newark.granicus.com/videos/259/player",
+      "captions_url": "https://newark.granicus.com/videos/259/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 260,
+      "video_url": "https://newark.granicus.com/videos/260",
+      "player_url": "https://newark.granicus.com/videos/260/player",
+      "captions_url": "https://newark.granicus.com/videos/260/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 261,
+      "video_url": "https://newark.granicus.com/videos/261",
+      "player_url": "https://newark.granicus.com/videos/261/player",
+      "captions_url": "https://newark.granicus.com/videos/261/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 262,
+      "video_url": "https://newark.granicus.com/videos/262",
+      "player_url": "https://newark.granicus.com/videos/262/player",
+      "captions_url": "https://newark.granicus.com/videos/262/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 263,
+      "video_url": "https://newark.granicus.com/videos/263",
+      "player_url": "https://newark.granicus.com/videos/263/player",
+      "captions_url": "https://newark.granicus.com/videos/263/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 264,
+      "video_url": "https://newark.granicus.com/videos/264",
+      "player_url": "https://newark.granicus.com/videos/264/player",
+      "captions_url": "https://newark.granicus.com/videos/264/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 265,
+      "video_url": "https://newark.granicus.com/videos/265",
+      "player_url": "https://newark.granicus.com/videos/265/player",
+      "captions_url": "https://newark.granicus.com/videos/265/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 266,
+      "video_url": "https://newark.granicus.com/videos/266",
+      "player_url": "https://newark.granicus.com/videos/266/player",
+      "captions_url": "https://newark.granicus.com/videos/266/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 267,
+      "video_url": "https://newark.granicus.com/videos/267",
+      "player_url": "https://newark.granicus.com/videos/267/player",
+      "captions_url": "https://newark.granicus.com/videos/267/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 268,
+      "video_url": "https://newark.granicus.com/videos/268",
+      "player_url": "https://newark.granicus.com/videos/268/player",
+      "captions_url": "https://newark.granicus.com/videos/268/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 269,
+      "video_url": "https://newark.granicus.com/videos/269",
+      "player_url": "https://newark.granicus.com/videos/269/player",
+      "captions_url": "https://newark.granicus.com/videos/269/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 270,
+      "video_url": "https://newark.granicus.com/videos/270",
+      "player_url": "https://newark.granicus.com/videos/270/player",
+      "captions_url": "https://newark.granicus.com/videos/270/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 271,
+      "video_url": "https://newark.granicus.com/videos/271",
+      "player_url": "https://newark.granicus.com/videos/271/player",
+      "captions_url": "https://newark.granicus.com/videos/271/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 273,
+      "video_url": "https://newark.granicus.com/videos/273",
+      "player_url": "https://newark.granicus.com/videos/273/player",
+      "captions_url": "https://newark.granicus.com/videos/273/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 274,
+      "video_url": "https://newark.granicus.com/videos/274",
+      "player_url": "https://newark.granicus.com/videos/274/player",
+      "captions_url": "https://newark.granicus.com/videos/274/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 275,
+      "video_url": "https://newark.granicus.com/videos/275",
+      "player_url": "https://newark.granicus.com/videos/275/player",
+      "captions_url": "https://newark.granicus.com/videos/275/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 276,
+      "video_url": "https://newark.granicus.com/videos/276",
+      "player_url": "https://newark.granicus.com/videos/276/player",
+      "captions_url": "https://newark.granicus.com/videos/276/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 277,
+      "video_url": "https://newark.granicus.com/videos/277",
+      "player_url": "https://newark.granicus.com/videos/277/player",
+      "captions_url": "https://newark.granicus.com/videos/277/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 278,
+      "video_url": "https://newark.granicus.com/videos/278",
+      "player_url": "https://newark.granicus.com/videos/278/player",
+      "captions_url": "https://newark.granicus.com/videos/278/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 279,
+      "video_url": "https://newark.granicus.com/videos/279",
+      "player_url": "https://newark.granicus.com/videos/279/player",
+      "captions_url": "https://newark.granicus.com/videos/279/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 280,
+      "video_url": "https://newark.granicus.com/videos/280",
+      "player_url": "https://newark.granicus.com/videos/280/player",
+      "captions_url": "https://newark.granicus.com/videos/280/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 281,
+      "video_url": "https://newark.granicus.com/videos/281",
+      "player_url": "https://newark.granicus.com/videos/281/player",
+      "captions_url": "https://newark.granicus.com/videos/281/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 282,
+      "video_url": "https://newark.granicus.com/videos/282",
+      "player_url": "https://newark.granicus.com/videos/282/player",
+      "captions_url": "https://newark.granicus.com/videos/282/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 283,
+      "video_url": "https://newark.granicus.com/videos/283",
+      "player_url": "https://newark.granicus.com/videos/283/player",
+      "captions_url": "https://newark.granicus.com/videos/283/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 284,
+      "video_url": "https://newark.granicus.com/videos/284",
+      "player_url": "https://newark.granicus.com/videos/284/player",
+      "captions_url": "https://newark.granicus.com/videos/284/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 285,
+      "video_url": "https://newark.granicus.com/videos/285",
+      "player_url": "https://newark.granicus.com/videos/285/player",
+      "captions_url": "https://newark.granicus.com/videos/285/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 286,
+      "video_url": "https://newark.granicus.com/videos/286",
+      "player_url": "https://newark.granicus.com/videos/286/player",
+      "captions_url": "https://newark.granicus.com/videos/286/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 287,
+      "video_url": "https://newark.granicus.com/videos/287",
+      "player_url": "https://newark.granicus.com/videos/287/player",
+      "captions_url": "https://newark.granicus.com/videos/287/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 288,
+      "video_url": "https://newark.granicus.com/videos/288",
+      "player_url": "https://newark.granicus.com/videos/288/player",
+      "captions_url": "https://newark.granicus.com/videos/288/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 289,
+      "video_url": "https://newark.granicus.com/videos/289",
+      "player_url": "https://newark.granicus.com/videos/289/player",
+      "captions_url": "https://newark.granicus.com/videos/289/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 290,
+      "video_url": "https://newark.granicus.com/videos/290",
+      "player_url": "https://newark.granicus.com/videos/290/player",
+      "captions_url": "https://newark.granicus.com/videos/290/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 291,
+      "video_url": "https://newark.granicus.com/videos/291",
+      "player_url": "https://newark.granicus.com/videos/291/player",
+      "captions_url": "https://newark.granicus.com/videos/291/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 292,
+      "video_url": "https://newark.granicus.com/videos/292",
+      "player_url": "https://newark.granicus.com/videos/292/player",
+      "captions_url": "https://newark.granicus.com/videos/292/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 293,
+      "video_url": "https://newark.granicus.com/videos/293",
+      "player_url": "https://newark.granicus.com/videos/293/player",
+      "captions_url": "https://newark.granicus.com/videos/293/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 294,
+      "video_url": "https://newark.granicus.com/videos/294",
+      "player_url": "https://newark.granicus.com/videos/294/player",
+      "captions_url": "https://newark.granicus.com/videos/294/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 295,
+      "video_url": "https://newark.granicus.com/videos/295",
+      "player_url": "https://newark.granicus.com/videos/295/player",
+      "captions_url": "https://newark.granicus.com/videos/295/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 296,
+      "video_url": "https://newark.granicus.com/videos/296",
+      "player_url": "https://newark.granicus.com/videos/296/player",
+      "captions_url": "https://newark.granicus.com/videos/296/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 297,
+      "video_url": "https://newark.granicus.com/videos/297",
+      "player_url": "https://newark.granicus.com/videos/297/player",
+      "captions_url": "https://newark.granicus.com/videos/297/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 298,
+      "video_url": "https://newark.granicus.com/videos/298",
+      "player_url": "https://newark.granicus.com/videos/298/player",
+      "captions_url": "https://newark.granicus.com/videos/298/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 299,
+      "video_url": "https://newark.granicus.com/videos/299",
+      "player_url": "https://newark.granicus.com/videos/299/player",
+      "captions_url": "https://newark.granicus.com/videos/299/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 300,
+      "video_url": "https://newark.granicus.com/videos/300",
+      "player_url": "https://newark.granicus.com/videos/300/player",
+      "captions_url": "https://newark.granicus.com/videos/300/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 305,
+      "video_url": "https://newark.granicus.com/videos/305",
+      "player_url": "https://newark.granicus.com/videos/305/player",
+      "captions_url": "https://newark.granicus.com/videos/305/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 306,
+      "video_url": "https://newark.granicus.com/videos/306",
+      "player_url": "https://newark.granicus.com/videos/306/player",
+      "captions_url": "https://newark.granicus.com/videos/306/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 307,
+      "video_url": "https://newark.granicus.com/videos/307",
+      "player_url": "https://newark.granicus.com/videos/307/player",
+      "captions_url": "https://newark.granicus.com/videos/307/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 308,
+      "video_url": "https://newark.granicus.com/videos/308",
+      "player_url": "https://newark.granicus.com/videos/308/player",
+      "captions_url": "https://newark.granicus.com/videos/308/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 309,
+      "video_url": "https://newark.granicus.com/videos/309",
+      "player_url": "https://newark.granicus.com/videos/309/player",
+      "captions_url": "https://newark.granicus.com/videos/309/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 314,
+      "video_url": "https://newark.granicus.com/videos/314",
+      "player_url": "https://newark.granicus.com/videos/314/player",
+      "captions_url": "https://newark.granicus.com/videos/314/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 315,
+      "video_url": "https://newark.granicus.com/videos/315",
+      "player_url": "https://newark.granicus.com/videos/315/player",
+      "captions_url": "https://newark.granicus.com/videos/315/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 316,
+      "video_url": "https://newark.granicus.com/videos/316",
+      "player_url": "https://newark.granicus.com/videos/316/player",
+      "captions_url": "https://newark.granicus.com/videos/316/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 317,
+      "video_url": "https://newark.granicus.com/videos/317",
+      "player_url": "https://newark.granicus.com/videos/317/player",
+      "captions_url": "https://newark.granicus.com/videos/317/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 318,
+      "video_url": "https://newark.granicus.com/videos/318",
+      "player_url": "https://newark.granicus.com/videos/318/player",
+      "captions_url": "https://newark.granicus.com/videos/318/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 319,
+      "video_url": "https://newark.granicus.com/videos/319",
+      "player_url": "https://newark.granicus.com/videos/319/player",
+      "captions_url": "https://newark.granicus.com/videos/319/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 320,
+      "video_url": "https://newark.granicus.com/videos/320",
+      "player_url": "https://newark.granicus.com/videos/320/player",
+      "captions_url": "https://newark.granicus.com/videos/320/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 321,
+      "video_url": "https://newark.granicus.com/videos/321",
+      "player_url": "https://newark.granicus.com/videos/321/player",
+      "captions_url": "https://newark.granicus.com/videos/321/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 322,
+      "video_url": "https://newark.granicus.com/videos/322",
+      "player_url": "https://newark.granicus.com/videos/322/player",
+      "captions_url": "https://newark.granicus.com/videos/322/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 331,
+      "video_url": "https://newark.granicus.com/videos/331",
+      "player_url": "https://newark.granicus.com/videos/331/player",
+      "captions_url": "https://newark.granicus.com/videos/331/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 332,
+      "video_url": "https://newark.granicus.com/videos/332",
+      "player_url": "https://newark.granicus.com/videos/332/player",
+      "captions_url": "https://newark.granicus.com/videos/332/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 333,
+      "video_url": "https://newark.granicus.com/videos/333",
+      "player_url": "https://newark.granicus.com/videos/333/player",
+      "captions_url": "https://newark.granicus.com/videos/333/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 335,
+      "video_url": "https://newark.granicus.com/videos/335",
+      "player_url": "https://newark.granicus.com/videos/335/player",
+      "captions_url": "https://newark.granicus.com/videos/335/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 337,
+      "video_url": "https://newark.granicus.com/videos/337",
+      "player_url": "https://newark.granicus.com/videos/337/player",
+      "captions_url": "https://newark.granicus.com/videos/337/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 339,
+      "video_url": "https://newark.granicus.com/videos/339",
+      "player_url": "https://newark.granicus.com/videos/339/player",
+      "captions_url": "https://newark.granicus.com/videos/339/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 340,
+      "video_url": "https://newark.granicus.com/videos/340",
+      "player_url": "https://newark.granicus.com/videos/340/player",
+      "captions_url": "https://newark.granicus.com/videos/340/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 341,
+      "video_url": "https://newark.granicus.com/videos/341",
+      "player_url": "https://newark.granicus.com/videos/341/player",
+      "captions_url": "https://newark.granicus.com/videos/341/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 342,
+      "video_url": "https://newark.granicus.com/videos/342",
+      "player_url": "https://newark.granicus.com/videos/342/player",
+      "captions_url": "https://newark.granicus.com/videos/342/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 343,
+      "video_url": "https://newark.granicus.com/videos/343",
+      "player_url": "https://newark.granicus.com/videos/343/player",
+      "captions_url": "https://newark.granicus.com/videos/343/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 344,
+      "video_url": "https://newark.granicus.com/videos/344",
+      "player_url": "https://newark.granicus.com/videos/344/player",
+      "captions_url": "https://newark.granicus.com/videos/344/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 345,
+      "video_url": "https://newark.granicus.com/videos/345",
+      "player_url": "https://newark.granicus.com/videos/345/player",
+      "captions_url": "https://newark.granicus.com/videos/345/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 346,
+      "video_url": "https://newark.granicus.com/videos/346",
+      "player_url": "https://newark.granicus.com/videos/346/player",
+      "captions_url": "https://newark.granicus.com/videos/346/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 347,
+      "video_url": "https://newark.granicus.com/videos/347",
+      "player_url": "https://newark.granicus.com/videos/347/player",
+      "captions_url": "https://newark.granicus.com/videos/347/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 349,
+      "video_url": "https://newark.granicus.com/videos/349",
+      "player_url": "https://newark.granicus.com/videos/349/player",
+      "captions_url": "https://newark.granicus.com/videos/349/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 350,
+      "video_url": "https://newark.granicus.com/videos/350",
+      "player_url": "https://newark.granicus.com/videos/350/player",
+      "captions_url": "https://newark.granicus.com/videos/350/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 351,
+      "video_url": "https://newark.granicus.com/videos/351",
+      "player_url": "https://newark.granicus.com/videos/351/player",
+      "captions_url": "https://newark.granicus.com/videos/351/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 352,
+      "video_url": "https://newark.granicus.com/videos/352",
+      "player_url": "https://newark.granicus.com/videos/352/player",
+      "captions_url": "https://newark.granicus.com/videos/352/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 353,
+      "video_url": "https://newark.granicus.com/videos/353",
+      "player_url": "https://newark.granicus.com/videos/353/player",
+      "captions_url": "https://newark.granicus.com/videos/353/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 354,
+      "video_url": "https://newark.granicus.com/videos/354",
+      "player_url": "https://newark.granicus.com/videos/354/player",
+      "captions_url": "https://newark.granicus.com/videos/354/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 355,
+      "video_url": "https://newark.granicus.com/videos/355",
+      "player_url": "https://newark.granicus.com/videos/355/player",
+      "captions_url": "https://newark.granicus.com/videos/355/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 356,
+      "video_url": "https://newark.granicus.com/videos/356",
+      "player_url": "https://newark.granicus.com/videos/356/player",
+      "captions_url": "https://newark.granicus.com/videos/356/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 357,
+      "video_url": "https://newark.granicus.com/videos/357",
+      "player_url": "https://newark.granicus.com/videos/357/player",
+      "captions_url": "https://newark.granicus.com/videos/357/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 358,
+      "video_url": "https://newark.granicus.com/videos/358",
+      "player_url": "https://newark.granicus.com/videos/358/player",
+      "captions_url": "https://newark.granicus.com/videos/358/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 359,
+      "video_url": "https://newark.granicus.com/videos/359",
+      "player_url": "https://newark.granicus.com/videos/359/player",
+      "captions_url": "https://newark.granicus.com/videos/359/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 360,
+      "video_url": "https://newark.granicus.com/videos/360",
+      "player_url": "https://newark.granicus.com/videos/360/player",
+      "captions_url": "https://newark.granicus.com/videos/360/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 361,
+      "video_url": "https://newark.granicus.com/videos/361",
+      "player_url": "https://newark.granicus.com/videos/361/player",
+      "captions_url": "https://newark.granicus.com/videos/361/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 362,
+      "video_url": "https://newark.granicus.com/videos/362",
+      "player_url": "https://newark.granicus.com/videos/362/player",
+      "captions_url": "https://newark.granicus.com/videos/362/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 363,
+      "video_url": "https://newark.granicus.com/videos/363",
+      "player_url": "https://newark.granicus.com/videos/363/player",
+      "captions_url": "https://newark.granicus.com/videos/363/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 364,
+      "video_url": "https://newark.granicus.com/videos/364",
+      "player_url": "https://newark.granicus.com/videos/364/player",
+      "captions_url": "https://newark.granicus.com/videos/364/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 365,
+      "video_url": "https://newark.granicus.com/videos/365",
+      "player_url": "https://newark.granicus.com/videos/365/player",
+      "captions_url": "https://newark.granicus.com/videos/365/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 366,
+      "video_url": "https://newark.granicus.com/videos/366",
+      "player_url": "https://newark.granicus.com/videos/366/player",
+      "captions_url": "https://newark.granicus.com/videos/366/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 367,
+      "video_url": "https://newark.granicus.com/videos/367",
+      "player_url": "https://newark.granicus.com/videos/367/player",
+      "captions_url": "https://newark.granicus.com/videos/367/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 368,
+      "video_url": "https://newark.granicus.com/videos/368",
+      "player_url": "https://newark.granicus.com/videos/368/player",
+      "captions_url": "https://newark.granicus.com/videos/368/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 369,
+      "video_url": "https://newark.granicus.com/videos/369",
+      "player_url": "https://newark.granicus.com/videos/369/player",
+      "captions_url": "https://newark.granicus.com/videos/369/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 370,
+      "video_url": "https://newark.granicus.com/videos/370",
+      "player_url": "https://newark.granicus.com/videos/370/player",
+      "captions_url": "https://newark.granicus.com/videos/370/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 371,
+      "video_url": "https://newark.granicus.com/videos/371",
+      "player_url": "https://newark.granicus.com/videos/371/player",
+      "captions_url": "https://newark.granicus.com/videos/371/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 372,
+      "video_url": "https://newark.granicus.com/videos/372",
+      "player_url": "https://newark.granicus.com/videos/372/player",
+      "captions_url": "https://newark.granicus.com/videos/372/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 373,
+      "video_url": "https://newark.granicus.com/videos/373",
+      "player_url": "https://newark.granicus.com/videos/373/player",
+      "captions_url": "https://newark.granicus.com/videos/373/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 374,
+      "video_url": "https://newark.granicus.com/videos/374",
+      "player_url": "https://newark.granicus.com/videos/374/player",
+      "captions_url": "https://newark.granicus.com/videos/374/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 375,
+      "video_url": "https://newark.granicus.com/videos/375",
+      "player_url": "https://newark.granicus.com/videos/375/player",
+      "captions_url": "https://newark.granicus.com/videos/375/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 376,
+      "video_url": "https://newark.granicus.com/videos/376",
+      "player_url": "https://newark.granicus.com/videos/376/player",
+      "captions_url": "https://newark.granicus.com/videos/376/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 377,
+      "video_url": "https://newark.granicus.com/videos/377",
+      "player_url": "https://newark.granicus.com/videos/377/player",
+      "captions_url": "https://newark.granicus.com/videos/377/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 378,
+      "video_url": "https://newark.granicus.com/videos/378",
+      "player_url": "https://newark.granicus.com/videos/378/player",
+      "captions_url": "https://newark.granicus.com/videos/378/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 379,
+      "video_url": "https://newark.granicus.com/videos/379",
+      "player_url": "https://newark.granicus.com/videos/379/player",
+      "captions_url": "https://newark.granicus.com/videos/379/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 380,
+      "video_url": "https://newark.granicus.com/videos/380",
+      "player_url": "https://newark.granicus.com/videos/380/player",
+      "captions_url": "https://newark.granicus.com/videos/380/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 381,
+      "video_url": "https://newark.granicus.com/videos/381",
+      "player_url": "https://newark.granicus.com/videos/381/player",
+      "captions_url": "https://newark.granicus.com/videos/381/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 382,
+      "video_url": "https://newark.granicus.com/videos/382",
+      "player_url": "https://newark.granicus.com/videos/382/player",
+      "captions_url": "https://newark.granicus.com/videos/382/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 383,
+      "video_url": "https://newark.granicus.com/videos/383",
+      "player_url": "https://newark.granicus.com/videos/383/player",
+      "captions_url": "https://newark.granicus.com/videos/383/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 384,
+      "video_url": "https://newark.granicus.com/videos/384",
+      "player_url": "https://newark.granicus.com/videos/384/player",
+      "captions_url": "https://newark.granicus.com/videos/384/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 385,
+      "video_url": "https://newark.granicus.com/videos/385",
+      "player_url": "https://newark.granicus.com/videos/385/player",
+      "captions_url": "https://newark.granicus.com/videos/385/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 386,
+      "video_url": "https://newark.granicus.com/videos/386",
+      "player_url": "https://newark.granicus.com/videos/386/player",
+      "captions_url": "https://newark.granicus.com/videos/386/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 387,
+      "video_url": "https://newark.granicus.com/videos/387",
+      "player_url": "https://newark.granicus.com/videos/387/player",
+      "captions_url": "https://newark.granicus.com/videos/387/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 388,
+      "video_url": "https://newark.granicus.com/videos/388",
+      "player_url": "https://newark.granicus.com/videos/388/player",
+      "captions_url": "https://newark.granicus.com/videos/388/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 389,
+      "video_url": "https://newark.granicus.com/videos/389",
+      "player_url": "https://newark.granicus.com/videos/389/player",
+      "captions_url": "https://newark.granicus.com/videos/389/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 390,
+      "video_url": "https://newark.granicus.com/videos/390",
+      "player_url": "https://newark.granicus.com/videos/390/player",
+      "captions_url": "https://newark.granicus.com/videos/390/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 391,
+      "video_url": "https://newark.granicus.com/videos/391",
+      "player_url": "https://newark.granicus.com/videos/391/player",
+      "captions_url": "https://newark.granicus.com/videos/391/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 392,
+      "video_url": "https://newark.granicus.com/videos/392",
+      "player_url": "https://newark.granicus.com/videos/392/player",
+      "captions_url": "https://newark.granicus.com/videos/392/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 393,
+      "video_url": "https://newark.granicus.com/videos/393",
+      "player_url": "https://newark.granicus.com/videos/393/player",
+      "captions_url": "https://newark.granicus.com/videos/393/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 394,
+      "video_url": "https://newark.granicus.com/videos/394",
+      "player_url": "https://newark.granicus.com/videos/394/player",
+      "captions_url": "https://newark.granicus.com/videos/394/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 395,
+      "video_url": "https://newark.granicus.com/videos/395",
+      "player_url": "https://newark.granicus.com/videos/395/player",
+      "captions_url": "https://newark.granicus.com/videos/395/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 396,
+      "video_url": "https://newark.granicus.com/videos/396",
+      "player_url": "https://newark.granicus.com/videos/396/player",
+      "captions_url": "https://newark.granicus.com/videos/396/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 397,
+      "video_url": "https://newark.granicus.com/videos/397",
+      "player_url": "https://newark.granicus.com/videos/397/player",
+      "captions_url": "https://newark.granicus.com/videos/397/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 398,
+      "video_url": "https://newark.granicus.com/videos/398",
+      "player_url": "https://newark.granicus.com/videos/398/player",
+      "captions_url": "https://newark.granicus.com/videos/398/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 399,
+      "video_url": "https://newark.granicus.com/videos/399",
+      "player_url": "https://newark.granicus.com/videos/399/player",
+      "captions_url": "https://newark.granicus.com/videos/399/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 400,
+      "video_url": "https://newark.granicus.com/videos/400",
+      "player_url": "https://newark.granicus.com/videos/400/player",
+      "captions_url": "https://newark.granicus.com/videos/400/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 401,
+      "video_url": "https://newark.granicus.com/videos/401",
+      "player_url": "https://newark.granicus.com/videos/401/player",
+      "captions_url": "https://newark.granicus.com/videos/401/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 402,
+      "video_url": "https://newark.granicus.com/videos/402",
+      "player_url": "https://newark.granicus.com/videos/402/player",
+      "captions_url": "https://newark.granicus.com/videos/402/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 403,
+      "video_url": "https://newark.granicus.com/videos/403",
+      "player_url": "https://newark.granicus.com/videos/403/player",
+      "captions_url": "https://newark.granicus.com/videos/403/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 404,
+      "video_url": "https://newark.granicus.com/videos/404",
+      "player_url": "https://newark.granicus.com/videos/404/player",
+      "captions_url": "https://newark.granicus.com/videos/404/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 405,
+      "video_url": "https://newark.granicus.com/videos/405",
+      "player_url": "https://newark.granicus.com/videos/405/player",
+      "captions_url": "https://newark.granicus.com/videos/405/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 406,
+      "video_url": "https://newark.granicus.com/videos/406",
+      "player_url": "https://newark.granicus.com/videos/406/player",
+      "captions_url": "https://newark.granicus.com/videos/406/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 407,
+      "video_url": "https://newark.granicus.com/videos/407",
+      "player_url": "https://newark.granicus.com/videos/407/player",
+      "captions_url": "https://newark.granicus.com/videos/407/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 408,
+      "video_url": "https://newark.granicus.com/videos/408",
+      "player_url": "https://newark.granicus.com/videos/408/player",
+      "captions_url": "https://newark.granicus.com/videos/408/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 409,
+      "video_url": "https://newark.granicus.com/videos/409",
+      "player_url": "https://newark.granicus.com/videos/409/player",
+      "captions_url": "https://newark.granicus.com/videos/409/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 410,
+      "video_url": "https://newark.granicus.com/videos/410",
+      "player_url": "https://newark.granicus.com/videos/410/player",
+      "captions_url": "https://newark.granicus.com/videos/410/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 411,
+      "video_url": "https://newark.granicus.com/videos/411",
+      "player_url": "https://newark.granicus.com/videos/411/player",
+      "captions_url": "https://newark.granicus.com/videos/411/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 412,
+      "video_url": "https://newark.granicus.com/videos/412",
+      "player_url": "https://newark.granicus.com/videos/412/player",
+      "captions_url": "https://newark.granicus.com/videos/412/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 413,
+      "video_url": "https://newark.granicus.com/videos/413",
+      "player_url": "https://newark.granicus.com/videos/413/player",
+      "captions_url": "https://newark.granicus.com/videos/413/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 414,
+      "video_url": "https://newark.granicus.com/videos/414",
+      "player_url": "https://newark.granicus.com/videos/414/player",
+      "captions_url": "https://newark.granicus.com/videos/414/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 415,
+      "video_url": "https://newark.granicus.com/videos/415",
+      "player_url": "https://newark.granicus.com/videos/415/player",
+      "captions_url": "https://newark.granicus.com/videos/415/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 416,
+      "video_url": "https://newark.granicus.com/videos/416",
+      "player_url": "https://newark.granicus.com/videos/416/player",
+      "captions_url": "https://newark.granicus.com/videos/416/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 417,
+      "video_url": "https://newark.granicus.com/videos/417",
+      "player_url": "https://newark.granicus.com/videos/417/player",
+      "captions_url": "https://newark.granicus.com/videos/417/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 418,
+      "video_url": "https://newark.granicus.com/videos/418",
+      "player_url": "https://newark.granicus.com/videos/418/player",
+      "captions_url": "https://newark.granicus.com/videos/418/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 419,
+      "video_url": "https://newark.granicus.com/videos/419",
+      "player_url": "https://newark.granicus.com/videos/419/player",
+      "captions_url": "https://newark.granicus.com/videos/419/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 420,
+      "video_url": "https://newark.granicus.com/videos/420",
+      "player_url": "https://newark.granicus.com/videos/420/player",
+      "captions_url": "https://newark.granicus.com/videos/420/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 421,
+      "video_url": "https://newark.granicus.com/videos/421",
+      "player_url": "https://newark.granicus.com/videos/421/player",
+      "captions_url": "https://newark.granicus.com/videos/421/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 422,
+      "video_url": "https://newark.granicus.com/videos/422",
+      "player_url": "https://newark.granicus.com/videos/422/player",
+      "captions_url": "https://newark.granicus.com/videos/422/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 423,
+      "video_url": "https://newark.granicus.com/videos/423",
+      "player_url": "https://newark.granicus.com/videos/423/player",
+      "captions_url": "https://newark.granicus.com/videos/423/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 424,
+      "video_url": "https://newark.granicus.com/videos/424",
+      "player_url": "https://newark.granicus.com/videos/424/player",
+      "captions_url": "https://newark.granicus.com/videos/424/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 425,
+      "video_url": "https://newark.granicus.com/videos/425",
+      "player_url": "https://newark.granicus.com/videos/425/player",
+      "captions_url": "https://newark.granicus.com/videos/425/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 426,
+      "video_url": "https://newark.granicus.com/videos/426",
+      "player_url": "https://newark.granicus.com/videos/426/player",
+      "captions_url": "https://newark.granicus.com/videos/426/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 427,
+      "video_url": "https://newark.granicus.com/videos/427",
+      "player_url": "https://newark.granicus.com/videos/427/player",
+      "captions_url": "https://newark.granicus.com/videos/427/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 428,
+      "video_url": "https://newark.granicus.com/videos/428",
+      "player_url": "https://newark.granicus.com/videos/428/player",
+      "captions_url": "https://newark.granicus.com/videos/428/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 429,
+      "video_url": "https://newark.granicus.com/videos/429",
+      "player_url": "https://newark.granicus.com/videos/429/player",
+      "captions_url": "https://newark.granicus.com/videos/429/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 430,
+      "video_url": "https://newark.granicus.com/videos/430",
+      "player_url": "https://newark.granicus.com/videos/430/player",
+      "captions_url": "https://newark.granicus.com/videos/430/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 431,
+      "video_url": "https://newark.granicus.com/videos/431",
+      "player_url": "https://newark.granicus.com/videos/431/player",
+      "captions_url": "https://newark.granicus.com/videos/431/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 432,
+      "video_url": "https://newark.granicus.com/videos/432",
+      "player_url": "https://newark.granicus.com/videos/432/player",
+      "captions_url": "https://newark.granicus.com/videos/432/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 433,
+      "video_url": "https://newark.granicus.com/videos/433",
+      "player_url": "https://newark.granicus.com/videos/433/player",
+      "captions_url": "https://newark.granicus.com/videos/433/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 434,
+      "video_url": "https://newark.granicus.com/videos/434",
+      "player_url": "https://newark.granicus.com/videos/434/player",
+      "captions_url": "https://newark.granicus.com/videos/434/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 435,
+      "video_url": "https://newark.granicus.com/videos/435",
+      "player_url": "https://newark.granicus.com/videos/435/player",
+      "captions_url": "https://newark.granicus.com/videos/435/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 436,
+      "video_url": "https://newark.granicus.com/videos/436",
+      "player_url": "https://newark.granicus.com/videos/436/player",
+      "captions_url": "https://newark.granicus.com/videos/436/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 437,
+      "video_url": "https://newark.granicus.com/videos/437",
+      "player_url": "https://newark.granicus.com/videos/437/player",
+      "captions_url": "https://newark.granicus.com/videos/437/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 438,
+      "video_url": "https://newark.granicus.com/videos/438",
+      "player_url": "https://newark.granicus.com/videos/438/player",
+      "captions_url": "https://newark.granicus.com/videos/438/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 439,
+      "video_url": "https://newark.granicus.com/videos/439",
+      "player_url": "https://newark.granicus.com/videos/439/player",
+      "captions_url": "https://newark.granicus.com/videos/439/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 440,
+      "video_url": "https://newark.granicus.com/videos/440",
+      "player_url": "https://newark.granicus.com/videos/440/player",
+      "captions_url": "https://newark.granicus.com/videos/440/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 441,
+      "video_url": "https://newark.granicus.com/videos/441",
+      "player_url": "https://newark.granicus.com/videos/441/player",
+      "captions_url": "https://newark.granicus.com/videos/441/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 442,
+      "video_url": "https://newark.granicus.com/videos/442",
+      "player_url": "https://newark.granicus.com/videos/442/player",
+      "captions_url": "https://newark.granicus.com/videos/442/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 443,
+      "video_url": "https://newark.granicus.com/videos/443",
+      "player_url": "https://newark.granicus.com/videos/443/player",
+      "captions_url": "https://newark.granicus.com/videos/443/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 444,
+      "video_url": "https://newark.granicus.com/videos/444",
+      "player_url": "https://newark.granicus.com/videos/444/player",
+      "captions_url": "https://newark.granicus.com/videos/444/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 445,
+      "video_url": "https://newark.granicus.com/videos/445",
+      "player_url": "https://newark.granicus.com/videos/445/player",
+      "captions_url": "https://newark.granicus.com/videos/445/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 446,
+      "video_url": "https://newark.granicus.com/videos/446",
+      "player_url": "https://newark.granicus.com/videos/446/player",
+      "captions_url": "https://newark.granicus.com/videos/446/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 447,
+      "video_url": "https://newark.granicus.com/videos/447",
+      "player_url": "https://newark.granicus.com/videos/447/player",
+      "captions_url": "https://newark.granicus.com/videos/447/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 448,
+      "video_url": "https://newark.granicus.com/videos/448",
+      "player_url": "https://newark.granicus.com/videos/448/player",
+      "captions_url": "https://newark.granicus.com/videos/448/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 449,
+      "video_url": "https://newark.granicus.com/videos/449",
+      "player_url": "https://newark.granicus.com/videos/449/player",
+      "captions_url": "https://newark.granicus.com/videos/449/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 450,
+      "video_url": "https://newark.granicus.com/videos/450",
+      "player_url": "https://newark.granicus.com/videos/450/player",
+      "captions_url": "https://newark.granicus.com/videos/450/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 451,
+      "video_url": "https://newark.granicus.com/videos/451",
+      "player_url": "https://newark.granicus.com/videos/451/player",
+      "captions_url": "https://newark.granicus.com/videos/451/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 452,
+      "video_url": "https://newark.granicus.com/videos/452",
+      "player_url": "https://newark.granicus.com/videos/452/player",
+      "captions_url": "https://newark.granicus.com/videos/452/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 453,
+      "video_url": "https://newark.granicus.com/videos/453",
+      "player_url": "https://newark.granicus.com/videos/453/player",
+      "captions_url": "https://newark.granicus.com/videos/453/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 454,
+      "video_url": "https://newark.granicus.com/videos/454",
+      "player_url": "https://newark.granicus.com/videos/454/player",
+      "captions_url": "https://newark.granicus.com/videos/454/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 455,
+      "video_url": "https://newark.granicus.com/videos/455",
+      "player_url": "https://newark.granicus.com/videos/455/player",
+      "captions_url": "https://newark.granicus.com/videos/455/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 456,
+      "video_url": "https://newark.granicus.com/videos/456",
+      "player_url": "https://newark.granicus.com/videos/456/player",
+      "captions_url": "https://newark.granicus.com/videos/456/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 457,
+      "video_url": "https://newark.granicus.com/videos/457",
+      "player_url": "https://newark.granicus.com/videos/457/player",
+      "captions_url": "https://newark.granicus.com/videos/457/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 458,
+      "video_url": "https://newark.granicus.com/videos/458",
+      "player_url": "https://newark.granicus.com/videos/458/player",
+      "captions_url": "https://newark.granicus.com/videos/458/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 459,
+      "video_url": "https://newark.granicus.com/videos/459",
+      "player_url": "https://newark.granicus.com/videos/459/player",
+      "captions_url": "https://newark.granicus.com/videos/459/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 460,
+      "video_url": "https://newark.granicus.com/videos/460",
+      "player_url": "https://newark.granicus.com/videos/460/player",
+      "captions_url": "https://newark.granicus.com/videos/460/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 461,
+      "video_url": "https://newark.granicus.com/videos/461",
+      "player_url": "https://newark.granicus.com/videos/461/player",
+      "captions_url": "https://newark.granicus.com/videos/461/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 462,
+      "video_url": "https://newark.granicus.com/videos/462",
+      "player_url": "https://newark.granicus.com/videos/462/player",
+      "captions_url": "https://newark.granicus.com/videos/462/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 463,
+      "video_url": "https://newark.granicus.com/videos/463",
+      "player_url": "https://newark.granicus.com/videos/463/player",
+      "captions_url": "https://newark.granicus.com/videos/463/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 464,
+      "video_url": "https://newark.granicus.com/videos/464",
+      "player_url": "https://newark.granicus.com/videos/464/player",
+      "captions_url": "https://newark.granicus.com/videos/464/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 465,
+      "video_url": "https://newark.granicus.com/videos/465",
+      "player_url": "https://newark.granicus.com/videos/465/player",
+      "captions_url": "https://newark.granicus.com/videos/465/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 466,
+      "video_url": "https://newark.granicus.com/videos/466",
+      "player_url": "https://newark.granicus.com/videos/466/player",
+      "captions_url": "https://newark.granicus.com/videos/466/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 467,
+      "video_url": "https://newark.granicus.com/videos/467",
+      "player_url": "https://newark.granicus.com/videos/467/player",
+      "captions_url": "https://newark.granicus.com/videos/467/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 468,
+      "video_url": "https://newark.granicus.com/videos/468",
+      "player_url": "https://newark.granicus.com/videos/468/player",
+      "captions_url": "https://newark.granicus.com/videos/468/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 469,
+      "video_url": "https://newark.granicus.com/videos/469",
+      "player_url": "https://newark.granicus.com/videos/469/player",
+      "captions_url": "https://newark.granicus.com/videos/469/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 470,
+      "video_url": "https://newark.granicus.com/videos/470",
+      "player_url": "https://newark.granicus.com/videos/470/player",
+      "captions_url": "https://newark.granicus.com/videos/470/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 471,
+      "video_url": "https://newark.granicus.com/videos/471",
+      "player_url": "https://newark.granicus.com/videos/471/player",
+      "captions_url": "https://newark.granicus.com/videos/471/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 472,
+      "video_url": "https://newark.granicus.com/videos/472",
+      "player_url": "https://newark.granicus.com/videos/472/player",
+      "captions_url": "https://newark.granicus.com/videos/472/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 473,
+      "video_url": "https://newark.granicus.com/videos/473",
+      "player_url": "https://newark.granicus.com/videos/473/player",
+      "captions_url": "https://newark.granicus.com/videos/473/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 474,
+      "video_url": "https://newark.granicus.com/videos/474",
+      "player_url": "https://newark.granicus.com/videos/474/player",
+      "captions_url": "https://newark.granicus.com/videos/474/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 475,
+      "video_url": "https://newark.granicus.com/videos/475",
+      "player_url": "https://newark.granicus.com/videos/475/player",
+      "captions_url": "https://newark.granicus.com/videos/475/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 476,
+      "video_url": "https://newark.granicus.com/videos/476",
+      "player_url": "https://newark.granicus.com/videos/476/player",
+      "captions_url": "https://newark.granicus.com/videos/476/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 477,
+      "video_url": "https://newark.granicus.com/videos/477",
+      "player_url": "https://newark.granicus.com/videos/477/player",
+      "captions_url": "https://newark.granicus.com/videos/477/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 478,
+      "video_url": "https://newark.granicus.com/videos/478",
+      "player_url": "https://newark.granicus.com/videos/478/player",
+      "captions_url": "https://newark.granicus.com/videos/478/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 479,
+      "video_url": "https://newark.granicus.com/videos/479",
+      "player_url": "https://newark.granicus.com/videos/479/player",
+      "captions_url": "https://newark.granicus.com/videos/479/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 480,
+      "video_url": "https://newark.granicus.com/videos/480",
+      "player_url": "https://newark.granicus.com/videos/480/player",
+      "captions_url": "https://newark.granicus.com/videos/480/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 482,
+      "video_url": "https://newark.granicus.com/videos/482",
+      "player_url": "https://newark.granicus.com/videos/482/player",
+      "captions_url": "https://newark.granicus.com/videos/482/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 483,
+      "video_url": "https://newark.granicus.com/videos/483",
+      "player_url": "https://newark.granicus.com/videos/483/player",
+      "captions_url": "https://newark.granicus.com/videos/483/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 484,
+      "video_url": "https://newark.granicus.com/videos/484",
+      "player_url": "https://newark.granicus.com/videos/484/player",
+      "captions_url": "https://newark.granicus.com/videos/484/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 485,
+      "video_url": "https://newark.granicus.com/videos/485",
+      "player_url": "https://newark.granicus.com/videos/485/player",
+      "captions_url": "https://newark.granicus.com/videos/485/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 486,
+      "video_url": "https://newark.granicus.com/videos/486",
+      "player_url": "https://newark.granicus.com/videos/486/player",
+      "captions_url": "https://newark.granicus.com/videos/486/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 487,
+      "video_url": "https://newark.granicus.com/videos/487",
+      "player_url": "https://newark.granicus.com/videos/487/player",
+      "captions_url": "https://newark.granicus.com/videos/487/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 488,
+      "video_url": "https://newark.granicus.com/videos/488",
+      "player_url": "https://newark.granicus.com/videos/488/player",
+      "captions_url": "https://newark.granicus.com/videos/488/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 489,
+      "video_url": "https://newark.granicus.com/videos/489",
+      "player_url": "https://newark.granicus.com/videos/489/player",
+      "captions_url": "https://newark.granicus.com/videos/489/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 490,
+      "video_url": "https://newark.granicus.com/videos/490",
+      "player_url": "https://newark.granicus.com/videos/490/player",
+      "captions_url": "https://newark.granicus.com/videos/490/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 491,
+      "video_url": "https://newark.granicus.com/videos/491",
+      "player_url": "https://newark.granicus.com/videos/491/player",
+      "captions_url": "https://newark.granicus.com/videos/491/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 492,
+      "video_url": "https://newark.granicus.com/videos/492",
+      "player_url": "https://newark.granicus.com/videos/492/player",
+      "captions_url": "https://newark.granicus.com/videos/492/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 493,
+      "video_url": "https://newark.granicus.com/videos/493",
+      "player_url": "https://newark.granicus.com/videos/493/player",
+      "captions_url": "https://newark.granicus.com/videos/493/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 494,
+      "video_url": "https://newark.granicus.com/videos/494",
+      "player_url": "https://newark.granicus.com/videos/494/player",
+      "captions_url": "https://newark.granicus.com/videos/494/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 495,
+      "video_url": "https://newark.granicus.com/videos/495",
+      "player_url": "https://newark.granicus.com/videos/495/player",
+      "captions_url": "https://newark.granicus.com/videos/495/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 496,
+      "video_url": "https://newark.granicus.com/videos/496",
+      "player_url": "https://newark.granicus.com/videos/496/player",
+      "captions_url": "https://newark.granicus.com/videos/496/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 497,
+      "video_url": "https://newark.granicus.com/videos/497",
+      "player_url": "https://newark.granicus.com/videos/497/player",
+      "captions_url": "https://newark.granicus.com/videos/497/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 498,
+      "video_url": "https://newark.granicus.com/videos/498",
+      "player_url": "https://newark.granicus.com/videos/498/player",
+      "captions_url": "https://newark.granicus.com/videos/498/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 499,
+      "video_url": "https://newark.granicus.com/videos/499",
+      "player_url": "https://newark.granicus.com/videos/499/player",
+      "captions_url": "https://newark.granicus.com/videos/499/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 500,
+      "video_url": "https://newark.granicus.com/videos/500",
+      "player_url": "https://newark.granicus.com/videos/500/player",
+      "captions_url": "https://newark.granicus.com/videos/500/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 501,
+      "video_url": "https://newark.granicus.com/videos/501",
+      "player_url": "https://newark.granicus.com/videos/501/player",
+      "captions_url": "https://newark.granicus.com/videos/501/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 502,
+      "video_url": "https://newark.granicus.com/videos/502",
+      "player_url": "https://newark.granicus.com/videos/502/player",
+      "captions_url": "https://newark.granicus.com/videos/502/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 503,
+      "video_url": "https://newark.granicus.com/videos/503",
+      "player_url": "https://newark.granicus.com/videos/503/player",
+      "captions_url": "https://newark.granicus.com/videos/503/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 504,
+      "video_url": "https://newark.granicus.com/videos/504",
+      "player_url": "https://newark.granicus.com/videos/504/player",
+      "captions_url": "https://newark.granicus.com/videos/504/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 505,
+      "video_url": "https://newark.granicus.com/videos/505",
+      "player_url": "https://newark.granicus.com/videos/505/player",
+      "captions_url": "https://newark.granicus.com/videos/505/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 506,
+      "video_url": "https://newark.granicus.com/videos/506",
+      "player_url": "https://newark.granicus.com/videos/506/player",
+      "captions_url": "https://newark.granicus.com/videos/506/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 507,
+      "video_url": "https://newark.granicus.com/videos/507",
+      "player_url": "https://newark.granicus.com/videos/507/player",
+      "captions_url": "https://newark.granicus.com/videos/507/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 508,
+      "video_url": "https://newark.granicus.com/videos/508",
+      "player_url": "https://newark.granicus.com/videos/508/player",
+      "captions_url": "https://newark.granicus.com/videos/508/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 509,
+      "video_url": "https://newark.granicus.com/videos/509",
+      "player_url": "https://newark.granicus.com/videos/509/player",
+      "captions_url": "https://newark.granicus.com/videos/509/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 510,
+      "video_url": "https://newark.granicus.com/videos/510",
+      "player_url": "https://newark.granicus.com/videos/510/player",
+      "captions_url": "https://newark.granicus.com/videos/510/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 511,
+      "video_url": "https://newark.granicus.com/videos/511",
+      "player_url": "https://newark.granicus.com/videos/511/player",
+      "captions_url": "https://newark.granicus.com/videos/511/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 512,
+      "video_url": "https://newark.granicus.com/videos/512",
+      "player_url": "https://newark.granicus.com/videos/512/player",
+      "captions_url": "https://newark.granicus.com/videos/512/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 513,
+      "video_url": "https://newark.granicus.com/videos/513",
+      "player_url": "https://newark.granicus.com/videos/513/player",
+      "captions_url": "https://newark.granicus.com/videos/513/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 514,
+      "video_url": "https://newark.granicus.com/videos/514",
+      "player_url": "https://newark.granicus.com/videos/514/player",
+      "captions_url": "https://newark.granicus.com/videos/514/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 515,
+      "video_url": "https://newark.granicus.com/videos/515",
+      "player_url": "https://newark.granicus.com/videos/515/player",
+      "captions_url": "https://newark.granicus.com/videos/515/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 516,
+      "video_url": "https://newark.granicus.com/videos/516",
+      "player_url": "https://newark.granicus.com/videos/516/player",
+      "captions_url": "https://newark.granicus.com/videos/516/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 517,
+      "video_url": "https://newark.granicus.com/videos/517",
+      "player_url": "https://newark.granicus.com/videos/517/player",
+      "captions_url": "https://newark.granicus.com/videos/517/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 518,
+      "video_url": "https://newark.granicus.com/videos/518",
+      "player_url": "https://newark.granicus.com/videos/518/player",
+      "captions_url": "https://newark.granicus.com/videos/518/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 519,
+      "video_url": "https://newark.granicus.com/videos/519",
+      "player_url": "https://newark.granicus.com/videos/519/player",
+      "captions_url": "https://newark.granicus.com/videos/519/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 520,
+      "video_url": "https://newark.granicus.com/videos/520",
+      "player_url": "https://newark.granicus.com/videos/520/player",
+      "captions_url": "https://newark.granicus.com/videos/520/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 521,
+      "video_url": "https://newark.granicus.com/videos/521",
+      "player_url": "https://newark.granicus.com/videos/521/player",
+      "captions_url": "https://newark.granicus.com/videos/521/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 522,
+      "video_url": "https://newark.granicus.com/videos/522",
+      "player_url": "https://newark.granicus.com/videos/522/player",
+      "captions_url": "https://newark.granicus.com/videos/522/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 523,
+      "video_url": "https://newark.granicus.com/videos/523",
+      "player_url": "https://newark.granicus.com/videos/523/player",
+      "captions_url": "https://newark.granicus.com/videos/523/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 524,
+      "video_url": "https://newark.granicus.com/videos/524",
+      "player_url": "https://newark.granicus.com/videos/524/player",
+      "captions_url": "https://newark.granicus.com/videos/524/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 525,
+      "video_url": "https://newark.granicus.com/videos/525",
+      "player_url": "https://newark.granicus.com/videos/525/player",
+      "captions_url": "https://newark.granicus.com/videos/525/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 526,
+      "video_url": "https://newark.granicus.com/videos/526",
+      "player_url": "https://newark.granicus.com/videos/526/player",
+      "captions_url": "https://newark.granicus.com/videos/526/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 527,
+      "video_url": "https://newark.granicus.com/videos/527",
+      "player_url": "https://newark.granicus.com/videos/527/player",
+      "captions_url": "https://newark.granicus.com/videos/527/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 528,
+      "video_url": "https://newark.granicus.com/videos/528",
+      "player_url": "https://newark.granicus.com/videos/528/player",
+      "captions_url": "https://newark.granicus.com/videos/528/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 529,
+      "video_url": "https://newark.granicus.com/videos/529",
+      "player_url": "https://newark.granicus.com/videos/529/player",
+      "captions_url": "https://newark.granicus.com/videos/529/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 530,
+      "video_url": "https://newark.granicus.com/videos/530",
+      "player_url": "https://newark.granicus.com/videos/530/player",
+      "captions_url": "https://newark.granicus.com/videos/530/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 531,
+      "video_url": "https://newark.granicus.com/videos/531",
+      "player_url": "https://newark.granicus.com/videos/531/player",
+      "captions_url": "https://newark.granicus.com/videos/531/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 532,
+      "video_url": "https://newark.granicus.com/videos/532",
+      "player_url": "https://newark.granicus.com/videos/532/player",
+      "captions_url": "https://newark.granicus.com/videos/532/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 533,
+      "video_url": "https://newark.granicus.com/videos/533",
+      "player_url": "https://newark.granicus.com/videos/533/player",
+      "captions_url": "https://newark.granicus.com/videos/533/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 534,
+      "video_url": "https://newark.granicus.com/videos/534",
+      "player_url": "https://newark.granicus.com/videos/534/player",
+      "captions_url": "https://newark.granicus.com/videos/534/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 535,
+      "video_url": "https://newark.granicus.com/videos/535",
+      "player_url": "https://newark.granicus.com/videos/535/player",
+      "captions_url": "https://newark.granicus.com/videos/535/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 536,
+      "video_url": "https://newark.granicus.com/videos/536",
+      "player_url": "https://newark.granicus.com/videos/536/player",
+      "captions_url": "https://newark.granicus.com/videos/536/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 537,
+      "video_url": "https://newark.granicus.com/videos/537",
+      "player_url": "https://newark.granicus.com/videos/537/player",
+      "captions_url": "https://newark.granicus.com/videos/537/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 538,
+      "video_url": "https://newark.granicus.com/videos/538",
+      "player_url": "https://newark.granicus.com/videos/538/player",
+      "captions_url": "https://newark.granicus.com/videos/538/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 539,
+      "video_url": "https://newark.granicus.com/videos/539",
+      "player_url": "https://newark.granicus.com/videos/539/player",
+      "captions_url": "https://newark.granicus.com/videos/539/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 540,
+      "video_url": "https://newark.granicus.com/videos/540",
+      "player_url": "https://newark.granicus.com/videos/540/player",
+      "captions_url": "https://newark.granicus.com/videos/540/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 541,
+      "video_url": "https://newark.granicus.com/videos/541",
+      "player_url": "https://newark.granicus.com/videos/541/player",
+      "captions_url": "https://newark.granicus.com/videos/541/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 542,
+      "video_url": "https://newark.granicus.com/videos/542",
+      "player_url": "https://newark.granicus.com/videos/542/player",
+      "captions_url": "https://newark.granicus.com/videos/542/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 543,
+      "video_url": "https://newark.granicus.com/videos/543",
+      "player_url": "https://newark.granicus.com/videos/543/player",
+      "captions_url": "https://newark.granicus.com/videos/543/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 544,
+      "video_url": "https://newark.granicus.com/videos/544",
+      "player_url": "https://newark.granicus.com/videos/544/player",
+      "captions_url": "https://newark.granicus.com/videos/544/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 545,
+      "video_url": "https://newark.granicus.com/videos/545",
+      "player_url": "https://newark.granicus.com/videos/545/player",
+      "captions_url": "https://newark.granicus.com/videos/545/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 546,
+      "video_url": "https://newark.granicus.com/videos/546",
+      "player_url": "https://newark.granicus.com/videos/546/player",
+      "captions_url": "https://newark.granicus.com/videos/546/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 547,
+      "video_url": "https://newark.granicus.com/videos/547",
+      "player_url": "https://newark.granicus.com/videos/547/player",
+      "captions_url": "https://newark.granicus.com/videos/547/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 548,
+      "video_url": "https://newark.granicus.com/videos/548",
+      "player_url": "https://newark.granicus.com/videos/548/player",
+      "captions_url": "https://newark.granicus.com/videos/548/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 549,
+      "video_url": "https://newark.granicus.com/videos/549",
+      "player_url": "https://newark.granicus.com/videos/549/player",
+      "captions_url": "https://newark.granicus.com/videos/549/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 550,
+      "video_url": "https://newark.granicus.com/videos/550",
+      "player_url": "https://newark.granicus.com/videos/550/player",
+      "captions_url": "https://newark.granicus.com/videos/550/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 551,
+      "video_url": "https://newark.granicus.com/videos/551",
+      "player_url": "https://newark.granicus.com/videos/551/player",
+      "captions_url": "https://newark.granicus.com/videos/551/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 552,
+      "video_url": "https://newark.granicus.com/videos/552",
+      "player_url": "https://newark.granicus.com/videos/552/player",
+      "captions_url": "https://newark.granicus.com/videos/552/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 553,
+      "video_url": "https://newark.granicus.com/videos/553",
+      "player_url": "https://newark.granicus.com/videos/553/player",
+      "captions_url": "https://newark.granicus.com/videos/553/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 554,
+      "video_url": "https://newark.granicus.com/videos/554",
+      "player_url": "https://newark.granicus.com/videos/554/player",
+      "captions_url": "https://newark.granicus.com/videos/554/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 555,
+      "video_url": "https://newark.granicus.com/videos/555",
+      "player_url": "https://newark.granicus.com/videos/555/player",
+      "captions_url": "https://newark.granicus.com/videos/555/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 556,
+      "video_url": "https://newark.granicus.com/videos/556",
+      "player_url": "https://newark.granicus.com/videos/556/player",
+      "captions_url": "https://newark.granicus.com/videos/556/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 557,
+      "video_url": "https://newark.granicus.com/videos/557",
+      "player_url": "https://newark.granicus.com/videos/557/player",
+      "captions_url": "https://newark.granicus.com/videos/557/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 558,
+      "video_url": "https://newark.granicus.com/videos/558",
+      "player_url": "https://newark.granicus.com/videos/558/player",
+      "captions_url": "https://newark.granicus.com/videos/558/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 559,
+      "video_url": "https://newark.granicus.com/videos/559",
+      "player_url": "https://newark.granicus.com/videos/559/player",
+      "captions_url": "https://newark.granicus.com/videos/559/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 560,
+      "video_url": "https://newark.granicus.com/videos/560",
+      "player_url": "https://newark.granicus.com/videos/560/player",
+      "captions_url": "https://newark.granicus.com/videos/560/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 561,
+      "video_url": "https://newark.granicus.com/videos/561",
+      "player_url": "https://newark.granicus.com/videos/561/player",
+      "captions_url": "https://newark.granicus.com/videos/561/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 562,
+      "video_url": "https://newark.granicus.com/videos/562",
+      "player_url": "https://newark.granicus.com/videos/562/player",
+      "captions_url": "https://newark.granicus.com/videos/562/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 563,
+      "video_url": "https://newark.granicus.com/videos/563",
+      "player_url": "https://newark.granicus.com/videos/563/player",
+      "captions_url": "https://newark.granicus.com/videos/563/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 564,
+      "video_url": "https://newark.granicus.com/videos/564",
+      "player_url": "https://newark.granicus.com/videos/564/player",
+      "captions_url": "https://newark.granicus.com/videos/564/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 565,
+      "video_url": "https://newark.granicus.com/videos/565",
+      "player_url": "https://newark.granicus.com/videos/565/player",
+      "captions_url": "https://newark.granicus.com/videos/565/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 566,
+      "video_url": "https://newark.granicus.com/videos/566",
+      "player_url": "https://newark.granicus.com/videos/566/player",
+      "captions_url": "https://newark.granicus.com/videos/566/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 567,
+      "video_url": "https://newark.granicus.com/videos/567",
+      "player_url": "https://newark.granicus.com/videos/567/player",
+      "captions_url": "https://newark.granicus.com/videos/567/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 568,
+      "video_url": "https://newark.granicus.com/videos/568",
+      "player_url": "https://newark.granicus.com/videos/568/player",
+      "captions_url": "https://newark.granicus.com/videos/568/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 569,
+      "video_url": "https://newark.granicus.com/videos/569",
+      "player_url": "https://newark.granicus.com/videos/569/player",
+      "captions_url": "https://newark.granicus.com/videos/569/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 570,
+      "video_url": "https://newark.granicus.com/videos/570",
+      "player_url": "https://newark.granicus.com/videos/570/player",
+      "captions_url": "https://newark.granicus.com/videos/570/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 576,
+      "video_url": "https://newark.granicus.com/videos/576",
+      "player_url": "https://newark.granicus.com/videos/576/player",
+      "captions_url": "https://newark.granicus.com/videos/576/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 577,
+      "video_url": "https://newark.granicus.com/videos/577",
+      "player_url": "https://newark.granicus.com/videos/577/player",
+      "captions_url": "https://newark.granicus.com/videos/577/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 579,
+      "video_url": "https://newark.granicus.com/videos/579",
+      "player_url": "https://newark.granicus.com/videos/579/player",
+      "captions_url": "https://newark.granicus.com/videos/579/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 580,
+      "video_url": "https://newark.granicus.com/videos/580",
+      "player_url": "https://newark.granicus.com/videos/580/player",
+      "captions_url": "https://newark.granicus.com/videos/580/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 582,
+      "video_url": "https://newark.granicus.com/videos/582",
+      "player_url": "https://newark.granicus.com/videos/582/player",
+      "captions_url": "https://newark.granicus.com/videos/582/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 583,
+      "video_url": "https://newark.granicus.com/videos/583",
+      "player_url": "https://newark.granicus.com/videos/583/player",
+      "captions_url": "https://newark.granicus.com/videos/583/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 585,
+      "video_url": "https://newark.granicus.com/videos/585",
+      "player_url": "https://newark.granicus.com/videos/585/player",
+      "captions_url": "https://newark.granicus.com/videos/585/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 586,
+      "video_url": "https://newark.granicus.com/videos/586",
+      "player_url": "https://newark.granicus.com/videos/586/player",
+      "captions_url": "https://newark.granicus.com/videos/586/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 589,
+      "video_url": "https://newark.granicus.com/videos/589",
+      "player_url": "https://newark.granicus.com/videos/589/player",
+      "captions_url": "https://newark.granicus.com/videos/589/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 595,
+      "video_url": "https://newark.granicus.com/videos/595",
+      "player_url": "https://newark.granicus.com/videos/595/player",
+      "captions_url": "https://newark.granicus.com/videos/595/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 599,
+      "video_url": "https://newark.granicus.com/videos/599",
+      "player_url": "https://newark.granicus.com/videos/599/player",
+      "captions_url": "https://newark.granicus.com/videos/599/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 607,
+      "video_url": "https://newark.granicus.com/videos/607",
+      "player_url": "https://newark.granicus.com/videos/607/player",
+      "captions_url": "https://newark.granicus.com/videos/607/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 609,
+      "video_url": "https://newark.granicus.com/videos/609",
+      "player_url": "https://newark.granicus.com/videos/609/player",
+      "captions_url": "https://newark.granicus.com/videos/609/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 611,
+      "video_url": "https://newark.granicus.com/videos/611",
+      "player_url": "https://newark.granicus.com/videos/611/player",
+      "captions_url": "https://newark.granicus.com/videos/611/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 615,
+      "video_url": "https://newark.granicus.com/videos/615",
+      "player_url": "https://newark.granicus.com/videos/615/player",
+      "captions_url": "https://newark.granicus.com/videos/615/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 616,
+      "video_url": "https://newark.granicus.com/videos/616",
+      "player_url": "https://newark.granicus.com/videos/616/player",
+      "captions_url": "https://newark.granicus.com/videos/616/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 617,
+      "video_url": "https://newark.granicus.com/videos/617",
+      "player_url": "https://newark.granicus.com/videos/617/player",
+      "captions_url": "https://newark.granicus.com/videos/617/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 618,
+      "video_url": "https://newark.granicus.com/videos/618",
+      "player_url": "https://newark.granicus.com/videos/618/player",
+      "captions_url": "https://newark.granicus.com/videos/618/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 619,
+      "video_url": "https://newark.granicus.com/videos/619",
+      "player_url": "https://newark.granicus.com/videos/619/player",
+      "captions_url": "https://newark.granicus.com/videos/619/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 620,
+      "video_url": "https://newark.granicus.com/videos/620",
+      "player_url": "https://newark.granicus.com/videos/620/player",
+      "captions_url": "https://newark.granicus.com/videos/620/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 621,
+      "video_url": "https://newark.granicus.com/videos/621",
+      "player_url": "https://newark.granicus.com/videos/621/player",
+      "captions_url": "https://newark.granicus.com/videos/621/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 622,
+      "video_url": "https://newark.granicus.com/videos/622",
+      "player_url": "https://newark.granicus.com/videos/622/player",
+      "captions_url": "https://newark.granicus.com/videos/622/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 623,
+      "video_url": "https://newark.granicus.com/videos/623",
+      "player_url": "https://newark.granicus.com/videos/623/player",
+      "captions_url": "https://newark.granicus.com/videos/623/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 624,
+      "video_url": "https://newark.granicus.com/videos/624",
+      "player_url": "https://newark.granicus.com/videos/624/player",
+      "captions_url": "https://newark.granicus.com/videos/624/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 625,
+      "video_url": "https://newark.granicus.com/videos/625",
+      "player_url": "https://newark.granicus.com/videos/625/player",
+      "captions_url": "https://newark.granicus.com/videos/625/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 626,
+      "video_url": "https://newark.granicus.com/videos/626",
+      "player_url": "https://newark.granicus.com/videos/626/player",
+      "captions_url": "https://newark.granicus.com/videos/626/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 628,
+      "video_url": "https://newark.granicus.com/videos/628",
+      "player_url": "https://newark.granicus.com/videos/628/player",
+      "captions_url": "https://newark.granicus.com/videos/628/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 629,
+      "video_url": "https://newark.granicus.com/videos/629",
+      "player_url": "https://newark.granicus.com/videos/629/player",
+      "captions_url": "https://newark.granicus.com/videos/629/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 630,
+      "video_url": "https://newark.granicus.com/videos/630",
+      "player_url": "https://newark.granicus.com/videos/630/player",
+      "captions_url": "https://newark.granicus.com/videos/630/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 631,
+      "video_url": "https://newark.granicus.com/videos/631",
+      "player_url": "https://newark.granicus.com/videos/631/player",
+      "captions_url": "https://newark.granicus.com/videos/631/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 632,
+      "video_url": "https://newark.granicus.com/videos/632",
+      "player_url": "https://newark.granicus.com/videos/632/player",
+      "captions_url": "https://newark.granicus.com/videos/632/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 633,
+      "video_url": "https://newark.granicus.com/videos/633",
+      "player_url": "https://newark.granicus.com/videos/633/player",
+      "captions_url": "https://newark.granicus.com/videos/633/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 634,
+      "video_url": "https://newark.granicus.com/videos/634",
+      "player_url": "https://newark.granicus.com/videos/634/player",
+      "captions_url": "https://newark.granicus.com/videos/634/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 635,
+      "video_url": "https://newark.granicus.com/videos/635",
+      "player_url": "https://newark.granicus.com/videos/635/player",
+      "captions_url": "https://newark.granicus.com/videos/635/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 636,
+      "video_url": "https://newark.granicus.com/videos/636",
+      "player_url": "https://newark.granicus.com/videos/636/player",
+      "captions_url": "https://newark.granicus.com/videos/636/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 637,
+      "video_url": "https://newark.granicus.com/videos/637",
+      "player_url": "https://newark.granicus.com/videos/637/player",
+      "captions_url": "https://newark.granicus.com/videos/637/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 638,
+      "video_url": "https://newark.granicus.com/videos/638",
+      "player_url": "https://newark.granicus.com/videos/638/player",
+      "captions_url": "https://newark.granicus.com/videos/638/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 639,
+      "video_url": "https://newark.granicus.com/videos/639",
+      "player_url": "https://newark.granicus.com/videos/639/player",
+      "captions_url": "https://newark.granicus.com/videos/639/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 640,
+      "video_url": "https://newark.granicus.com/videos/640",
+      "player_url": "https://newark.granicus.com/videos/640/player",
+      "captions_url": "https://newark.granicus.com/videos/640/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 641,
+      "video_url": "https://newark.granicus.com/videos/641",
+      "player_url": "https://newark.granicus.com/videos/641/player",
+      "captions_url": "https://newark.granicus.com/videos/641/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 642,
+      "video_url": "https://newark.granicus.com/videos/642",
+      "player_url": "https://newark.granicus.com/videos/642/player",
+      "captions_url": "https://newark.granicus.com/videos/642/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 643,
+      "video_url": "https://newark.granicus.com/videos/643",
+      "player_url": "https://newark.granicus.com/videos/643/player",
+      "captions_url": "https://newark.granicus.com/videos/643/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 644,
+      "video_url": "https://newark.granicus.com/videos/644",
+      "player_url": "https://newark.granicus.com/videos/644/player",
+      "captions_url": "https://newark.granicus.com/videos/644/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 645,
+      "video_url": "https://newark.granicus.com/videos/645",
+      "player_url": "https://newark.granicus.com/videos/645/player",
+      "captions_url": "https://newark.granicus.com/videos/645/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 646,
+      "video_url": "https://newark.granicus.com/videos/646",
+      "player_url": "https://newark.granicus.com/videos/646/player",
+      "captions_url": "https://newark.granicus.com/videos/646/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 647,
+      "video_url": "https://newark.granicus.com/videos/647",
+      "player_url": "https://newark.granicus.com/videos/647/player",
+      "captions_url": "https://newark.granicus.com/videos/647/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 648,
+      "video_url": "https://newark.granicus.com/videos/648",
+      "player_url": "https://newark.granicus.com/videos/648/player",
+      "captions_url": "https://newark.granicus.com/videos/648/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 649,
+      "video_url": "https://newark.granicus.com/videos/649",
+      "player_url": "https://newark.granicus.com/videos/649/player",
+      "captions_url": "https://newark.granicus.com/videos/649/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 650,
+      "video_url": "https://newark.granicus.com/videos/650",
+      "player_url": "https://newark.granicus.com/videos/650/player",
+      "captions_url": "https://newark.granicus.com/videos/650/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 651,
+      "video_url": "https://newark.granicus.com/videos/651",
+      "player_url": "https://newark.granicus.com/videos/651/player",
+      "captions_url": "https://newark.granicus.com/videos/651/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 652,
+      "video_url": "https://newark.granicus.com/videos/652",
+      "player_url": "https://newark.granicus.com/videos/652/player",
+      "captions_url": "https://newark.granicus.com/videos/652/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 653,
+      "video_url": "https://newark.granicus.com/videos/653",
+      "player_url": "https://newark.granicus.com/videos/653/player",
+      "captions_url": "https://newark.granicus.com/videos/653/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 654,
+      "video_url": "https://newark.granicus.com/videos/654",
+      "player_url": "https://newark.granicus.com/videos/654/player",
+      "captions_url": "https://newark.granicus.com/videos/654/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 655,
+      "video_url": "https://newark.granicus.com/videos/655",
+      "player_url": "https://newark.granicus.com/videos/655/player",
+      "captions_url": "https://newark.granicus.com/videos/655/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 656,
+      "video_url": "https://newark.granicus.com/videos/656",
+      "player_url": "https://newark.granicus.com/videos/656/player",
+      "captions_url": "https://newark.granicus.com/videos/656/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 657,
+      "video_url": "https://newark.granicus.com/videos/657",
+      "player_url": "https://newark.granicus.com/videos/657/player",
+      "captions_url": "https://newark.granicus.com/videos/657/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 658,
+      "video_url": "https://newark.granicus.com/videos/658",
+      "player_url": "https://newark.granicus.com/videos/658/player",
+      "captions_url": "https://newark.granicus.com/videos/658/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 659,
+      "video_url": "https://newark.granicus.com/videos/659",
+      "player_url": "https://newark.granicus.com/videos/659/player",
+      "captions_url": "https://newark.granicus.com/videos/659/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 660,
+      "video_url": "https://newark.granicus.com/videos/660",
+      "player_url": "https://newark.granicus.com/videos/660/player",
+      "captions_url": "https://newark.granicus.com/videos/660/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 674,
+      "video_url": "https://newark.granicus.com/videos/674",
+      "player_url": "https://newark.granicus.com/videos/674/player",
+      "captions_url": "https://newark.granicus.com/videos/674/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 675,
+      "video_url": "https://newark.granicus.com/videos/675",
+      "player_url": "https://newark.granicus.com/videos/675/player",
+      "captions_url": "https://newark.granicus.com/videos/675/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 676,
+      "video_url": "https://newark.granicus.com/videos/676",
+      "player_url": "https://newark.granicus.com/videos/676/player",
+      "captions_url": "https://newark.granicus.com/videos/676/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 677,
+      "video_url": "https://newark.granicus.com/videos/677",
+      "player_url": "https://newark.granicus.com/videos/677/player",
+      "captions_url": "https://newark.granicus.com/videos/677/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 678,
+      "video_url": "https://newark.granicus.com/videos/678",
+      "player_url": "https://newark.granicus.com/videos/678/player",
+      "captions_url": "https://newark.granicus.com/videos/678/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 679,
+      "video_url": "https://newark.granicus.com/videos/679",
+      "player_url": "https://newark.granicus.com/videos/679/player",
+      "captions_url": "https://newark.granicus.com/videos/679/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 680,
+      "video_url": "https://newark.granicus.com/videos/680",
+      "player_url": "https://newark.granicus.com/videos/680/player",
+      "captions_url": "https://newark.granicus.com/videos/680/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 725,
+      "video_url": "https://newark.granicus.com/videos/725",
+      "player_url": "https://newark.granicus.com/videos/725/player",
+      "captions_url": "https://newark.granicus.com/videos/725/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 726,
+      "video_url": "https://newark.granicus.com/videos/726",
+      "player_url": "https://newark.granicus.com/videos/726/player",
+      "captions_url": "https://newark.granicus.com/videos/726/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 727,
+      "video_url": "https://newark.granicus.com/videos/727",
+      "player_url": "https://newark.granicus.com/videos/727/player",
+      "captions_url": "https://newark.granicus.com/videos/727/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 747,
+      "video_url": "https://newark.granicus.com/videos/747",
+      "player_url": "https://newark.granicus.com/videos/747/player",
+      "captions_url": "https://newark.granicus.com/videos/747/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 748,
+      "video_url": "https://newark.granicus.com/videos/748",
+      "player_url": "https://newark.granicus.com/videos/748/player",
+      "captions_url": "https://newark.granicus.com/videos/748/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 751,
+      "video_url": "https://newark.granicus.com/videos/751",
+      "player_url": "https://newark.granicus.com/videos/751/player",
+      "captions_url": "https://newark.granicus.com/videos/751/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 752,
+      "video_url": "https://newark.granicus.com/videos/752",
+      "player_url": "https://newark.granicus.com/videos/752/player",
+      "captions_url": "https://newark.granicus.com/videos/752/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 753,
+      "video_url": "https://newark.granicus.com/videos/753",
+      "player_url": "https://newark.granicus.com/videos/753/player",
+      "captions_url": "https://newark.granicus.com/videos/753/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 763,
+      "video_url": "https://newark.granicus.com/videos/763",
+      "player_url": "https://newark.granicus.com/videos/763/player",
+      "captions_url": "https://newark.granicus.com/videos/763/captions.vtt",
+      "has_captions": true
+    },
+    {
+      "video_id": 764,
+      "video_url": "https://newark.granicus.com/videos/764",
+      "player_url": "https://newark.granicus.com/videos/764/player",
+      "captions_url": "https://newark.granicus.com/videos/764/captions.vtt",
+      "has_captions": true
+    }
+  ]
+}

@@ -1,0 +1,1015 @@
+{
+  "subdomain": "boston",
+  "run_id": "20251217_224001",
+  "status": "complete",
+  "last_updated": "2025-12-17T22:40:23.445868",
+  "total_videos": 125,
+  "with_captions": 102,
+  "empty_captions": 23,
+  "video_id_range": {
+    "min": 964,
+    "max": 1098
+  },
+  "videos": [
+    {
+      "video_id": 964,
+      "video_url": "https://boston.granicus.com/videos/964",
+      "player_url": "https://boston.granicus.com/videos/964/player",
+      "captions_url": "https://boston.granicus.com/videos/964/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 965,
+      "video_url": "https://boston.granicus.com/videos/965",
+      "player_url": "https://boston.granicus.com/videos/965/player",
+      "captions_url": "https://boston.granicus.com/videos/965/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 968,
+      "video_url": "https://boston.granicus.com/videos/968",
+      "player_url": "https://boston.granicus.com/videos/968/player",
+      "captions_url": "https://boston.granicus.com/videos/968/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 969,
+      "video_url": "https://boston.granicus.com/videos/969",
+      "player_url": "https://boston.granicus.com/videos/969/player",
+      "captions_url": "https://boston.granicus.com/videos/969/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 970,
+      "video_url": "https://boston.granicus.com/videos/970",
+      "player_url": "https://boston.granicus.com/videos/970/player",
+      "captions_url": "https://boston.granicus.com/videos/970/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 971,
+      "video_url": "https://boston.granicus.com/videos/971",
+      "player_url": "https://boston.granicus.com/videos/971/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 972,
+      "video_url": "https://boston.granicus.com/videos/972",
+      "player_url": "https://boston.granicus.com/videos/972/player",
+      "captions_url": "https://boston.granicus.com/videos/972/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 973,
+      "video_url": "https://boston.granicus.com/videos/973",
+      "player_url": "https://boston.granicus.com/videos/973/player",
+      "captions_url": "https://boston.granicus.com/videos/973/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 974,
+      "video_url": "https://boston.granicus.com/videos/974",
+      "player_url": "https://boston.granicus.com/videos/974/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 975,
+      "video_url": "https://boston.granicus.com/videos/975",
+      "player_url": "https://boston.granicus.com/videos/975/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 976,
+      "video_url": "https://boston.granicus.com/videos/976",
+      "player_url": "https://boston.granicus.com/videos/976/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 977,
+      "video_url": "https://boston.granicus.com/videos/977",
+      "player_url": "https://boston.granicus.com/videos/977/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 978,
+      "video_url": "https://boston.granicus.com/videos/978",
+      "player_url": "https://boston.granicus.com/videos/978/player",
+      "captions_url": "https://boston.granicus.com/videos/978/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 979,
+      "video_url": "https://boston.granicus.com/videos/979",
+      "player_url": "https://boston.granicus.com/videos/979/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 980,
+      "video_url": "https://boston.granicus.com/videos/980",
+      "player_url": "https://boston.granicus.com/videos/980/player",
+      "captions_url": "https://boston.granicus.com/videos/980/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 982,
+      "video_url": "https://boston.granicus.com/videos/982",
+      "player_url": "https://boston.granicus.com/videos/982/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 983,
+      "video_url": "https://boston.granicus.com/videos/983",
+      "player_url": "https://boston.granicus.com/videos/983/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 984,
+      "video_url": "https://boston.granicus.com/videos/984",
+      "player_url": "https://boston.granicus.com/videos/984/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 985,
+      "video_url": "https://boston.granicus.com/videos/985",
+      "player_url": "https://boston.granicus.com/videos/985/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 988,
+      "video_url": "https://boston.granicus.com/videos/988",
+      "player_url": "https://boston.granicus.com/videos/988/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 989,
+      "video_url": "https://boston.granicus.com/videos/989",
+      "player_url": "https://boston.granicus.com/videos/989/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 990,
+      "video_url": "https://boston.granicus.com/videos/990",
+      "player_url": "https://boston.granicus.com/videos/990/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 991,
+      "video_url": "https://boston.granicus.com/videos/991",
+      "player_url": "https://boston.granicus.com/videos/991/player",
+      "captions_url": "https://boston.granicus.com/videos/991/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 992,
+      "video_url": "https://boston.granicus.com/videos/992",
+      "player_url": "https://boston.granicus.com/videos/992/player",
+      "captions_url": "https://boston.granicus.com/videos/992/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 993,
+      "video_url": "https://boston.granicus.com/videos/993",
+      "player_url": "https://boston.granicus.com/videos/993/player",
+      "captions_url": "https://boston.granicus.com/videos/993/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 994,
+      "video_url": "https://boston.granicus.com/videos/994",
+      "player_url": "https://boston.granicus.com/videos/994/player",
+      "captions_url": "https://boston.granicus.com/videos/994/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 995,
+      "video_url": "https://boston.granicus.com/videos/995",
+      "player_url": "https://boston.granicus.com/videos/995/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 996,
+      "video_url": "https://boston.granicus.com/videos/996",
+      "player_url": "https://boston.granicus.com/videos/996/player",
+      "captions_url": "https://boston.granicus.com/videos/996/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 997,
+      "video_url": "https://boston.granicus.com/videos/997",
+      "player_url": "https://boston.granicus.com/videos/997/player",
+      "captions_url": "https://boston.granicus.com/videos/997/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 998,
+      "video_url": "https://boston.granicus.com/videos/998",
+      "player_url": "https://boston.granicus.com/videos/998/player",
+      "captions_url": "https://boston.granicus.com/videos/998/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 999,
+      "video_url": "https://boston.granicus.com/videos/999",
+      "player_url": "https://boston.granicus.com/videos/999/player",
+      "captions_url": "https://boston.granicus.com/videos/999/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1000,
+      "video_url": "https://boston.granicus.com/videos/1000",
+      "player_url": "https://boston.granicus.com/videos/1000/player",
+      "captions_url": "https://boston.granicus.com/videos/1000/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1001,
+      "video_url": "https://boston.granicus.com/videos/1001",
+      "player_url": "https://boston.granicus.com/videos/1001/player",
+      "captions_url": "https://boston.granicus.com/videos/1001/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1002,
+      "video_url": "https://boston.granicus.com/videos/1002",
+      "player_url": "https://boston.granicus.com/videos/1002/player",
+      "captions_url": "https://boston.granicus.com/videos/1002/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1004,
+      "video_url": "https://boston.granicus.com/videos/1004",
+      "player_url": "https://boston.granicus.com/videos/1004/player",
+      "captions_url": "https://boston.granicus.com/videos/1004/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1005,
+      "video_url": "https://boston.granicus.com/videos/1005",
+      "player_url": "https://boston.granicus.com/videos/1005/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1006,
+      "video_url": "https://boston.granicus.com/videos/1006",
+      "player_url": "https://boston.granicus.com/videos/1006/player",
+      "captions_url": "https://boston.granicus.com/videos/1006/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1007,
+      "video_url": "https://boston.granicus.com/videos/1007",
+      "player_url": "https://boston.granicus.com/videos/1007/player",
+      "captions_url": "https://boston.granicus.com/videos/1007/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1008,
+      "video_url": "https://boston.granicus.com/videos/1008",
+      "player_url": "https://boston.granicus.com/videos/1008/player",
+      "captions_url": "https://boston.granicus.com/videos/1008/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1009,
+      "video_url": "https://boston.granicus.com/videos/1009",
+      "player_url": "https://boston.granicus.com/videos/1009/player",
+      "captions_url": "https://boston.granicus.com/videos/1009/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1010,
+      "video_url": "https://boston.granicus.com/videos/1010",
+      "player_url": "https://boston.granicus.com/videos/1010/player",
+      "captions_url": "https://boston.granicus.com/videos/1010/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1011,
+      "video_url": "https://boston.granicus.com/videos/1011",
+      "player_url": "https://boston.granicus.com/videos/1011/player",
+      "captions_url": "https://boston.granicus.com/videos/1011/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1012,
+      "video_url": "https://boston.granicus.com/videos/1012",
+      "player_url": "https://boston.granicus.com/videos/1012/player",
+      "captions_url": "https://boston.granicus.com/videos/1012/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1015,
+      "video_url": "https://boston.granicus.com/videos/1015",
+      "player_url": "https://boston.granicus.com/videos/1015/player",
+      "captions_url": "https://boston.granicus.com/videos/1015/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1016,
+      "video_url": "https://boston.granicus.com/videos/1016",
+      "player_url": "https://boston.granicus.com/videos/1016/player",
+      "captions_url": "https://boston.granicus.com/videos/1016/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1017,
+      "video_url": "https://boston.granicus.com/videos/1017",
+      "player_url": "https://boston.granicus.com/videos/1017/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1018,
+      "video_url": "https://boston.granicus.com/videos/1018",
+      "player_url": "https://boston.granicus.com/videos/1018/player",
+      "captions_url": "https://boston.granicus.com/videos/1018/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1020,
+      "video_url": "https://boston.granicus.com/videos/1020",
+      "player_url": "https://boston.granicus.com/videos/1020/player",
+      "captions_url": "https://boston.granicus.com/videos/1020/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1021,
+      "video_url": "https://boston.granicus.com/videos/1021",
+      "player_url": "https://boston.granicus.com/videos/1021/player",
+      "captions_url": "https://boston.granicus.com/videos/1021/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1022,
+      "video_url": "https://boston.granicus.com/videos/1022",
+      "player_url": "https://boston.granicus.com/videos/1022/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1023,
+      "video_url": "https://boston.granicus.com/videos/1023",
+      "player_url": "https://boston.granicus.com/videos/1023/player",
+      "captions_url": "https://boston.granicus.com/videos/1023/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1024,
+      "video_url": "https://boston.granicus.com/videos/1024",
+      "player_url": "https://boston.granicus.com/videos/1024/player",
+      "captions_url": "https://boston.granicus.com/videos/1024/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1025,
+      "video_url": "https://boston.granicus.com/videos/1025",
+      "player_url": "https://boston.granicus.com/videos/1025/player",
+      "captions_url": "https://boston.granicus.com/videos/1025/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1026,
+      "video_url": "https://boston.granicus.com/videos/1026",
+      "player_url": "https://boston.granicus.com/videos/1026/player",
+      "captions_url": "https://boston.granicus.com/videos/1026/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1027,
+      "video_url": "https://boston.granicus.com/videos/1027",
+      "player_url": "https://boston.granicus.com/videos/1027/player",
+      "captions_url": "https://boston.granicus.com/videos/1027/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1028,
+      "video_url": "https://boston.granicus.com/videos/1028",
+      "player_url": "https://boston.granicus.com/videos/1028/player",
+      "captions_url": "https://boston.granicus.com/videos/1028/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1029,
+      "video_url": "https://boston.granicus.com/videos/1029",
+      "player_url": "https://boston.granicus.com/videos/1029/player",
+      "captions_url": "https://boston.granicus.com/videos/1029/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1030,
+      "video_url": "https://boston.granicus.com/videos/1030",
+      "player_url": "https://boston.granicus.com/videos/1030/player",
+      "captions_url": "https://boston.granicus.com/videos/1030/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1031,
+      "video_url": "https://boston.granicus.com/videos/1031",
+      "player_url": "https://boston.granicus.com/videos/1031/player",
+      "captions_url": "https://boston.granicus.com/videos/1031/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1032,
+      "video_url": "https://boston.granicus.com/videos/1032",
+      "player_url": "https://boston.granicus.com/videos/1032/player",
+      "captions_url": "https://boston.granicus.com/videos/1032/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1033,
+      "video_url": "https://boston.granicus.com/videos/1033",
+      "player_url": "https://boston.granicus.com/videos/1033/player",
+      "captions_url": "https://boston.granicus.com/videos/1033/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1034,
+      "video_url": "https://boston.granicus.com/videos/1034",
+      "player_url": "https://boston.granicus.com/videos/1034/player",
+      "captions_url": "https://boston.granicus.com/videos/1034/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1035,
+      "video_url": "https://boston.granicus.com/videos/1035",
+      "player_url": "https://boston.granicus.com/videos/1035/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1036,
+      "video_url": "https://boston.granicus.com/videos/1036",
+      "player_url": "https://boston.granicus.com/videos/1036/player",
+      "captions_url": "https://boston.granicus.com/videos/1036/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1037,
+      "video_url": "https://boston.granicus.com/videos/1037",
+      "player_url": "https://boston.granicus.com/videos/1037/player",
+      "captions_url": "https://boston.granicus.com/videos/1037/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1038,
+      "video_url": "https://boston.granicus.com/videos/1038",
+      "player_url": "https://boston.granicus.com/videos/1038/player",
+      "captions_url": "https://boston.granicus.com/videos/1038/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1039,
+      "video_url": "https://boston.granicus.com/videos/1039",
+      "player_url": "https://boston.granicus.com/videos/1039/player",
+      "captions_url": "https://boston.granicus.com/videos/1039/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1040,
+      "video_url": "https://boston.granicus.com/videos/1040",
+      "player_url": "https://boston.granicus.com/videos/1040/player",
+      "captions_url": "https://boston.granicus.com/videos/1040/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1041,
+      "video_url": "https://boston.granicus.com/videos/1041",
+      "player_url": "https://boston.granicus.com/videos/1041/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1042,
+      "video_url": "https://boston.granicus.com/videos/1042",
+      "player_url": "https://boston.granicus.com/videos/1042/player",
+      "captions_url": "https://boston.granicus.com/videos/1042/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1043,
+      "video_url": "https://boston.granicus.com/videos/1043",
+      "player_url": "https://boston.granicus.com/videos/1043/player",
+      "captions_url": "https://boston.granicus.com/videos/1043/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1044,
+      "video_url": "https://boston.granicus.com/videos/1044",
+      "player_url": "https://boston.granicus.com/videos/1044/player",
+      "captions_url": "https://boston.granicus.com/videos/1044/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1045,
+      "video_url": "https://boston.granicus.com/videos/1045",
+      "player_url": "https://boston.granicus.com/videos/1045/player",
+      "captions_url": "https://boston.granicus.com/videos/1045/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1046,
+      "video_url": "https://boston.granicus.com/videos/1046",
+      "player_url": "https://boston.granicus.com/videos/1046/player",
+      "captions_url": "https://boston.granicus.com/videos/1046/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1047,
+      "video_url": "https://boston.granicus.com/videos/1047",
+      "player_url": "https://boston.granicus.com/videos/1047/player",
+      "captions_url": "https://boston.granicus.com/videos/1047/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1048,
+      "video_url": "https://boston.granicus.com/videos/1048",
+      "player_url": "https://boston.granicus.com/videos/1048/player",
+      "captions_url": "https://boston.granicus.com/videos/1048/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1049,
+      "video_url": "https://boston.granicus.com/videos/1049",
+      "player_url": "https://boston.granicus.com/videos/1049/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1050,
+      "video_url": "https://boston.granicus.com/videos/1050",
+      "player_url": "https://boston.granicus.com/videos/1050/player",
+      "captions_url": "https://boston.granicus.com/videos/1050/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1051,
+      "video_url": "https://boston.granicus.com/videos/1051",
+      "player_url": "https://boston.granicus.com/videos/1051/player",
+      "captions_url": "https://boston.granicus.com/videos/1051/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1052,
+      "video_url": "https://boston.granicus.com/videos/1052",
+      "player_url": "https://boston.granicus.com/videos/1052/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1053,
+      "video_url": "https://boston.granicus.com/videos/1053",
+      "player_url": "https://boston.granicus.com/videos/1053/player",
+      "captions_url": "https://boston.granicus.com/videos/1053/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1054,
+      "video_url": "https://boston.granicus.com/videos/1054",
+      "player_url": "https://boston.granicus.com/videos/1054/player",
+      "captions_url": "https://boston.granicus.com/videos/1054/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1055,
+      "video_url": "https://boston.granicus.com/videos/1055",
+      "player_url": "https://boston.granicus.com/videos/1055/player",
+      "captions_url": "https://boston.granicus.com/videos/1055/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1056,
+      "video_url": "https://boston.granicus.com/videos/1056",
+      "player_url": "https://boston.granicus.com/videos/1056/player",
+      "captions_url": "https://boston.granicus.com/videos/1056/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1057,
+      "video_url": "https://boston.granicus.com/videos/1057",
+      "player_url": "https://boston.granicus.com/videos/1057/player",
+      "captions_url": "https://boston.granicus.com/videos/1057/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1058,
+      "video_url": "https://boston.granicus.com/videos/1058",
+      "player_url": "https://boston.granicus.com/videos/1058/player",
+      "captions_url": "https://boston.granicus.com/videos/1058/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1060,
+      "video_url": "https://boston.granicus.com/videos/1060",
+      "player_url": "https://boston.granicus.com/videos/1060/player",
+      "captions_url": "https://boston.granicus.com/videos/1060/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1061,
+      "video_url": "https://boston.granicus.com/videos/1061",
+      "player_url": "https://boston.granicus.com/videos/1061/player",
+      "captions_url": "https://boston.granicus.com/videos/1061/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1062,
+      "video_url": "https://boston.granicus.com/videos/1062",
+      "player_url": "https://boston.granicus.com/videos/1062/player",
+      "captions_url": "https://boston.granicus.com/videos/1062/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1063,
+      "video_url": "https://boston.granicus.com/videos/1063",
+      "player_url": "https://boston.granicus.com/videos/1063/player",
+      "captions_url": "https://boston.granicus.com/videos/1063/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1064,
+      "video_url": "https://boston.granicus.com/videos/1064",
+      "player_url": "https://boston.granicus.com/videos/1064/player",
+      "captions_url": "https://boston.granicus.com/videos/1064/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1065,
+      "video_url": "https://boston.granicus.com/videos/1065",
+      "player_url": "https://boston.granicus.com/videos/1065/player",
+      "captions_url": "https://boston.granicus.com/videos/1065/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1066,
+      "video_url": "https://boston.granicus.com/videos/1066",
+      "player_url": "https://boston.granicus.com/videos/1066/player",
+      "captions_url": "https://boston.granicus.com/videos/1066/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1067,
+      "video_url": "https://boston.granicus.com/videos/1067",
+      "player_url": "https://boston.granicus.com/videos/1067/player",
+      "captions_url": "https://boston.granicus.com/videos/1067/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1068,
+      "video_url": "https://boston.granicus.com/videos/1068",
+      "player_url": "https://boston.granicus.com/videos/1068/player",
+      "captions_url": "https://boston.granicus.com/videos/1068/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1069,
+      "video_url": "https://boston.granicus.com/videos/1069",
+      "player_url": "https://boston.granicus.com/videos/1069/player",
+      "captions_url": "https://boston.granicus.com/videos/1069/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1070,
+      "video_url": "https://boston.granicus.com/videos/1070",
+      "player_url": "https://boston.granicus.com/videos/1070/player",
+      "captions_url": "https://boston.granicus.com/videos/1070/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1071,
+      "video_url": "https://boston.granicus.com/videos/1071",
+      "player_url": "https://boston.granicus.com/videos/1071/player",
+      "captions_url": "https://boston.granicus.com/videos/1071/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1072,
+      "video_url": "https://boston.granicus.com/videos/1072",
+      "player_url": "https://boston.granicus.com/videos/1072/player",
+      "captions_url": "https://boston.granicus.com/videos/1072/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1073,
+      "video_url": "https://boston.granicus.com/videos/1073",
+      "player_url": "https://boston.granicus.com/videos/1073/player",
+      "captions_url": "https://boston.granicus.com/videos/1073/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1074,
+      "video_url": "https://boston.granicus.com/videos/1074",
+      "player_url": "https://boston.granicus.com/videos/1074/player",
+      "captions_url": "https://boston.granicus.com/videos/1074/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1075,
+      "video_url": "https://boston.granicus.com/videos/1075",
+      "player_url": "https://boston.granicus.com/videos/1075/player",
+      "captions_url": "https://boston.granicus.com/videos/1075/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1076,
+      "video_url": "https://boston.granicus.com/videos/1076",
+      "player_url": "https://boston.granicus.com/videos/1076/player",
+      "captions_url": "https://boston.granicus.com/videos/1076/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1077,
+      "video_url": "https://boston.granicus.com/videos/1077",
+      "player_url": "https://boston.granicus.com/videos/1077/player",
+      "captions_url": "https://boston.granicus.com/videos/1077/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1078,
+      "video_url": "https://boston.granicus.com/videos/1078",
+      "player_url": "https://boston.granicus.com/videos/1078/player",
+      "captions_url": "https://boston.granicus.com/videos/1078/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1079,
+      "video_url": "https://boston.granicus.com/videos/1079",
+      "player_url": "https://boston.granicus.com/videos/1079/player",
+      "captions_url": "https://boston.granicus.com/videos/1079/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1080,
+      "video_url": "https://boston.granicus.com/videos/1080",
+      "player_url": "https://boston.granicus.com/videos/1080/player",
+      "captions_url": "https://boston.granicus.com/videos/1080/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1081,
+      "video_url": "https://boston.granicus.com/videos/1081",
+      "player_url": "https://boston.granicus.com/videos/1081/player",
+      "captions_url": "https://boston.granicus.com/videos/1081/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1082,
+      "video_url": "https://boston.granicus.com/videos/1082",
+      "player_url": "https://boston.granicus.com/videos/1082/player",
+      "captions_url": "https://boston.granicus.com/videos/1082/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1083,
+      "video_url": "https://boston.granicus.com/videos/1083",
+      "player_url": "https://boston.granicus.com/videos/1083/player",
+      "captions_url": "https://boston.granicus.com/videos/1083/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1084,
+      "video_url": "https://boston.granicus.com/videos/1084",
+      "player_url": "https://boston.granicus.com/videos/1084/player",
+      "captions_url": "https://boston.granicus.com/videos/1084/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1085,
+      "video_url": "https://boston.granicus.com/videos/1085",
+      "player_url": "https://boston.granicus.com/videos/1085/player",
+      "captions_url": "https://boston.granicus.com/videos/1085/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1086,
+      "video_url": "https://boston.granicus.com/videos/1086",
+      "player_url": "https://boston.granicus.com/videos/1086/player",
+      "captions_url": "https://boston.granicus.com/videos/1086/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1087,
+      "video_url": "https://boston.granicus.com/videos/1087",
+      "player_url": "https://boston.granicus.com/videos/1087/player",
+      "captions_url": "https://boston.granicus.com/videos/1087/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1088,
+      "video_url": "https://boston.granicus.com/videos/1088",
+      "player_url": "https://boston.granicus.com/videos/1088/player",
+      "captions_url": "https://boston.granicus.com/videos/1088/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1089,
+      "video_url": "https://boston.granicus.com/videos/1089",
+      "player_url": "https://boston.granicus.com/videos/1089/player",
+      "captions_url": "https://boston.granicus.com/videos/1089/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1090,
+      "video_url": "https://boston.granicus.com/videos/1090",
+      "player_url": "https://boston.granicus.com/videos/1090/player",
+      "captions_url": "https://boston.granicus.com/videos/1090/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1091,
+      "video_url": "https://boston.granicus.com/videos/1091",
+      "player_url": "https://boston.granicus.com/videos/1091/player",
+      "captions_url": "https://boston.granicus.com/videos/1091/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1092,
+      "video_url": "https://boston.granicus.com/videos/1092",
+      "player_url": "https://boston.granicus.com/videos/1092/player",
+      "captions_url": "https://boston.granicus.com/videos/1092/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1093,
+      "video_url": "https://boston.granicus.com/videos/1093",
+      "player_url": "https://boston.granicus.com/videos/1093/player",
+      "captions_url": "https://boston.granicus.com/videos/1093/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1094,
+      "video_url": "https://boston.granicus.com/videos/1094",
+      "player_url": "https://boston.granicus.com/videos/1094/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1095,
+      "video_url": "https://boston.granicus.com/videos/1095",
+      "player_url": "https://boston.granicus.com/videos/1095/player",
+      "captions_url": "https://boston.granicus.com/videos/1095/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1096,
+      "video_url": "https://boston.granicus.com/videos/1096",
+      "player_url": "https://boston.granicus.com/videos/1096/player",
+      "captions_url": null,
+      "has_captions": false,
+      "caption_status": "empty"
+    },
+    {
+      "video_id": 1097,
+      "video_url": "https://boston.granicus.com/videos/1097",
+      "player_url": "https://boston.granicus.com/videos/1097/player",
+      "captions_url": "https://boston.granicus.com/videos/1097/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    },
+    {
+      "video_id": 1098,
+      "video_url": "https://boston.granicus.com/videos/1098",
+      "player_url": "https://boston.granicus.com/videos/1098/player",
+      "captions_url": "https://boston.granicus.com/videos/1098/captions.vtt",
+      "has_captions": true,
+      "caption_status": "valid"
+    }
+  ]
+}

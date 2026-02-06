@@ -1,0 +1,951 @@
+{
+  "total_count": 135,
+  "subdomains": {
+    "houston": {
+      "subdomain": "houston",
+      "url": "https://houston.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "boston": {
+      "subdomain": "boston",
+      "url": "https://boston.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "coloradosprings": {
+      "subdomain": "coloradosprings",
+      "url": "https://coloradosprings.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "nashville": {
+      "subdomain": "nashville",
+      "url": "https://nashville.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "newark": {
+      "subdomain": "newark",
+      "url": "https://newark.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "raleigh": {
+      "subdomain": "raleigh",
+      "url": "https://raleigh.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "memphis": {
+      "subdomain": "memphis",
+      "url": "https://memphis.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "honolulu": {
+      "subdomain": "honolulu",
+      "url": "https://honolulu.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "princegeorgescountymd": {
+      "subdomain": "princegeorgescountymd",
+      "url": "https://princegeorgescountymd.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "charlotte": {
+      "subdomain": "charlotte",
+      "url": "https://charlotte.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "sacramento": {
+      "subdomain": "sacramento",
+      "url": "https://sacramento.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "seattle": {
+      "subdomain": "seattle",
+      "url": "https://seattle.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "harriscountytx": {
+      "subdomain": "harriscountytx",
+      "url": "https://harriscountytx.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "milwaukee": {
+      "subdomain": "milwaukee",
+      "url": "https://milwaukee.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "sanantonio": {
+      "subdomain": "sanantonio",
+      "url": "https://sanantonio.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "fresno": {
+      "subdomain": "fresno",
+      "url": "https://fresno.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "fairfax": {
+      "subdomain": "fairfax",
+      "url": "https://fairfax.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "oakland": {
+      "subdomain": "oakland",
+      "url": "https://oakland.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "pittsburgh": {
+      "subdomain": "pittsburgh",
+      "url": "https://pittsburgh.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "alameda": {
+      "subdomain": "alameda",
+      "url": "https://alameda.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "lacounty": {
+      "subdomain": "lacounty",
+      "url": "https://lacounty.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "phoenix": {
+      "subdomain": "phoenix",
+      "url": "https://phoenix.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "baltimore": {
+      "subdomain": "baltimore",
+      "url": "https://baltimore.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "oregon": {
+      "subdomain": "oregon",
+      "url": "https://oregon.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "denver": {
+      "subdomain": "denver",
+      "url": "https://denver.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "longbeach": {
+      "subdomain": "longbeach",
+      "url": "https://longbeach.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "santaclara": {
+      "subdomain": "santaclara",
+      "url": "https://santaclara.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "tampa": {
+      "subdomain": "tampa",
+      "url": "https://tampa.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "sandiego": {
+      "subdomain": "sandiego",
+      "url": "https://sandiego.granicus.com",
+      "organization": "Granicus",
+      "has_videos": true,
+      "sample_video_id": 1000
+    },
+    "kern": {
+      "subdomain": "kern",
+      "url": "https://kern.granicus.com",
+      "organization": "Kern",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:33.655484"
+    },
+    "wayne": {
+      "subdomain": "wayne",
+      "url": "https://wayne.granicus.com",
+      "organization": "Wayne",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:33.836741"
+    },
+    "alamedacounty": {
+      "subdomain": "alamedacounty",
+      "url": "https://alamedacounty.granicus.com",
+      "organization": "Alamedacounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:33.852808"
+    },
+    "plano": {
+      "subdomain": "plano",
+      "url": "https://plano.granicus.com",
+      "organization": "Plano",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.028934"
+    },
+    "wilmington": {
+      "subdomain": "wilmington",
+      "url": "https://wilmington.granicus.com",
+      "organization": "Wilmington",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.354022"
+    },
+    "montgomerycountymd": {
+      "subdomain": "montgomerycountymd",
+      "url": "https://montgomerycountymd.granicus.com",
+      "organization": "Montgomerycountymd",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.459440"
+    },
+    "lakecounty": {
+      "subdomain": "lakecounty",
+      "url": "https://lakecounty.granicus.com",
+      "organization": "Lakecounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.575844"
+    },
+    "elpasotexas": {
+      "subdomain": "elpasotexas",
+      "url": "https://elpasotexas.granicus.com",
+      "organization": "Elpasotexas",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.708846"
+    },
+    "corpuschristi": {
+      "subdomain": "corpuschristi",
+      "url": "https://corpuschristi.granicus.com",
+      "organization": "Corpuschristi",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:34.935336"
+    },
+    "cambridgema": {
+      "subdomain": "cambridgema",
+      "url": "https://cambridgema.granicus.com",
+      "organization": "Cambridgema",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.047859"
+    },
+    "dentoncounty": {
+      "subdomain": "dentoncounty",
+      "url": "https://dentoncounty.granicus.com",
+      "organization": "Dentoncounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.291504"
+    },
+    "providenceri": {
+      "subdomain": "providenceri",
+      "url": "https://providenceri.granicus.com",
+      "organization": "Providenceri",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.574903"
+    },
+    "madison": {
+      "subdomain": "madison",
+      "url": "https://madison.granicus.com",
+      "organization": "Madison",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.723475"
+    },
+    "chesapeake": {
+      "subdomain": "chesapeake",
+      "url": "https://chesapeake.granicus.com",
+      "organization": "Chesapeake",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.806570"
+    },
+    "grandrapidsmi": {
+      "subdomain": "grandrapidsmi",
+      "url": "https://grandrapidsmi.granicus.com",
+      "organization": "Grandrapidsmi",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:35.939670"
+    },
+    "cityofmadison": {
+      "subdomain": "cityofmadison",
+      "url": "https://cityofmadison.granicus.com",
+      "organization": "Cityofmadison",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:36.054764"
+    },
+    "mesaaz": {
+      "subdomain": "mesaaz",
+      "url": "https://mesaaz.granicus.com",
+      "organization": "Mesaaz",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:36.183539"
+    },
+    "alexandria": {
+      "subdomain": "alexandria",
+      "url": "https://alexandria.granicus.com",
+      "organization": "Alexandria",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:36.802044"
+    },
+    "sanjose": {
+      "subdomain": "sanjose",
+      "url": "https://sanjose.granicus.com",
+      "organization": "Sanjose",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:36.870500"
+    },
+    "arlingtontx": {
+      "subdomain": "arlingtontx",
+      "url": "https://arlingtontx.granicus.com",
+      "organization": "Arlingtontx",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:37.246410"
+    },
+    "charlestonsc": {
+      "subdomain": "charlestonsc",
+      "url": "https://charlestonsc.granicus.com",
+      "organization": "Charlestonsc",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:38.058859"
+    },
+    "knoxvilletn": {
+      "subdomain": "knoxvilletn",
+      "url": "https://knoxvilletn.granicus.com",
+      "organization": "Knoxvilletn",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:38.539259"
+    },
+    "hillsboroughcounty": {
+      "subdomain": "hillsboroughcounty",
+      "url": "https://hillsboroughcounty.granicus.com",
+      "organization": "Hillsboroughcounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:38.548651"
+    },
+    "sanfrancisco": {
+      "subdomain": "sanfrancisco",
+      "url": "https://sanfrancisco.granicus.com",
+      "organization": "Sanfrancisco",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:38.554603"
+    },
+    "nassaucountyny": {
+      "subdomain": "nassaucountyny",
+      "url": "https://nassaucountyny.granicus.com",
+      "organization": "Nassaucountyny",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:39.489581"
+    },
+    "fulton": {
+      "subdomain": "fulton",
+      "url": "https://fulton.granicus.com",
+      "organization": "Fulton",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:40.152909"
+    },
+    "cityoflaredo": {
+      "subdomain": "cityoflaredo",
+      "url": "https://cityoflaredo.granicus.com",
+      "organization": "Cityoflaredo",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:40.398921"
+    },
+    "lincoln": {
+      "subdomain": "lincoln",
+      "url": "https://lincoln.granicus.com",
+      "organization": "Lincoln",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:40.711855"
+    },
+    "glendale": {
+      "subdomain": "glendale",
+      "url": "https://glendale.granicus.com",
+      "organization": "Glendale",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:40.853064"
+    },
+    "indianapolis": {
+      "subdomain": "indianapolis",
+      "url": "https://indianapolis.granicus.com",
+      "organization": "Indianapolis",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:40.863952"
+    },
+    "mecklenburg": {
+      "subdomain": "mecklenburg",
+      "url": "https://mecklenburg.granicus.com",
+      "organization": "Mecklenburg",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:41.032639"
+    },
+    "austintexas": {
+      "subdomain": "austintexas",
+      "url": "https://austintexas.granicus.com",
+      "organization": "Austintexas",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:41.397656"
+    },
+    "arlington": {
+      "subdomain": "arlington",
+      "url": "https://arlington.granicus.com",
+      "organization": "Arlington",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:41.657851"
+    },
+    "lubbocktx": {
+      "subdomain": "lubbocktx",
+      "url": "https://lubbocktx.granicus.com",
+      "organization": "Lubbocktx",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:41.701403"
+    },
+    "atlantaga": {
+      "subdomain": "atlantaga",
+      "url": "https://atlantaga.granicus.com",
+      "organization": "Atlantaga",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.038143"
+    },
+    "stockton": {
+      "subdomain": "stockton",
+      "url": "https://stockton.granicus.com",
+      "organization": "Stockton",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.077341"
+    },
+    "dekalbcountyga": {
+      "subdomain": "dekalbcountyga",
+      "url": "https://dekalbcountyga.granicus.com",
+      "organization": "Dekalbcountyga",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.080194"
+    },
+    "sanmateocounty": {
+      "subdomain": "sanmateocounty",
+      "url": "https://sanmateocounty.granicus.com",
+      "organization": "Sanmateocounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.296812"
+    },
+    "durham": {
+      "subdomain": "durham",
+      "url": "https://durham.granicus.com",
+      "organization": "Durham",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.354725"
+    },
+    "shelby": {
+      "subdomain": "shelby",
+      "url": "https://shelby.granicus.com",
+      "organization": "Shelby",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.530972"
+    },
+    "annapolismd": {
+      "subdomain": "annapolismd",
+      "url": "https://annapolismd.granicus.com",
+      "organization": "Annapolismd",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.595298"
+    },
+    "reno": {
+      "subdomain": "reno",
+      "url": "https://reno.granicus.com",
+      "organization": "Reno",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.889617"
+    },
+    "riversideca": {
+      "subdomain": "riversideca",
+      "url": "https://riversideca.granicus.com",
+      "organization": "Riversideca",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:42.945020"
+    },
+    "allegheny": {
+      "subdomain": "allegheny",
+      "url": "https://allegheny.granicus.com",
+      "organization": "Allegheny",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:43.616367"
+    },
+    "littlerock": {
+      "subdomain": "littlerock",
+      "url": "https://littlerock.granicus.com",
+      "organization": "Littlerock",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:43.786552"
+    },
+    "toledo": {
+      "subdomain": "toledo",
+      "url": "https://toledo.granicus.com",
+      "organization": "Toledo",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:43.810563"
+    },
+    "cincinnatioh": {
+      "subdomain": "cincinnatioh",
+      "url": "https://cincinnatioh.granicus.com",
+      "organization": "Cincinnatioh",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:43.938151"
+    },
+    "pinellas": {
+      "subdomain": "pinellas",
+      "url": "https://pinellas.granicus.com",
+      "organization": "Pinellas",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:43.989571"
+    },
+    "richmond": {
+      "subdomain": "richmond",
+      "url": "https://richmond.granicus.com",
+      "organization": "Richmond",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:44.153604"
+    },
+    "louisvilleky": {
+      "subdomain": "louisvilleky",
+      "url": "https://louisvilleky.granicus.com",
+      "organization": "Louisvilleky",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:44.987812"
+    },
+    "anaheim": {
+      "subdomain": "anaheim",
+      "url": "https://anaheim.granicus.com",
+      "organization": "Anaheim",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:45.464120"
+    },
+    "miamidade": {
+      "subdomain": "miamidade",
+      "url": "https://miamidade.granicus.com",
+      "organization": "Miamidade",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:45.987370"
+    },
+    "snohomish": {
+      "subdomain": "snohomish",
+      "url": "https://snohomish.granicus.com",
+      "organization": "Snohomish",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.002077"
+    },
+    "louisville": {
+      "subdomain": "louisville",
+      "url": "https://louisville.granicus.com",
+      "organization": "Louisville",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.267874"
+    },
+    "oklahomacounty": {
+      "subdomain": "oklahomacounty",
+      "url": "https://oklahomacounty.granicus.com",
+      "organization": "Oklahomacounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.492923"
+    },
+    "cityoforlando": {
+      "subdomain": "cityoforlando",
+      "url": "https://cityoforlando.granicus.com",
+      "organization": "Cityoforlando",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.500178"
+    },
+    "richmondva": {
+      "subdomain": "richmondva",
+      "url": "https://richmondva.granicus.com",
+      "organization": "Richmondva",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.596138"
+    },
+    "huntsvilleal": {
+      "subdomain": "huntsvilleal",
+      "url": "https://huntsvilleal.granicus.com",
+      "organization": "Huntsvilleal",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:46.745129"
+    },
+    "sanbernardino": {
+      "subdomain": "sanbernardino",
+      "url": "https://sanbernardino.granicus.com",
+      "organization": "Sanbernardino",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:47.088361"
+    },
+    "trenton": {
+      "subdomain": "trenton",
+      "url": "https://trenton.granicus.com",
+      "organization": "Trenton",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:47.359002"
+    },
+    "columbus": {
+      "subdomain": "columbus",
+      "url": "https://columbus.granicus.com",
+      "organization": "Columbus",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:47.379959"
+    },
+    "broward": {
+      "subdomain": "broward",
+      "url": "https://broward.granicus.com",
+      "organization": "Broward",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:48.159167"
+    },
+    "jacksonms": {
+      "subdomain": "jacksonms",
+      "url": "https://jacksonms.granicus.com",
+      "organization": "Jacksonms",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:48.184304"
+    },
+    "pima": {
+      "subdomain": "pima",
+      "url": "https://pima.granicus.com",
+      "organization": "Pima",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:48.248799"
+    },
+    "dupage": {
+      "subdomain": "dupage",
+      "url": "https://dupage.granicus.com",
+      "organization": "Dupage",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:48.485852"
+    },
+    "kansascity": {
+      "subdomain": "kansascity",
+      "url": "https://kansascity.granicus.com",
+      "organization": "Kansascity",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:49.279433"
+    },
+    "norfolkva": {
+      "subdomain": "norfolkva",
+      "url": "https://norfolkva.granicus.com",
+      "organization": "Norfolkva",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:49.444488"
+    },
+    "hampton": {
+      "subdomain": "hampton",
+      "url": "https://hampton.granicus.com",
+      "organization": "Hampton",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:49.721660"
+    },
+    "polkcountyfl": {
+      "subdomain": "polkcountyfl",
+      "url": "https://polkcountyfl.granicus.com",
+      "organization": "Polkcountyfl",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:50.357405"
+    },
+    "wake": {
+      "subdomain": "wake",
+      "url": "https://wake.granicus.com",
+      "organization": "Wake",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:50.505288"
+    },
+    "milwaukeecounty": {
+      "subdomain": "milwaukeecounty",
+      "url": "https://milwaukeecounty.granicus.com",
+      "organization": "Milwaukeecounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:50.624130"
+    },
+    "wichitaks": {
+      "subdomain": "wichitaks",
+      "url": "https://wichitaks.granicus.com",
+      "organization": "Wichitaks",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:50.847101"
+    },
+    "cityoffayetteville": {
+      "subdomain": "cityoffayetteville",
+      "url": "https://cityoffayetteville.granicus.com",
+      "organization": "Cityoffayetteville",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:50.864146"
+    },
+    "baltimorecountymd": {
+      "subdomain": "baltimorecountymd",
+      "url": "https://baltimorecountymd.granicus.com",
+      "organization": "Baltimorecountymd",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:51.698190"
+    },
+    "tallahassee": {
+      "subdomain": "tallahassee",
+      "url": "https://tallahassee.granicus.com",
+      "organization": "Tallahassee",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:51.815163"
+    },
+    "scottsdale": {
+      "subdomain": "scottsdale",
+      "url": "https://scottsdale.granicus.com",
+      "organization": "Scottsdale",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:51.946778"
+    },
+    "cityofstamford": {
+      "subdomain": "cityofstamford",
+      "url": "https://cityofstamford.granicus.com",
+      "organization": "Cityofstamford",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:52.115842"
+    },
+    "erie": {
+      "subdomain": "erie",
+      "url": "https://erie.granicus.com",
+      "organization": "Erie",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:52.501599"
+    },
+    "fresnocounty": {
+      "subdomain": "fresnocounty",
+      "url": "https://fresnocounty.granicus.com",
+      "organization": "Fresnocounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:52.873175"
+    },
+    "frederick": {
+      "subdomain": "frederick",
+      "url": "https://frederick.granicus.com",
+      "organization": "Frederick",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:53.541268"
+    },
+    "king": {
+      "subdomain": "king",
+      "url": "https://king.granicus.com",
+      "organization": "King",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:53.572342"
+    },
+    "buffalony": {
+      "subdomain": "buffalony",
+      "url": "https://buffalony.granicus.com",
+      "organization": "Buffalony",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:53.577734"
+    },
+    "snohomishwa": {
+      "subdomain": "snohomishwa",
+      "url": "https://snohomishwa.granicus.com",
+      "organization": "Snohomishwa",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:53.839244"
+    },
+    "chattanooga": {
+      "subdomain": "chattanooga",
+      "url": "https://chattanooga.granicus.com",
+      "organization": "Chattanooga",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:53.862056"
+    },
+    "tarrantcounty": {
+      "subdomain": "tarrantcounty",
+      "url": "https://tarrantcounty.granicus.com",
+      "organization": "Tarrantcounty",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:54.380180"
+    },
+    "miamifl": {
+      "subdomain": "miamifl",
+      "url": "https://miamifl.granicus.com",
+      "organization": "Miamifl",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:54.518854"
+    },
+    "hennepinmn": {
+      "subdomain": "hennepinmn",
+      "url": "https://hennepinmn.granicus.com",
+      "organization": "Hennepinmn",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:54.533851"
+    },
+    "allentownpa": {
+      "subdomain": "allentownpa",
+      "url": "https://allentownpa.granicus.com",
+      "organization": "Allentownpa",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:54.666699"
+    },
+    "kenosha": {
+      "subdomain": "kenosha",
+      "url": "https://kenosha.granicus.com",
+      "organization": "Kenosha",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:54.940463"
+    },
+    "wilmingtonde": {
+      "subdomain": "wilmingtonde",
+      "url": "https://wilmingtonde.granicus.com",
+      "organization": "Wilmingtonde",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:55.687820"
+    },
+    "irvine": {
+      "subdomain": "irvine",
+      "url": "https://irvine.granicus.com",
+      "organization": "Irvine",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:56.163662"
+    },
+    "multnomah": {
+      "subdomain": "multnomah",
+      "url": "https://multnomah.granicus.com",
+      "organization": "Multnomah",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:56.206376"
+    },
+    "santaana": {
+      "subdomain": "santaana",
+      "url": "https://santaana.granicus.com",
+      "organization": "Santaana",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:56.273012"
+    },
+    "newhavenct": {
+      "subdomain": "newhavenct",
+      "url": "https://newhavenct.granicus.com",
+      "organization": "Newhavenct",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:56.290027"
+    },
+    "clark": {
+      "subdomain": "clark",
+      "url": "https://clark.granicus.com",
+      "organization": "Clark",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.089820"
+    },
+    "cityofdallas": {
+      "subdomain": "cityofdallas",
+      "url": "https://cityofdallas.granicus.com",
+      "organization": "Cityofdallas",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.348100"
+    },
+    "westchestercountyny": {
+      "subdomain": "westchestercountyny",
+      "url": "https://westchestercountyny.granicus.com",
+      "organization": "Westchestercountyny",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.375134"
+    },
+    "cityofcleveland": {
+      "subdomain": "cityofcleveland",
+      "url": "https://cityofcleveland.granicus.com",
+      "organization": "Cityofcleveland",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.661667"
+    },
+    "charlottenc": {
+      "subdomain": "charlottenc",
+      "url": "https://charlottenc.granicus.com",
+      "organization": "Charlottenc",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.797544"
+    },
+    "savannahga": {
+      "subdomain": "savannahga",
+      "url": "https://savannahga.granicus.com",
+      "organization": "Savannahga",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:57.874413"
+    },
+    "polk": {
+      "subdomain": "polk",
+      "url": "https://polk.granicus.com",
+      "organization": "Polk",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:58.169638"
+    },
+    "jeffersonco": {
+      "subdomain": "jeffersonco",
+      "url": "https://jeffersonco.granicus.com",
+      "organization": "Jeffersonco",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:58.782179"
+    },
+    "cityoffrederick": {
+      "subdomain": "cityoffrederick",
+      "url": "https://cityoffrederick.granicus.com",
+      "organization": "Cityoffrederick",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:59.062050"
+    },
+    "gilbert": {
+      "subdomain": "gilbert",
+      "url": "https://gilbert.granicus.com",
+      "organization": "Gilbert",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:59.080609"
+    },
+    "riversidecountyca": {
+      "subdomain": "riversidecountyca",
+      "url": "https://riversidecountyca.granicus.com",
+      "organization": "Riversidecountyca",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:59.302366"
+    },
+    "fremont": {
+      "subdomain": "fremont",
+      "url": "https://fremont.granicus.com",
+      "organization": "Fremont",
+      "discovered_via": "bruteforce",
+      "discovered_at": "2025-12-18T10:43:59.303941"
+    }
+  },
+  "last_updated": "2025-12-18T10:43:59.335616"
+}
