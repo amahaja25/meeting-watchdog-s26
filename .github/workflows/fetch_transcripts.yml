@@ -1,0 +1,50 @@
+name: Fetch Granicus Transcripts
+
+on:
+  schedule:
+    # Runs daily at midnight UTC (adjust timezone as needed)
+    - cron: '0 0 * * *'
+  workflow_dispatch:  # Allows manual triggering from GitHub UI
+
+jobs:
+  fetch-transcripts:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+    
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.11'
+        cache: 'pip'
+    
+    - name: Install dependencies
+      working-directory: ./apurva
+      run: |
+        pip install -r requirements.txt
+    
+    - name: Install system dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y ffmpeg jq
+    
+    - name: Create logs directory
+      working-directory: ./apurva
+      run: |
+        mkdir -p logs/state
+    
+    - name: Fetch transcripts
+      working-directory: ./apurva
+      run: |
+        bash run_granicus.sh
+    
+    - name: Commit and push changes
+      run: |
+        git config --local user.email "github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+        git add -A
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Auto-update transcripts [skip ci]" && git push)
