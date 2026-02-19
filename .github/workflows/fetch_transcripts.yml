@@ -16,6 +16,13 @@ jobs:
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
     
+    - name: Debug - List files
+      run: |
+        pwd
+        ls -la
+        echo "---"
+        ls -la apurva/
+    
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
