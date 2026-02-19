@@ -52,7 +52,9 @@ jobs:
     - name: Fetch transcripts
       working-directory: ./apurva
       run: |
-        bash run_granicus.sh
+        ls -la
+        pwd
+        bash ./run_granicus.sh
     
     - name: Commit and push changes
       run: |
