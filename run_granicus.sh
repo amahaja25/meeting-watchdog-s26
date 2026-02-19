@@ -5,12 +5,13 @@
 
 # Get the directory where this script is located
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-cd "$SCRIPT_DIR"
+APURVA_DIR="$SCRIPT_DIR/apurva"
+cd "$APURVA_DIR"
 
 # Configuration
-SUBDOMAINS_FILE="$SCRIPT_DIR/data/subdomains.json"
-STATE_DIR="$SCRIPT_DIR/logs/state"
-LOG_FILE="$SCRIPT_DIR/logs/granicus_cron.log"
+SUBDOMAINS_FILE="$APURVA_DIR/data/subdomains.json"
+STATE_DIR="$APURVA_DIR/logs/state"
+LOG_FILE="$APURVA_DIR/logs/granicus_cron.log"
 mkdir -p "$STATE_DIR"
 mkdir -p "$(dirname "$LOG_FILE")"
 
@@ -18,8 +19,8 @@ mkdir -p "$(dirname "$LOG_FILE")"
 echo "=== Cron job started at $(date) ===" >> "$LOG_FILE" 2>&1
 
 # Activate virtual environment if it exists
-if [ -d "$SCRIPT_DIR/venv" ]; then
-    source "$SCRIPT_DIR/venv/bin/activate"
+if [ -d "$APURVA_DIR/venv" ]; then
+    source "$APURVA_DIR/venv/bin/activate"
     echo "Activated virtual environment" >> "$LOG_FILE" 2>&1
 fi
 

@@ -50,7 +50,6 @@ jobs:
         mkdir -p transcripts/audio_cache
     
     - name: Fetch transcripts
-      working-directory: ./apurva
       run: |
         ls -la
         pwd
