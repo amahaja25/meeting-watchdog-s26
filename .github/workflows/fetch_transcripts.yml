@@ -25,17 +25,29 @@ jobs:
     - name: Install dependencies
       working-directory: ./apurva
       run: |
+        pip install --upgrade pip
         pip install -r requirements.txt
+        # Install yt-dlp separately if needed
+        pip install yt-dlp
     
     - name: Install system dependencies
       run: |
         sudo apt-get update
         sudo apt-get install -y ffmpeg jq
     
+    - name: Verify installations
+      run: |
+        python3 --version
+        pip list
+        which jq
+        which ffmpeg
+        yt-dlp --version || pip install yt-dlp
+    
     - name: Create logs directory
       working-directory: ./apurva
       run: |
         mkdir -p logs/state
+        mkdir -p transcripts/audio_cache
     
     - name: Fetch transcripts
       working-directory: ./apurva
